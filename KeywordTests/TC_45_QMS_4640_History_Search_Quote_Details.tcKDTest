@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{3B603BA5-F801-4EA9-A0E6-E6A7DBC5A75B}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="HistoryVerifyQuoteID" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyQuoteCreator" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{B95C7C8C-54C4-43AC-BC61-A2F9536402A0}" />
+</Root>

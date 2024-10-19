@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Tests">
+			<folder name="Search_Single">
+				<folder name="AdHoc">
+					<child name="TC_37_QMS_5618ADHOC_Send_Quote_SaveAsSpot" key="{E160AA42-E9E5-469B-8B3B-4843E9C43A43}" path="TC_37_QMS_5618ADHOC_Send_Quote_SaveAsSpot.tcKDTest" />
+				</folder>
+				<folder name="Single">
+					<child name="TC_1_QMS_4315_STANDARD_USER_FCLQuote" key="{7617E95B-BE28-47CD-AD41-8B9130B5290D}" path="TC_1_QMS_4315_STANDARD_USER_FCLQuote.tcKDTest" />
+					<child name="TC_2_QMS_4322_STANDARD_USER_LCLQuote_APIs" key="{BC88BBCC-7BDF-41F5-99F9-9A97A5446EB1}" path="TC_2_QMS_4322_STANDARD_USER_LCLQuote_APIs.tcKDTest" />
+					<child name="TC_3_QMS_4325_Admin_AIR_Quote" key="{B86F44A7-C37C-4D84-8603-17F3F6E53203}" path="TC_3_QMS_4325_Admin_AIR_Quote.tcKDTest" />
+					<child name="TC_38_QMS_4746_Multi_Rate_Selection" key="{DC68FEA6-DA13-4ED4-A117-3DC503A98E63}" path="TC_38_QMS_4746_Multi_Rate_Selection.tcKDTest" />
+					<child name="TC_5_QMS_4345_Linked_MasterQuote" key="{0D894A58-2534-470E-A373-077F63F4FB6C}" path="TC_5_QMS_4345_Linked_MasterQuote.tcKDTest" />
+					<child name="TC_6_QMS_4597_SearchContract_ID_FCL" key="{76A15CAB-1E1E-4E75-AE3C-C01AB536CA8D}" path="TC_6_QMS_4597_SearchContract_ID_FCL.tcKDTest" />
+					<child name="TC_7_QMS_4224_Search_API_Selection_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_7_QMS_4224_Search_API_Selection_ONE.tcKDTest" />
+					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
+					<child name="TC_4_QMS_4336_GroundQuote_ITG_API" key="{4F518239-7414-44C6-B8F8-30F37A572654}" path="TC_4_QMS_4336_GroundQuote_ITG_API.tcKDTest" />
+				</folder>
+				<folder name="XENETA">
+					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
+				</folder>
+				<folder name="IncompleteLinked">
+					<child name="TC_42_QMS_12257_IncompleteLinked_MissingGround" key="{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" path="TC_42_QMS_12257_IncompleteLinked_MissingGround.tcKDTest" />
+				</folder>
+				<child name="TC_36_QMS_5079_Tabs_can_be_customized" key="{4F4A3662-CA76-48AF-8338-AD7176A51B65}" path="TC_36_QMS_5079_Tabs_can_be_customized.tcKDTest" />
+			</folder>
+			<folder name="Search_Multi">
+				<child name="TC_9_QMS_4610_MultiOption_Lane" key="{3BB8B479-11A4-4418-99E6-BE0351F1D5AB}" path="TC_9_QMS_4610_MultiOption_Lane.tcKDTest" />
+				<child name="TC_39_QMS_4606_MultUpload_ExistingTemplates" key="{49863928-9681-48A3-80AC-34A337D5D007}" path="TC_39_QMS_4606_MultUpload_ExistingTemplates.tcKDTest" />
+			</folder>
+			<folder name="History">
+				<child name="TC_10_QMS_4635_RefreshedMasterQuoteResendMaster" key="{A1988351-567A-4DAE-A76F-13CF4AB2E8AF}" path="TC_10_QMS_4635_RefreshedMasterQuoteResendMaster.tcKDTest" />
+				<child name="TC_11_QMS_5968_Refresh_CustomCarrier_DuplicateQuote" key="{41BC16A6-4E9F-4D84-8FD5-248B6018E73C}" path="TC_11_QMS_5968_Refresh_CustomCarrier_DuplicateQuote.tcKDTest" />
+				<child name="TC_12_QMS_5969_Refresh_Duplicate_LCL_Quote" key="{A105F01F-DB97-47FB-80CC-E0DAFA31D62F}" path="TC_12_QMS_5969_Refresh_Duplicate_LCL_Quote.tcKDTest" />
+				<child name="TC_13_QMS_5200_Quote_History_Permissions_Everyone" key="{A0B843F6-A479-4183-8A17-81FC43EA0549}" path="TC_13_QMS_5200_Quote_History_Permissions_Everyone.tcKDTest" />
+				<child name="TC_45_QMS_4640_History_Search_Quote_Details" key="{7021ECAF-2918-418C-A276-FA1946CC2AD5}" path="TC_45_QMS_4640_History_Search_Quote_Details.tcKDTest" />
+			</folder>
+			<folder name="ContractManagement">
+				<folder name="EFT_Surcharge">
+					<child name="TC_14_QMS_7727_Contract_EFT_SUPER_USER_Origin_FCL" key="{C8570CA5-7AEA-467E-B37D-3B78F920368E}" path="TC_14_QMS_7727_Contract_EFT_SUPER_USER_Origin_FCL.tcKDTest" />
+					<child name="TC_15_QMS_11323_EFT_FCL_No_Linking_Standard_user" key="{155C5CA6-F4A4-4CC7-9A92-0A538A2B94DB}" path="TC_15_QMS_11323_EFT_FCL_No_Linking_Standard_user.tcKDTest" />
+					<child name="TC_21_QMS_5581_Contract_EFT_LCL_Min_Max" key="{04317B95-2AAC-4C3F-9E1B-EF6181A6363C}" path="TC_21_QMS_5581_Contract_EFT_LCL_Min_Max.tcKDTest" />
+					<child name="TC_7728_Contract_EFT_Admin_USER_Destination_LCL" key="{9D7B85C4-0147-4935-94A6-5C3E0862C9F3}" path="TC_7728_Contract_EFT_Admin_USER_Destination_LCL.tcKDTest" />
+					<child name="TC_7729_Contract_EFT_Freight_AIR" key="{B49F8179-9CD7-4917-9C9A-04DEC8287388}" path="TC_7729_Contract_EFT_Freight_AIR.tcKDTest" />
+				</folder>
+				<folder name="Contracts">
+					<child name="TC_20_QMS_5579_Contract_Self_Serve" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_20_QMS_5579_Contract_Self_Serve.tcKDTest" />
+					<child name="TC_48_QMS_5580_Contract_View_Search_Contract_ID" key="{1BDFC759-08D0-4F77-B1A5-30A4B8427324}" path="TC_48_QMS_5580_Contract_View_Search_Contract_ID.tcKDTest" />
+					<child name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" path="TC_49_QMS_5578_Contract_Full_Serve_Upload.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="Tariff">
+				<child name="TC_16_QMS_4655_Tariff_Add_Tariff" key="{2A922607-3B6B-4E2A-85E5-9B33E493D047}" path="TC_16_QMS_4655_Tariff_Add_Tariff.tcKDTest" />
+				<child name="TC_17_QMS_4738_Tariff_Bulk_Upload" key="{E9188B55-21D9-4ABF-92FC-62FF8357E161}" path="TC_17_QMS_4738_Tariff_Bulk_Upload.tcKDTest" />
+				<child name="TC_46_QMS_4650_Tariffs_Search_Date_Options" key="{9FD4C4AD-44FD-420D-A9B3-22D2B36FACE1}" path="TC_46_QMS_4650_Tariffs_Search_Date_Options.tcKDTest" />
+				<child name="TC_47_QMS_4718_Tariff__AddCommodity" key="{C40860F4-55F4-43C5-AED8-BD43E26C70F9}" path="TC_47_QMS_4718_Tariff__AddCommodity.tcKDTest" />
+			</folder>
+			<folder name="ControlPanel">
+				<folder name="MAC">
+					<folder name="Contract Access">
+						<child name="TC_23_QMS_5163_Contract_Access_User_Named_Account" key="{07D04661-D9F3-40C8-B2E9-2D81B9B92BC2}" path="TC_23_QMS_5163_Contract_Access_User_Named_Account.tcKDTest" />
+						<child name="TC_24_QMS_5071_Contract_Access_Restricts_User" key="{33D2C6DF-B4F3-46A7-A729-256B275C6A66}" path="TC_24_QMS_5071_Contract_Access_Restricts_User.tcKDTest" />
+					</folder>
+					<folder name="Add Margin">
+						<child name="TC_50_QMS_5080_MarginRule_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_MarginRule_Department.tcKDTest" />
+					</folder>
+				</folder>
+				<child name="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge" key="{E1359843-27BE-4AD5-BAEB-F10A8962AA97}" path="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge.tcKDTest" />
+				<child name="TC_32_QMS_5272_Add_trade_lane" key="{ABC61E1C-BBBA-484D-A49F-EE802677BE19}" path="TC_32_QMS_5272_Add_trade_lane.tcKDTest" />
+				<child name="TC_29_QMS_4967_City_Linking_Search_with_Linking" key="{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" path="TC_29_QMS_4967_City_Linking_Search_with_Linking.tcKDTest" />
+				<child name="TC_33_QMS_5585_Surcharge_List_Manager" key="{621A01D8-C276-4704-8233-02407EA802C3}" path="TC_33_QMS_5585_Surcharge_List_Manager.tcKDTest" />
+				<child name="TC_22_QMS_5095_Settings_Contract_Management" key="{7B2B05CA-2FEF-41F2-9C40-FB46C7BCB778}" path="TC_22_QMS_5095_Settings_Contract_Management.tcKDTest" />
+				<child name="TC_28_QMS_4932_Commodity_Mapping" key="{89EC30E9-72EB-4EC7-B299-6B0BE6D2D21B}" path="TC_28_QMS_4932_Commodity_Mapping.tcKDTest" />
+				<child name="TC_35_QMS_5587_Role_Management" key="{09AE79BE-A902-410E-949A-8F4DAF207C47}" path="TC_35_QMS_5587_Role_Management.tcKDTest" />
+				<child name="TC_34_QMS_4974_External_Mappings_NewGroup" key="{6DA1FF92-9D2A-4F9F-982C-C24C69B58AA3}" path="TC_34_QMS_4974_External_Mappings_NewGroup.tcKDTest" />
+				<child name="TC_25_QMS_5135_Price_Settings" key="{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" path="TC_25_QMS_5135_Price_Settings.tcKDTest" />
+				<child name="TC_31_QMS_5198_Rate_Prioritization_NewRule" key="{CE498149-536D-4267-B604-AB59C4F307DF}" path="TC_31_QMS_5198_Rate_Prioritization_NewRule.tcKDTest" />
+				<child name="TC_30_QMS_5584_Region_Management_Default_Forms" key="{17B7D940-2AFB-4616-8D8D-86FC4005EAB1}" path="TC_30_QMS_5584_Region_Management_Default_Forms.tcKDTest" />
+			</folder>
+			<folder name="Allocation">
+				<folder name="Booking">
+					<child name="TC_18_QMS_4770_Booking_Upload_Matched" key="{911277F4-14F0-4F66-9B88-7B6CE1C1C5AF}" path="TC_18_QMS_4770_Booking_Upload_Matched.tcKDTest" />
+				</folder>
+				<folder name="AllocationDashboard">
+					<child name="TC_19_QMS_4784_Allocation__Agreement" key="{5D382982-5129-4AD4-AFB1-445FEE639DAA}" path="TC_19_QMS_4784_Allocation__Agreement.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="Message">
+				<child name="TC_27_QMS_4836_AddMessage_Attachments" key="{C25BF981-78AC-4897-A407-E53B84973867}" path="TC_27_QMS_4836_AddMessage_Attachments.tcKDTest" />
+			</folder>
+			<folder name="SSO">
+				<child name="LoginSSO" key="{C4A55F06-B533-453C-9AEE-49D506A6CDA4}" path="LoginSSO.tcKDTest" />
+				<child name="TC_41_QMS_9837_Login_SSO_Send_quote" key="{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" path="TC_41_QMS_9837_Login_SSO_Send_quote.tcKDTest" />
+			</folder>
+		</folder>
+		<folder name="Utils">
+			<folder name="ContractManagement">
+				<folder name="EFT_Surcharge">
+					<child name="AddEFT_OriginFCL" key="{9D5DD09B-5739-4735-A99E-8CB309221254}" path="AddEFT_OriginFCL.tcKDTest" />
+					<child name="DeleteSurcharge_EFT" key="{F55BE8A2-C2B0-4DD5-8913-97AA38D56CFF}" path="DeleteSurcharge_EFT.tcKDTest" />
+					<child name="AddEFT_OriginMin_MAX_LCL" key="{2717825A-8D4C-4DC1-B58D-9066D2E89811}" path="AddEFT_OriginMin_MAX_LCL.tcKDTest" />
+					<child name="AddEFTDestinationLCL" key="{4D561E7F-F51B-448F-AF84-8615ED6B7246}" path="AddEFTDestinationLCL.tcKDTest" />
+					<child name="AddEFTAIR_Freigth" key="{CE2F3F65-4A4E-4344-9606-49856F504866}" path="AddEFTAIR_Freigth.tcKDTest" />
+					<child name="EditSurchargePercentageAndVerify" key="{F1E838DB-6561-419A-9510-E3AE2B5C577B}" path="EditSurchargePercentageAndVerify.tcKDTest" />
+				</folder>
+				<folder name="Contracts">
+					<child name="ViewContract" key="{6FDB8768-D5E6-4750-8898-9C658CB594DF}" path="ViewContract.tcKDTest" />
+					<child name="DeleteContract" key="{46D932CD-B8B2-4202-B96B-E9EA964716C6}" path="DeleteContract.tcKDTest" />
+					<child name="UploadContract" key="{DE53AD68-A693-4177-A1C6-84EB1C6C756F}" path="UploadContract.tcKDTest" />
+					<child name="ViewContractAndVerify" key="{CC82F3B8-B874-4D64-88FC-6C7193928041}" path="ViewContractAndVerify.tcKDTest" />
+					<child name="SelectFullServeNew" key="{6441D903-8C47-4D9C-B64E-56BB143DBCCB}" path="SelectFullServeNew.tcKDTest" />
+					<child name="UploadFullServe" key="{9E495365-C4AC-43BF-A8EB-DF104D15B762}" path="UploadFullServe.tcKDTest" />
+				</folder>
+			</folder>
+			<folder name="Search_Single">
+				<folder name="PEW_Option">
+					<child name="AddPEW_CHARGE" key="{D15A144F-C8E2-4E96-B1FC-271B426BF834}" path="AddPEW_CHARGE.tcKDTest" />
+					<child name="AddPEW_margin" key="{ED78A8EB-9342-4F2C-85F0-CE8C79D8FCF0}" path="AddPEW_margin.tcKDTest" />
+					<child name="AddPEW_marginGround" key="{56BFD1F8-B46B-4F36-A9AC-6991863FFC03}" path="AddPEW_marginGround.tcKDTest" />
+				</folder>
+				<folder name="AdHoc">
+					<child name="CreateSaveAsSpotADHOC" key="{755FC085-B860-47D3-B4C7-528B02E2F1E7}" path="CreateSaveAsSpotADHOC.tcKDTest" />
+				</folder>
+				<folder name="LCL_Search">
+					<child name="Dimensions_PerPIECE" key="{8C74F4D1-EFCF-48CB-B2D2-3A4AF256E6DD}" path="Dimensions_PerPIECE.tcKDTest" />
+				</folder>
+				<folder name="InfoPanel">
+					<child name="Get_BaseRate_Sell" key="{E3C26C67-58C9-4011-B986-04161A480F1F}" path="Get_BaseRate_Sell.tcKDTest" />
+					<child name="SelectCharge_ByVersion" key="{80D70E0C-E1A6-4085-B567-6736B64AC5C6}" path="SelectCharge_ByVersion.tcKDTest" />
+					<child name="VerifyAddMarginValues" key="{5D546065-E09C-4E32-A033-0E46186033EE}" path="VerifyAddMarginValues.tcKDTest" />
+					<child name="GetPriceEFTLCL_Charge" key="{4104400E-1725-437A-A260-D2A2B4B18C02}" path="GetPriceEFTLCL_Charge.tcKDTest" />
+					<child name="Get_BaseRate_Buy_LCL" key="{1A2453AE-A5BC-4341-89AC-C813138772FE}" path="Get_BaseRate_Buy_LCL.tcKDTest" />
+					<child name="SelectRoundUP" key="{58698281-33F8-472D-A813-E23F80CAD2F2}" path="SelectRoundUP.tcKDTest" />
+					<child name="SelectAddMarginButton" key="{359BADA2-FCE5-4336-B630-F316CAE64043}" path="SelectAddMarginButton.tcKDTest" />
+					<child name="SelectAndVerifyLCLAPi_s" key="{5CBD62DC-6F01-45FC-BB69-9F343461C284}" path="SelectAndVerifyLCLAPi_s.tcKDTest" />
+					<child name="AddLCLPercentageMargin" key="{B08E1D21-CB3C-439C-95BB-9A08BC6C816D}" path="AddLCLPercentageMargin.tcKDTest" />
+					<child name="SelectRollUP" key="{85623424-C16B-42A2-8085-44D6B806FF6A}" path="SelectRollUP.tcKDTest" />
+					<child name="VerifyEFT_FCLCharge" key="{7754E499-24F7-427B-A659-90D51FCBBCC7}" path="VerifyEFT_FCLCharge.tcKDTest" />
+				</folder>
+				<folder name="Search_Section">
+					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
+					<child name="Search_Without_CityLinking" key="{DE7BBEBD-7F17-42EA-B62C-246A042C80FD}" path="Search_Without_CityLinking.tcKDTest" />
+					<child name="SearchByContract_ID" key="{DFD5C4C2-9593-42C8-B66C-749A28C5F992}" path="SearchByContract_ID.tcKDTest" />
+					<child name="CustomizeSingleCheckHLS" key="{1829D790-2D1E-4A90-8436-E1ECC44137D9}" path="CustomizeSingleCheckHLS.tcKDTest" />
+					<child name="CustomizeUncheckHLS" key="{917B3DE3-3536-4D12-AD35-558F2D9DF7DA}" path="CustomizeUncheckHLS.tcKDTest" />
+					<child name="CustomizeSingle" key="{D9368873-F31A-4A8A-9A55-ADE80D01FF6C}" path="CustomizeSingle.tcKDTest" />
+					<child name="CustomizeHistory" key="{7603EA02-35F6-414A-84ED-1022A997DD8F}" path="CustomizeHistory.tcKDTest" />
+					<child name="SearchAndVerifyLinkedRate" key="{2C365F3A-09A3-4ED3-B16E-0ABB8D1023DC}" path="SearchAndVerifyLinkedRate.tcKDTest" />
+					<child name="SearchByContractID_LCL" key="{F6B18C8D-3D15-43F3-9D08-46EA2774309A}" path="SearchByContractID_LCL.tcKDTest" />
+					<child name="CheckedIncompleteVerify" key="{606D0E42-5154-49AE-9B0B-C9062F00C4FE}" path="CheckedIncompleteVerify.tcKDTest" />
+					<child name="UncheckIncompleteVerify" key="{368DDE7D-5228-446F-B4FB-A54E0A5B72E7}" path="UncheckIncompleteVerify.tcKDTest" />
+				</folder>
+				<child name="SearchAndVerifyQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyQuoteForm.tcKDTest" />
+				<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
+				<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
+			</folder>
+			<folder name="History">
+				<child name="EditQuote" key="{FB5DFAC5-FC4C-4B3B-A393-59FF6A1ED39C}" path="EditQuote.tcKDTest" />
+				<child name="ResendQuote" key="{99DEE7FF-E25C-402F-AD4F-74DE0F00B52B}" path="ResendQuote.tcKDTest" />
+				<child name="SearchAdHoc_History" key="{D18CAFE7-A9B6-4439-B486-EA3BF0AEDDF6}" path="SearchAdHoc_History.tcKDTest" />
+				<child name="SearchMasterQuote_History" key="{E01965B3-DA11-40B0-A0DD-D45CC016A3F7}" path="SearchMasterQuote_History.tcKDTest" />
+				<child name="SearchQuoteID_history" key="{AB4CCD3C-2F7B-447E-A9C2-D3A4977B2B02}" path="SearchQuoteID_history.tcKDTest" />
+				<child name="RefreshMasterAddMarginResend" key="{DEFC3DCE-1E5D-4582-8821-67DA7965D900}" path="RefreshMasterAddMarginResend.tcKDTest" />
+				<child name="SendRefreshAndDuplicate" key="{7FD78A7A-7998-4182-B38A-04AF5A95DFF8}" path="SendRefreshAndDuplicate.tcKDTest" />
+				<child name="AddPermissionsAndVerifyDifferentCreator" key="{72D331C7-D182-4BB1-B684-1BFD6CE34496}" path="AddPermissionsAndVerifyDifferentCreator.tcKDTest" />
+				<child name="HistoryVerifyQuoteID" key="{77E32099-E343-44BA-909A-ADD5A4AAF6AA}" path="HistoryVerifyQuoteID.tcKDTest" />
+				<child name="VerifyQuoteCreator" key="{A0112684-0CB5-4B6E-BA9D-302B9D9C7ECD}" path="VerifyQuoteCreator.tcKDTest" />
+			</folder>
+			<folder name="Filters">
+				<child name="TradeLaneFilter" key="{04425864-FC43-4E3B-A121-F7514C6C3E1C}" path="TradeLaneFilter.tcKDTest" />
+				<child name="SurchargeFilter" key="{6B459EC0-B7CB-421B-83CF-76DA7431E9C9}" path="SurchargeFilter.tcKDTest" />
+				<child name="MessageFilter" key="{6E169AF9-1EFB-4FD2-9A58-29CF5AE04A57}" path="MessageFilter.tcKDTest" />
+				<child name="GridSearchOriginFilter" key="{F075682C-4C14-42BA-84E5-BF34515BE9F9}" path="GridSearchOriginFilter.tcKDTest" />
+				<child name="BookingFilter" key="{AA5819A1-357A-4C17-B08B-F0BDA30D55A5}" path="BookingFilter.tcKDTest" />
+				<child name="FilterNAC_Search" key="{114A8F17-EB01-476F-9E4D-6E89482D9422}" path="FilterNAC_Search.tcKDTest" />
+				<child name="CommoditySearchFilter" key="{7FF15A8F-295F-49CF-B501-4EB90355D30A}" path="CommoditySearchFilter.tcKDTest" />
+				<child name="CommodityAddFilter" key="{6E8441E3-8CCD-4C06-AAA5-85DBEDCCD31A}" path="CommodityAddFilter.tcKDTest" />
+				<child name="AddfilterONEAPI" key="{2AA4581C-4F86-4BC1-98BD-C76251B6B2F2}" path="AddfilterONEAPI.tcKDTest" />
+				<child name="AddFilterTariffRateID" key="{675BA954-8404-4949-8361-7DD4DF9141EF}" path="AddFilterTariffRateID.tcKDTest" />
+				<child name="TariffReferenceFilter" key="{67B2B480-39D6-4AA4-BE83-5CDFB68C4D83}" path="TariffReferenceFilter.tcKDTest" />
+			</folder>
+			<folder name="SendQuote">
+				<child name="SendSingleQuote" key="{019C9354-5D8B-40DA-B5AA-77BE321F873E}" path="SendSingleQuote.tcKDTest" />
+				<child name="SendSingle_VERIFY_FORM" key="{A16D77C6-EBD0-43AC-BCD1-F42E013AE760}" path="SendSingle_VERIFY_FORM.tcKDTest" />
+				<child name="EditCartAndSendQuote" key="{76BF870B-E280-47FA-B907-5127FFA08EAC}" path="EditCartAndSendQuote.tcKDTest" />
+				<child name="CheckQ2TMSAndSendQuote" key="{2C7AB837-BC5C-4818-9BED-62B9274164A8}" path="CheckQ2TMSAndSendQuote.tcKDTest" />
+				<child name="SendMasterSetVariablesForm" key="{49FA9045-2EBC-4ED5-9A9D-412E34DA35A7}" path="SendMasterSetVariablesForm.tcKDTest" />
+			</folder>
+			<folder name="Search_Multi">
+				<child name="MultiRate_Select2Rates_VerifyCart" key="{D0BA28BC-B57B-4BBC-9DFA-5E498FB94B12}" path="MultiRate_Select2Rates_VerifyCart.tcKDTest" />
+				<child name="VerifyMultiSearch" key="{1DDCF8D2-ECA9-4F31-A529-838E117EA900}" path="VerifyMultiSearch.tcKDTest" />
+				<child name="UploadMultiTemplate" key="{825CBEE6-2CB7-4939-92C9-A4B9D943E35E}" path="UploadMultiTemplate.tcKDTest" />
+				<child name="AddMultiSearch" key="{E8CDD5A3-55A4-45C2-8558-E05099590436}" path="AddMultiSearch.tcKDTest" />
+				<child name="VerifyALLQuoteModes" key="{E8619C9F-4D79-423F-9A03-ADA975239E26}" path="VerifyALLQuoteModes.tcKDTest" />
+			</folder>
+			<folder name="Allocation">
+				<child name="CreateAllocation" key="{907AE893-ED88-480F-9DAE-64231ECED9F0}" path="CreateAllocation.tcKDTest" />
+				<child name="DownloadAllocation" key="{7B1149E9-EBEC-4465-B465-5A45E9CCB9FB}" path="DownloadAllocation.tcKDTest" />
+				<child name="VerifyDashboard" key="{E32C7D1A-835D-40BE-96A9-5376FE63041E}" path="VerifyDashboard.tcKDTest" />
+			</folder>
+			<folder name="Upload">
+				<child name="UploadFile" key="{2F9FE399-9C45-44E9-9592-B84C1AC80F76}" path="UploadFile.tcKDTest" />
+				<child name="UploadBooking" key="{62A0362A-47BD-4EF0-951A-2E9E9C0C3DE5}" path="UploadBooking.tcKDTest" />
+				<child name="UploadTariffAndVerify" key="{8AA0D6E4-6995-4A8E-872E-9EF92F21ECDD}" path="UploadTariffAndVerify.tcKDTest" />
+				<child name="UploadBookingAndVerify" key="{0DEED2B2-E856-4651-8A33-CBED62D9E6FB}" path="UploadBookingAndVerify.tcKDTest" />
+				<child name="AddMessagge" key="{EE60140B-2FB9-4E43-A6E0-2846844E777C}" path="AddMessagge.tcKDTest" />
+			</folder>
+			<folder name="ControlPanel">
+				<folder name="MAC">
+					<child name="DeleteMACContractAccess" key="{26F84F82-BB93-4CCD-BC66-B0BF16FC805B}" path="DeleteMACContractAccess.tcKDTest" />
+					<child name="MAC_CreateNACRule" key="{B313825F-3B7E-49EA-9696-E5DD365D97BB}" path="MAC_CreateNACRule.tcKDTest" />
+					<child name="MAC_CreateRestrictsContract" key="{7BEFBBF0-2579-4AEE-94FC-763D96448ACD}" path="MAC_CreateRestrictsContract.tcKDTest" />
+					<child name="DeleteMarginRule" key="{5EE49D1A-AB19-4712-B8F4-0547957D41A8}" path="DeleteMarginRule.tcKDTest" />
+				</folder>
+				<folder name="SurchargeListManager">
+					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
+					<child name="FreeForm" key="{41043FE5-E806-4602-8343-ABC34FFA124C}" path="FreeForm.tcKDTest" />
+					<child name="SurchargeListManager_Adhoc_CatapultList" key="{3905C25E-DD5C-4DC1-A745-B0FC3013A49D}" path="SurchargeListManager_Adhoc_CatapultList.tcKDTest" />
+					<child name="SurchargeListManager_AdHoc_FreeForm" key="{84A4DD07-9C96-4F24-92DC-56BCB0EC065E}" path="SurchargeListManager_AdHoc_FreeForm.tcKDTest" />
+					<child name="VerifyCatapultListAdHoc" key="{06BCA17A-E21D-4B92-A10C-18F7BD09F7B9}" path="VerifyCatapultListAdHoc.tcKDTest" />
+					<child name="VerifyCatapultListHistory" key="{8C8797F1-47AF-416B-8D58-FFF6C307AAE0}" path="VerifyCatapultListHistory.tcKDTest" />
+					<child name="VerifyCatapultListPEW" key="{11B13D97-23F6-4990-A611-5D30FFEDD351}" path="VerifyCatapultListPEW.tcKDTest" />
+					<child name="VerifyCatapultListStandardRates" key="{CD974549-8214-4F2D-8BE0-83CCDE0231DB}" path="VerifyCatapultListStandardRates.tcKDTest" />
+					<child name="VerifyFreeFormAdHoc" key="{B6D7694E-20A7-4575-8761-3022555BB4D3}" path="VerifyFreeFormAdHoc.tcKDTest" />
+					<child name="VerifyFreeFormHistory" key="{3AB2A834-1FFB-48F6-8D53-7766F1732D67}" path="VerifyFreeFormHistory.tcKDTest" />
+					<child name="VerifyFreeFormPEW" key="{43D6D577-540E-489D-9DF0-766BC3CBD25E}" path="VerifyFreeFormPEW.tcKDTest" />
+					<child name="VerifyFreeFormStandardRates" key="{77150614-5712-4D00-9AF9-3800B321820E}" path="VerifyFreeFormStandardRates.tcKDTest" />
+				</folder>
+				<folder name="OrganizationSettings">
+					<child name="DisableAmendment" key="{32DC436B-EB00-4743-83AC-083D90269A73}" path="DisableAmendment.tcKDTest" />
+					<child name="EnableAmendment" key="{0F11D621-39B8-48C1-917D-50F7FD6C597B}" path="EnableAmendment.tcKDTest" />
+					<child name="VerifyEnableAmendment" key="{B7BA2368-8659-48E7-B2A5-271D97544B79}" path="VerifyEnableAmendment.tcKDTest" />
+					<child name="VerifyDisableAmendment" key="{CBECF930-BE22-4605-A5A1-92BFB61597CA}" path="VerifyDisableAmendment.tcKDTest" />
+				</folder>
+				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
+				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />
+				<child name="DisableAddressBook" key="{FE4AFAF5-7D12-48A2-A84B-35AA00D7F411}" path="DisableAddressBook.tcKDTest" />
+				<child name="EnableAddressBook" key="{F8D2C66F-BC6B-4156-8A34-8626E908C294}" path="EnableAddressBook.tcKDTest" />
+				<child name="DeleteGroupMapping" key="{82079559-D0FE-4CAF-BCFA-B424633A1F7E}" path="DeleteGroupMapping.tcKDTest" />
+				<child name="CreateGroupMapping" key="{64696D86-D4DF-47C0-A933-36CE0BB4E398}" path="CreateGroupMapping.tcKDTest" />
+				<child name="CreateRegion" key="{EF4B07D4-D9A7-407A-8542-79698FEB1B01}" path="CreateRegion.tcKDTest" />
+				<child name="PriceSetting" key="{CA6F86EF-618F-481E-B998-C32F2F056074}" path="PriceSetting.tcKDTest" />
+				<child name="AddCollectPrepaidSurchargeAndVerify" key="{5F6E6AAE-784F-4742-8FB3-C10BB3D089A2}" path="AddCollectPrepaidSurchargeAndVerify.tcKDTest" />
+				<child name="AddCityLinkingAndVerify" key="{EAC0F94E-D7B4-48E5-9458-83755B49ACDE}" path="AddCityLinkingAndVerify.tcKDTest" />
+				<child name="AddRatePrioritization" key="{8D80E9B9-32B2-44A5-A218-4FC87A071ACD}" path="AddRatePrioritization.tcKDTest" />
+				<child name="AddTradeLane" key="{C5B7A7E2-2514-4D42-9BB7-2C50737A6F22}" path="AddTradeLane.tcKDTest" />
+				<child name="DeletePriorizationRule" key="{8AF0AEDE-A281-4C00-8955-936626208118}" path="DeletePriorizationRule.tcKDTest" />
+				<child name="VerifyPriceSettingsQuoteForm" key="{C24A33F2-6BA9-4CDE-8BC8-52F65775F2A5}" path="VerifyPriceSettingsQuoteForm.tcKDTest" />
+				<child name="VerifyPriceSettingsHistory" key="{BA638762-98A6-400B-9B86-D05A2BA15ACA}" path="VerifyPriceSettingsHistory.tcKDTest" />
+				<child name="VerifyPriceSettingInfoPanel" key="{A8379CFA-F9AE-4FF2-AB21-7716DC227712}" path="VerifyPriceSettingInfoPanel.tcKDTest" />
+			</folder>
+			<folder name="Hooks">
+				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />
+				<child name="Hooks_OnStopTest" key="{5208EE7B-5F96-41E0-8110-11FCE8BC26D4}" path="Hooks_OnStopTest.tcKDTest" />
+			</folder>
+			<folder name="Tariff">
+				<child name="AddTariffAndVerify" key="{98304EC3-02C1-49BE-8A4B-155B2547CEB5}" path="AddTariffAndVerify.tcKDTest" />
+				<child name="TariffSearchAsDate" key="{672C8855-BADB-423A-BAFE-036BD61A292E}" path="TariffSearchAsDate.tcKDTest" />
+				<child name="TariffSearchByCommodity" key="{FE386596-2BDA-4B15-B512-D0845ECEC24C}" path="TariffSearchByCommodity.tcKDTest" />
+			</folder>
+			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
+			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
+			<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
+		</folder>
+		<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
+	</children>
+</Root>

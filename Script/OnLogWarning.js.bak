@@ -1,0 +1,17 @@
+﻿function Event_OnLogWarningObjectReplaced(Sender, LogParams)
+{
+  // Check if the message includes the desired substring
+  var objectReplaced = aqString.Find(LogParams.Str, "object was replaced with a similar object.");
+  if (objectReplaced != -1)
+  {
+    // If found, block the message
+    LogParams.Locked = true;
+  }
+  else
+  {
+    // Else, post the message
+    LogParams.Locked = false;
+  }
+}
+
+

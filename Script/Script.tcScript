@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Search">
+			<child name="Verify_AddMargin" key="{5E96EA0E-0895-44AE-8137-702C29491A55}" path="Verify_AddMargin.js" />
+			<child name="Verify_TotalPrice" key="{416C2951-905E-4FE7-B660-E145FDCF49B9}" path="Verify_TotalPrice.js" />
+			<child name="VerifyAddPercentage" key="{1740AA05-0CFD-442C-BD43-6568D0BF1731}" path="VerifyAddPercentage.js" />
+			<child name="VerifyBaseRate" key="{E4A48278-F76F-4E97-855F-8BECD0759EB1}" path="VerifyBaseRate.js" />
+			<child name="VerifyEFT_doesNOTExist" key="{A1C3BB5C-CB44-419E-BD2D-8C08BD0D5FCB}" path="VerifyEFT_doesNOTExist.js" />
+			<child name="VerifyRollUP" key="{09D9F430-0E15-4A23-8C22-69217E0F9412}" path="VerifyRollUP.js" />
+			<child name="VerifyRoundUP" key="{70AD9B7F-7CDC-4D85-812C-C9854F55196E}" path="VerifyRoundUP.js" />
+			<child name="VerifyNumberOfQuotes" key="{B086B066-763D-4660-B058-9FAFB7CA5FCA}" path="VerifyNumberOfQuotes.js" />
+			<child name="VerifyOriginCityLinking" key="{A627B075-CDEE-499F-AC7D-ED23678CBAA8}" path="VerifyOriginCityLinking.js" />
+			<child name="SelectAPI" key="{0B61B32C-02D2-48AB-B87D-462099F4CFEE}" path="SelectAPI.js" />
+		</folder>
+		<folder name="History">
+			<child name="verifyQuotePermissionSetting" key="{AD0C519E-6758-4B53-A2FD-1D832D9F6A75}" path="verifyQuotePermissionSetting.js" />
+			<child name="VerifyQuotes" key="{7471D2F2-3668-49E7-BA47-33011A71F7C4}" path="VerifyQuotes.js" />
+			<child name="VerifyValuesAfterRefreshingQuote" key="{5A25385B-DB0C-4143-B49A-FFE6F43BA56B}" path="VerifyValuesAfterRefreshingQuote.js" />
+			<child name="Quotes_page" key="{421F13B4-1F81-422E-9B2D-8A7E82DFF184}" path="Quotes_page.js" />
+		</folder>
+		<folder name="Form_Send">
+			<child name="VerifyFormValues" key="{115D00E4-4BBB-4239-82B6-A77AC4F95C10}" path="VerifyFormValues.js" />
+			<child name="AddComment" key="{43CBDAF1-0833-4651-8991-9DE27344015D}" path="AddComment.js" />
+		</folder>
+		<folder name="ControlPanel">
+			<folder name="MAC">
+				<child name="VerifyNAC_Rates" key="{3C56A528-9A85-4CC9-90DB-E8D6F4C9A041}" path="VerifyNAC_Rates.js" />
+			</folder>
+			<child name="VerifyCityLinking" key="{98C10E17-A6E4-4616-A385-052653AE8522}" path="VerifyCityLinking.js" />
+			<child name="SelectCatapultListOption" key="{2419BB6E-A08B-4DDA-93C1-E42CBC77FAB6}" path="SelectCatapultListOption.js" />
+			<child name="SelectFreeFormOption" key="{ED3B7D0C-9AD7-4138-B64A-938B004F0D3C}" path="SelectFreeFormOption.js" />
+		</folder>
+		<folder name="Tariff">
+			<child name="TariffPages" key="{D3BDFA28-5E6C-40FE-9DBE-E22FD40F0B14}" path="TariffPages.js" />
+		</folder>
+		<child name="CleanInput" key="{1DFBBBC8-C67E-4B4C-8394-E7410F05BE3C}" path="CleanInput.js" />
+		<child name="AddText" key="{7B2165DD-3406-42F2-A66E-7AA14A654BF2}" path="AddText.js" />
+		<child name="XenetaText" key="{AB1BE4C1-BA6E-4DE5-A2F8-D482889C7D0F}" path="XenetaText.js" />
+		<child name="PressESC" key="{0D23B13C-FA2D-4F95-9F41-67C79456AA67}" path="PressESC.js" />
+		<child name="CloseChrome" key="{6ABAD279-7AA8-4420-A928-0BA0E9C76806}" path="CloseChrome.js" />
+		<child name="UploadGenericDoc" key="{66F94875-3F0D-4692-B86C-0FEE4ADE51C4}" path="UploadGenericDoc.js" />
+		<child name="CurrentDate" key="{A079B845-EC01-4C5F-AFE0-7CDB7ABECED3}" path="CurrentDate.js" />
+		<child name="OnLogWarning" key="{4D4BF37D-98E4-4136-8D41-9BD82BBE486E}" path="OnLogWarning.js" />
+	</children>
+</Root>

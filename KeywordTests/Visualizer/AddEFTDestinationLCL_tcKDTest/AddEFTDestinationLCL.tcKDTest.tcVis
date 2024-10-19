@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4D561E7F-F51B-448F-AF84-8615ED6B7246}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="10" kind="0" dateTime="45559.8908217593" objectName="Aliases.browser.pageQms.toggle_permissionspos1.addressBooktoggle" objectLeft="1010" objectTop="749" objectRight="1042" objectBottom="762" clickPointX="1032" clickPointY="754" imageFileName="tcvi1310133281104520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45559.8908680556" objectName="Aliases.browser.pageQms.radiobuttonDestination" objectLeft="1123" objectTop="763" objectRight="1159" objectBottom="799" clickPointX="1147" clickPointY="784" imageFileName="tcvi1310137203104521.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

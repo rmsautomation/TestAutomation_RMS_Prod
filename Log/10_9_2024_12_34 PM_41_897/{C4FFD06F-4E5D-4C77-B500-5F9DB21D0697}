@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="name" type="S" value="TC_20_QMS_5579_Contract_Management_Self_Serve_Upload_a_contract [KeywordTests - TC_20_QMS_5579_Contract_Management_Self_Serve_Upload_a_contract]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="45574.5248442014"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45574.524096713"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{38CFC1F9-5672-466B-88E5-5E66F22FE686}"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="name" type="S" value="TC_40_QMS_6409_Xeneta_long_term__LT [KeywordTests - TC_40_QMS_6409_Xeneta_long_term__LT]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="45574.5252250926"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45574.5248448148"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{F562FF69-F882-44D3-9701-8AE0F08169B0}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="name" type="S" value="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote [KeywordTests - TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote]"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="45574.526128044"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="45574.5252252431"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{2CB1B8AA-C3A1-4A32-A62E-CB91F4F1DA00}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

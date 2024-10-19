@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{0DEED2B2-E856-4651-8A33-CBED62D9E6FB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="36" kind="0" dateTime="45572.8809606481" objectName="Aliases.browser.pageQms.buttonOpenCalendar" objectLeft="191" objectTop="311" objectRight="215" objectBottom="335" clickPointX="198" clickPointY="320" imageFileName="tcvi2069471867680.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="37" kind="0" dateTime="45572.8810069444" objectName="Aliases.browser.pageQms.calendar1" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2069846867681.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="39" kind="0" dateTime="45572.8810532407" objectName="Aliases.browser.pageQms.buttonSearch" objectLeft="677" objectTop="947" objectRight="741" objectBottom="977" clickPointX="711" clickPointY="957" imageFileName="tcvi2070295367683.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

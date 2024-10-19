@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{63CAB76C-2E80-44E1-AB35-6EC9DA1A16BE}" Tags="@production @search @multiOption" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.pageQms" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A10DC92EC421A516ABDE61D7EF707EC7CD1B2F7CCEFDFC65BFFEEA358DC2CE2E0E7119197CB64ADA4A45B92C75FBE4B1CEEB3F08F79EE9FB3FF3E9BFFFDE1721D8E3C4A7CFD23EB1B1D8CC90B2938AF258EBF50FA617447BAEF3FE7FFAD5B5FFD1571166785FF8FB4FDA37360ED90C909B5D96B97D46D79BBE27F37FF7999EFFBBDEFE85BB01E4168F139FBF7088CBCAC2CC508B516F47D69BBA3BEDFFFDC7A7FEFF3C38EFFFCFFD73FEFF79F7F47FF16D243700CDD02CEAEE86E9B7EEB7BD04D3EFB9DEFBFF8367E7FF7FED0FFCFFA5D5098CBFF6F8FEBFF3EC198A1BEC375EBB0ED3EFB6C2E31B4C7FCF99DEFFBF4EAC86EB8599F1F3D0C2FF49D7116EF03AF7EB374CBFEB7277B0FEC04DC1FF4F5F7DF5FFD7990D18FA7F1D5DF63FEE1A42BFE7D99FBF60FAADFB6C2E80EC5F7163D5FFC4C477FF8FEE7BFBFFDBF438B8195FA744FE3FFFE21D8AFBEDD65DBE02D3AF1AA1D698B433F9FFBA8D9FFE5B5ABEFAEFEEFEFAFFFE9DEFFEFF38BFE3FFEF0BDBFEFFFBFEF9FFBE77FFFEAF7B85C0FE654DCD30FD6C7C6CA21B4EEF7AE3EDFD06AC1F6406083B38BCFEEFE9F906037B783CFDCEC3A3A004D30FA2151583C22D2D5FFE83E9C5478B8BC7A622EB85B145454363CDCCEE7FC6A5D7CCECC11731B1C844987A6C341B9B84949C5C759BBEFE814BE6E68FBE81B0BEFEC14B727235ED6C6C92D2D8F4502206005B5EADC2" />
+					<Bitmap Name="Aliases.browser.wndChrome_WidgetWin_0" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="AddMultiSearch">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="origin_fcl" DefVarType="8" DefValueType="6" DefValueValue="New York" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="origin_fcl" />
+						<Parameter Name="destination_fcl" DefVarType="8" DefValueType="6" DefValueValue="Rotterdam" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="destination_fcl" />
+						<Parameter Name="origin_lcl" DefVarType="8" DefValueType="6" DefValueValue="Sydney" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="origin_lcl" />
+						<Parameter Name="destination_lcl" DefVarType="8" DefValueType="6" DefValueValue="Port Kelang" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="destination_lcl" />
+						<Parameter Name="origin_ground" DefVarType="8" DefValueType="6" DefValueValue="60601" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="origin_ground" />
+						<Parameter Name="destination_ground" DefVarType="8" DefValueType="6" DefValueValue="Chicago" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="destination_ground" />
+						<Parameter Name="origin_air" DefVarType="8" DefValueType="6" DefValueValue="ORD" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="origin_air" />
+						<Parameter Name="destination_air" DefVarType="8" DefValueType="6" DefValueValue="LHR" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="destination_air" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonSearch;" />
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyALLQuoteModes" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SendSingleQuote" />
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<CommonData WaitTimeout="100000" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageQms.FindElement(&quot;//div[contains(text(), &apos;Shopping Cart&apos;)]&quot;)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Shopping Cart" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{340CC4B5-7F36-4CE4-9A07-290058959289}">
+		<Items>
+			<Variable Name="origin_fcl" Type="String" Local="False">
+				<DefValue StrValue="New York" />
+			</Variable>
+			<Variable Name="destination_fcl" Type="String" Local="False">
+				<DefValue StrValue="Rotterdam" />
+			</Variable>
+			<Variable Name="origin_lcl" Type="String" Local="False">
+				<DefValue StrValue="Sydney" />
+			</Variable>
+			<Variable Name="destination_lcl" Type="String" Local="False">
+				<DefValue StrValue="Port Kelang" />
+			</Variable>
+			<Variable Name="origin_ground" Type="String" Local="False">
+				<DefValue StrValue="60601" />
+			</Variable>
+			<Variable Name="destination_ground" Type="String" Local="False">
+				<DefValue StrValue="Chicago" />
+			</Variable>
+			<Variable Name="origin_air" Type="String" Local="False">
+				<DefValue StrValue="ORD" />
+			</Variable>
+			<Variable Name="destination_air" Type="String" Local="False">
+				<DefValue StrValue="LHR" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{70A6CDAA-9547-4B9B-ABFF-FEE94FCC1BCE}" />
+</Root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{EAB69BD5-DE8B-42D2-BBFD-965044A194BF}"/>
+				<Prp name="name" type="S" value="TC_5_QMS_4345_Linked_Master_Quote [KeywordTests - TC_5_QMS_4345_Linked_MasterQuote]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="end time" type="D" value="45582.5612735301"/>
+				<Prp name="start time" type="D" value="45582.5538917824"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="start time" type="D" value="45582.5644468171"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{60EA562E-E9FD-471E-81FA-DF4F27BC75F6}"/>
+				<Prp name="name" type="S" value="TC_27_QMS_4836_Messages_Add_new_message_with_attachments [KeywordTests - TC_27_QMS_4836_Messages_AddMessage_Attachments]"/>
+				<Prp name="end time" type="D" value="45582.5652865046"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="start time" type="D" value="45582.5612736458"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="details" type="S" value="{18A04121-156C-42B8-85F6-0BC78C678BC4}"/>
+				<Prp name="name" type="S" value="TC_9_QMS_4610_MultiOption_Lane [KeywordTests - TC_9_QMS_4610_MultiOption_Lane]"/>
+				<Prp name="end time" type="D" value="45582.5644460995"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

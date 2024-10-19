@@ -1,0 +1,6 @@
+﻿function PerssEsc()
+{
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page("https://staging.gocatapult.com/qms/#/rate-search");
+  page.Keys("[Esc]");
+}

@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 2" type="S" value="{7B1149E9-EBEC-4465-B465-5A45E9CCB9FB}"/>
+			<Prp name="unit 0" type="S" value="{298D62FB-0877-4244-AE5D-00ECFFD21A77}"/>
+			<Prp name="unit 1" type="S" value="{907AE893-ED88-480F-9DAE-64231ECED9F0}"/>
+			<Prp name="unit 3" type="S" value="{E32C7D1A-835D-40BE-96A9-5376FE63041E}"/>
+			<Prp name="unit 4" type="S" value="{CF591326-77CC-46EF-9F6A-05CE25965F46}"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1872"/>
+					<Prp name="image file name" type="S" value="visImage1013.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonContinue"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1836"/>
+					<Prp name="object top" type="I" value="921"/>
+					<Prp name="object left" type="I" value="1800"/>
+					<Prp name="datetime" type="D" value="45582.9580552199"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="936"/>
+					<Prp name="object bottom" type="I" value="951"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580568634"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (36, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.buttonContinue&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[contains(., 'Continue')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1500"/>
+					<Prp name="image file name" type="S" value="visImage1008.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonOpenCalendar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1488"/>
+					<Prp name="object top" type="I" value="747"/>
+					<Prp name="object left" type="I" value="1476"/>
+					<Prp name="datetime" type="D" value="45582.9580302546"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="759"/>
+					<Prp name="object bottom" type="I" value="771"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580321528"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.buttonOpenCalendar&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;xpath=(//button[@aria-label='Open calendar' and @mat-icon-button=''])[1]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1279"/>
+					<Prp name="image file name" type="S" value="visImage998.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox3"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="449"/>
+					<Prp name="object left" type="I" value="1002"/>
+					<Prp name="datetime" type="D" value="45582.9579701852"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="484"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579719213"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'AutomationTest' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textbox3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//div[3]/div[3]/input[@type='text']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1905"/>
+					<Prp name="image file name" type="S" value="visImage1012.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.panel1AllocationAgreementDetails"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1897"/>
+					<Prp name="object top" type="I" value="333"/>
+					<Prp name="object left" type="I" value="392"/>
+					<Prp name="datetime" type="D" value="45582.9580474306"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="542"/>
+					<Prp name="object bottom" type="I" value="983"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580528356"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 1505, 209.&#xA;End point: 1500, 625.&#xA;Dragging distance: -5, 416.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.panel1AllocationAgreementDetails&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//div[contains(@class, 'overflow-area')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="309"/>
+					<Prp name="image file name" type="S" value="visImage1015.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonFileDownload"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="285"/>
+					<Prp name="object top" type="I" value="447"/>
+					<Prp name="object left" type="I" value="261"/>
+					<Prp name="datetime" type="D" value="45582.9580670949"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="471"/>
+					<Prp name="object bottom" type="I" value="495"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.958069294"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonFileDownload&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/652&quot;).FindElement(&quot;//button[.='file_download']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1872"/>
+					<Prp name="image file name" type="S" value="visImage1006.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonAddLane"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1834"/>
+					<Prp name="object top" type="I" value="937"/>
+					<Prp name="object left" type="I" value="1797"/>
+					<Prp name="datetime" type="D" value="45582.9580230787"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="952"/>
+					<Prp name="object bottom" type="I" value="967"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580248495"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (37, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.buttonAddLane&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[contains(., 'Add Lane')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="38"/>
+					<Prp name="image file name" type="S" value="visImage990.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.panel8"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="28"/>
+					<Prp name="object top" type="I" value="497"/>
+					<Prp name="object left" type="I" value="18"/>
+					<Prp name="datetime" type="D" value="45582.9579284607"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="507"/>
+					<Prp name="object bottom" type="I" value="517"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579305324"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (10, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.panel8&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/dashboard&quot;).FindElement(&quot;//div[8]/a/div[contains(@class, 'link-icon')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1142"/>
+					<Prp name="image file name" type="S" value="visImage994.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonYes_DeletePrepaidCollect"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1110"/>
+					<Prp name="object top" type="I" value="599"/>
+					<Prp name="object left" type="I" value="1078"/>
+					<Prp name="datetime" type="D" value="45582.9579549306"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="614"/>
+					<Prp name="object bottom" type="I" value="629"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579582523"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonYes_DeletePrepaidCollect&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[.='Yes']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1048"/>
+					<Prp name="image file name" type="S" value="visImage995.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.panelSuccessfullyDeletedAgreemen"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="918"/>
+					<Prp name="object top" type="I" value="984"/>
+					<Prp name="object left" type="I" value="788"/>
+					<Prp name="datetime" type="D" value="45582.9579606366"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="1008"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.957962037"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (130, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.panelSuccessfullyDeletedAgreemen&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//div[contains(text(), 'Successfully deleted agreement.')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture84.png"/>
+			<Prp name="date" type="D" value="45582.9582171759"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Zimex Aviation (Switzerland)&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;chrome&quot;).Pa...ation (Switzerland)']&quot;).contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Zimex Aviation (Switzerland)&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//div[text()='Zimex Aviation (Switzerland)']&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Zimex Aviation (Switzerland)&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Zimex Aviation (Switzerland)&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1617"/>
+					<Prp name="image file name" type="S" value="visImage1011.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.button30th"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1597"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="object left" type="I" value="1577"/>
+					<Prp name="datetime" type="D" value="45582.9580430787"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="720"/>
+					<Prp name="object bottom" type="I" value="740"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580445486"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (20, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.button30th&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;xpath=//td[@role='gridcell' and @data-mat-row='4' and @data-mat-col='1']//button[@type='button']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="288"/>
+					<Prp name="image file name" type="S" value="visImage991.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.navDashboard.textnodeAgreement"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="254"/>
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="object left" type="I" value="220"/>
+					<Prp name="datetime" type="D" value="45582.9579347917"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="219"/>
+					<Prp name="object bottom" type="I" value="226"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.957936412"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (34, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.navDashboard.textnodeAgreement&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//span[contains(text(), 'Agreement')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture85.png"/>
+			<Prp name="date" type="D" value="45582.9582186227"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;AutomationTest : AutomationTest&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;chrome&quot;).Pa...st : AutomationTest']&quot;).contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;AutomationTest : AutomationTest&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//div[text()='AutomationTest : AutomationTest']&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;AutomationTest : AutomationTest&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;AutomationTest : AutomationTest&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1025_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="image file name" type="S" value="visImage1025.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="datetime" type="D" value="45582.9582379282"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="image file name" type="S" value="tcvi77825482812964020.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="datetime" type="D" value="45518.6118518518"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9582391204"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'Login - Google Chrome' window was closed."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1870"/>
+					<Prp name="image file name" type="S" value="visImage1021.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonCloseLanes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="989"/>
+					<Prp name="object top" type="I" value="897"/>
+					<Prp name="object left" type="I" value="109"/>
+					<Prp name="datetime" type="D" value="45582.9582116551"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="912"/>
+					<Prp name="object bottom" type="I" value="927"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9582135764"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonCloseLanes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//button[contains(., 'View Lanes')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="image file name" type="S" value="visImage1020.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonCloseAgreements"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="981"/>
+					<Prp name="object top" type="I" value="700"/>
+					<Prp name="object left" type="I" value="76"/>
+					<Prp name="datetime" type="D" value="45582.9582066319"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="715"/>
+					<Prp name="object bottom" type="I" value="730"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9582090046"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonCloseAgreements&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//button[contains(., 'View Agreements')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="167"/>
+					<Prp name="image file name" type="S" value="visImage1016.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.navDashboard.textnodeDashboard"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="133"/>
+					<Prp name="object top" type="I" value="212"/>
+					<Prp name="object left" type="I" value="99"/>
+					<Prp name="datetime" type="D" value="45582.9580734028"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="219"/>
+					<Prp name="object bottom" type="I" value="226"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580753472"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (34, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.navDashboard.textnodeDashboard&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/652&quot;).FindElement(&quot;//span[contains(text(), 'Dashboard')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture86.png"/>
+			<Prp name="date" type="D" value="45582.9582200463"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Total Booked Units&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;chrome&quot;).Pa...'Total Booked Units']&quot;).contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Total Booked Units&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//div[.='Total Booked Units']&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Total Booked Units&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Total Booked Units&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1022_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1654"/>
+					<Prp name="image file name" type="S" value="visImage1022.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodePerson"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1642"/>
+					<Prp name="object top" type="I" value="135"/>
+					<Prp name="object left" type="I" value="1630"/>
+					<Prp name="datetime" type="D" value="45582.9582235995"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="147"/>
+					<Prp name="object bottom" type="I" value="159"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1654"/>
+					<Prp name="image file name" type="S" value="tcvi265374703207076020.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodePerson"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1641"/>
+					<Prp name="object top" type="I" value="101"/>
+					<Prp name="object left" type="I" value="1630"/>
+					<Prp name="datetime" type="D" value="45498.6485532407"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="115"/>
+					<Prp name="object bottom" type="I" value="125"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9582253472"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodePerson&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//mat-icon[.='person']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture83.png"/>
+			<Prp name="date" type="D" value="45582.9580645833"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;AutomationTest&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.browser.pageQms.linkAutomationtest.contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;AutomationTest&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{D4FCB468-EEB3-4A20-B0D7-F93E00BAEFFD}.{73B22D24-CCB8-4493-98A6-52503C4B336B}'&gt;Aliases.browser.pageQms.linkAutomationtest&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;AutomationTest&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;AutomationTest&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="362"/>
+					<Prp name="image file name" type="S" value="visImage993.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonDelete_PrepaidCollect"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="338"/>
+					<Prp name="object top" type="I" value="447"/>
+					<Prp name="object left" type="I" value="314"/>
+					<Prp name="datetime" type="D" value="45582.9579494097"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="471"/>
+					<Prp name="object bottom" type="I" value="495"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579519444"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonDelete_PrepaidCollect&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[contains(., 'delete')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1889"/>
+					<Prp name="image file name" type="S" value="visImage1014.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonSaveAgreement"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1830"/>
+					<Prp name="object top" type="I" value="580"/>
+					<Prp name="object left" type="I" value="1771"/>
+					<Prp name="datetime" type="D" value="45582.9580593634"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="595"/>
+					<Prp name="object bottom" type="I" value="610"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580607523"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (59, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.buttonSaveAgreement&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[contains(., 'Save Agreement')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="897"/>
+					<Prp name="image file name" type="S" value="visImage997.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodeLosAngelesCaUs"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="809"/>
+					<Prp name="object top" type="I" value="495"/>
+					<Prp name="object left" type="I" value="721"/>
+					<Prp name="datetime" type="D" value="45582.9579670833"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="507"/>
+					<Prp name="object bottom" type="I" value="519"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579691204"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (88, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodeLosAngelesCaUs&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-option/span&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage989_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="visImage989.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.buttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1792"/>
+					<Prp name="object top" type="I" value="778"/>
+					<Prp name="object left" type="I" value="1747"/>
+					<Prp name="datetime" type="D" value="45582.9579097454"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="797"/>
+					<Prp name="object bottom" type="I" value="816"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="tcvi265291531207076620.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.buttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1782"/>
+					<Prp name="object top" type="I" value="761"/>
+					<Prp name="object left" type="I" value="1747"/>
+					<Prp name="datetime" type="D" value="45498.6475925926"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="782"/>
+					<Prp name="object bottom" type="I" value="799"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579121528"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formUsernameEmail.buttonNext&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/&quot;).FindElement(&quot;//button[contains(text(), 'Next')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1000"/>
+					<Prp name="image file name" type="S" value="visImage1007.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox5"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="740"/>
+					<Prp name="object left" type="I" value="779"/>
+					<Prp name="datetime" type="D" value="45582.9580258681"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="775"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580276736"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text '600' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textbox5&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-tab-body//app-allocation-detail/div[5]//input[@type='text']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1739"/>
+					<Prp name="image file name" type="S" value="visImage1005.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1637"/>
+					<Prp name="object top" type="I" value="805"/>
+					<Prp name="object left" type="I" value="1536"/>
+					<Prp name="datetime" type="D" value="45582.9580176968"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="817"/>
+					<Prp name="object bottom" type="I" value="829"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580192593"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (101, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-option/span&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1721"/>
+					<Prp name="image file name" type="S" value="visImage1002.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1628"/>
+					<Prp name="object top" type="I" value="687"/>
+					<Prp name="object left" type="I" value="1536"/>
+					<Prp name="datetime" type="D" value="45582.9579964583"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="699"/>
+					<Prp name="object bottom" type="I" value="711"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579978241"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (92, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-option/span&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1286"/>
+					<Prp name="image file name" type="S" value="visImage1009.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.first_day"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1266"/>
+					<Prp name="object top" type="I" value="540"/>
+					<Prp name="object left" type="I" value="1246"/>
+					<Prp name="datetime" type="D" value="45582.9580346181"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="560"/>
+					<Prp name="object bottom" type="I" value="580"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.958036169"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (20, 20) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.first_day&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;xpath=//td[@role='gridcell' and @data-mat-row='0' and @data-mat-col='0']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1871"/>
+					<Prp name="image file name" type="S" value="visImage1010.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.year_buttonOpenCalendar2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1859"/>
+					<Prp name="object top" type="I" value="747"/>
+					<Prp name="object left" type="I" value="1847"/>
+					<Prp name="datetime" type="D" value="45582.9580389815"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="759"/>
+					<Prp name="object bottom" type="I" value="771"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580406944"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (12, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.year_buttonOpenCalendar2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;xpath=(//button[@aria-label='Open calendar' and @mat-icon-button=''])[2]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 43">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1023_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1769"/>
+					<Prp name="image file name" type="S" value="visImage1023.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.panelLogout"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1699"/>
+					<Prp name="object top" type="I" value="195"/>
+					<Prp name="object left" type="I" value="1629"/>
+					<Prp name="datetime" type="D" value="45582.9582276968"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="210"/>
+					<Prp name="object bottom" type="I" value="226"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1769"/>
+					<Prp name="image file name" type="S" value="tcvi265376546207076120.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.panelLogout"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1692"/>
+					<Prp name="object top" type="I" value="161"/>
+					<Prp name="object left" type="I" value="1629"/>
+					<Prp name="datetime" type="D" value="45498.6485763889"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="183"/>
+					<Prp name="object bottom" type="I" value="192"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9582294444"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (70, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.panelLogout&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//div[contains(text(), 'Logout')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9578962616"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://prod.gocatapult.com/ page."/>
+			<Prp name="remarks" type="S" value="URL: https://prod.gocatapult.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1576"/>
+					<Prp name="image file name" type="S" value="visImage999.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox4"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="449"/>
+					<Prp name="object left" type="I" value="1299"/>
+					<Prp name="datetime" type="D" value="45582.9579729977"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="484"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579752083"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'AutomationTest' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textbox4&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//div[3]/div[4]/input[@type='text']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1892"/>
+					<Prp name="image file name" type="S" value="visImage1001.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textboxCombobox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="641"/>
+					<Prp name="object left" type="I" value="1556"/>
+					<Prp name="datetime" type="D" value="45582.9579802315"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="676"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579824537"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'Los Angeles' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textboxCombobox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//app-allocation-lane//app-allocation-lane-add//div[5]/input[@role='combobox']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage986_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="visImage986.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.textboxUsername"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="649"/>
+					<Prp name="object left" type="I" value="1557"/>
+					<Prp name="datetime" type="D" value="45582.9578970139"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="690"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="tcvi265275890207076220.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.textboxUsername"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="632"/>
+					<Prp name="object left" type="I" value="1557"/>
+					<Prp name="datetime" type="D" value="45498.6474768519"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="673"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.957898831"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'aylin.rodriguez@magaya.com' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formUsernameEmail.textboxUsername&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/&quot;).FindElement(&quot;//input[@name='username']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="982"/>
+					<Prp name="image file name" type="S" value="visImage996.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.enter_origin"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="449"/>
+					<Prp name="object left" type="I" value="705"/>
+					<Prp name="datetime" type="D" value="45582.9579629861"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="484"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.957964838"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'ZIM' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.enter_origin&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;xpath=(//input[contains(@class, 'mat-mdc-autocomplete-trigger')])[1]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1856"/>
+					<Prp name="image file name" type="S" value="visImage1004.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textboxCombobox3"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="979"/>
+					<Prp name="object left" type="I" value="1520"/>
+					<Prp name="datetime" type="D" value="45582.9580019907"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1014"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580036921"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'Shanghai' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textboxCombobox3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//app-allocation-lane//app-allocation-lane-add[2]//div[5]/input[@role='combobox']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage987_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="visImage987.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.buttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1792"/>
+					<Prp name="object top" type="I" value="779"/>
+					<Prp name="object left" type="I" value="1747"/>
+					<Prp name="datetime" type="D" value="45582.9579013773"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="798"/>
+					<Prp name="object bottom" type="I" value="817"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="tcvi265286828207076320.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail.buttonNext"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1808"/>
+					<Prp name="object top" type="I" value="762"/>
+					<Prp name="object left" type="I" value="1747"/>
+					<Prp name="datetime" type="D" value="45498.6475347222"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="785"/>
+					<Prp name="object bottom" type="I" value="800"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579038194"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formUsernameEmail.buttonNext&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/&quot;).FindElement(&quot;//button[contains(text(), 'Next')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1864"/>
+					<Prp name="image file name" type="S" value="visImage1000.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonEdit"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1840"/>
+					<Prp name="object top" type="I" value="650"/>
+					<Prp name="object left" type="I" value="1816"/>
+					<Prp name="datetime" type="D" value="45582.9579775231"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="674"/>
+					<Prp name="object bottom" type="I" value="698"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579791551"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (24, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.buttonEdit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//button[.='edit']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture87.png"/>
+			<Prp name="date" type="D" value="45582.9582214931"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: contentText equals (case-sensitive) &quot;Incentives from Allocation&quot;."/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Sys.Browser(&quot;chrome&quot;).Pa...ves from Allocation']&quot;).contentText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;Incentives from Allocation&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//div[.='Incentives from Allocation']&quot;)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;contentText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Incentives from Allocation&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&lt;span style=&quot;white-space: pre-wrap; &quot;&gt;&quot;Incentives from Allocation&quot;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage1024_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1094"/>
+					<Prp name="image file name" type="S" value="visImage1024.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonOk_Logout"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1065"/>
+					<Prp name="object top" type="I" value="616"/>
+					<Prp name="object left" type="I" value="1036"/>
+					<Prp name="datetime" type="D" value="45582.9582331944"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="632"/>
+					<Prp name="object bottom" type="I" value="649"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1094"/>
+					<Prp name="image file name" type="S" value="tcvi265379109207076220.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.buttonOk"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1072"/>
+					<Prp name="object top" type="I" value="599"/>
+					<Prp name="object left" type="I" value="1036"/>
+					<Prp name="datetime" type="D" value="45498.648599537"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="624"/>
+					<Prp name="object bottom" type="I" value="632"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.958235787"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.buttonOk_Logout&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//button[.='OK']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="741"/>
+					<Prp name="image file name" type="S" value="visImage1018.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="531"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="321"/>
+					<Prp name="datetime" type="D" value="45582.9580827894"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="451"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580843056"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (210, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//input[@type='text']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="741"/>
+					<Prp name="image file name" type="S" value="visImage1019.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="441"/>
+					<Prp name="object left" type="I" value="321"/>
+					<Prp name="datetime" type="D" value="45582.9580851389"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="462"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.958087037"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'AutomationTest' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//input[@type='text']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="385"/>
+					<Prp name="image file name" type="S" value="visImage1017.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodeProgressbar"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="335"/>
+					<Prp name="object top" type="I" value="309"/>
+					<Prp name="object left" type="I" value="285"/>
+					<Prp name="datetime" type="D" value="45582.9580787037"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="359"/>
+					<Prp name="object bottom" type="I" value="409"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580803241"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="remarks" type="S" value="A click at point (50, 50) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodeProgressbar&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation&quot;).FindElement(&quot;//mat-tab-nav-panel/app-allocation-dashboard-header//app-allocation-dashboard-item[2]/mat-card//mat-spinner[@role='progressbar']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage988_Dif.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="visImage988.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail2.passwordboxPassword"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="660"/>
+					<Prp name="object left" type="I" value="1557"/>
+					<Prp name="datetime" type="D" value="45582.9579048032"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="701"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="1837"/>
+					<Prp name="image file name" type="S" value="tcvi265289250207076520.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageLogin.formUsernameEmail2.passwordboxPassword"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="643"/>
+					<Prp name="object left" type="I" value="1557"/>
+					<Prp name="datetime" type="D" value="45498.6475578704"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="684"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579064468"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'testingprod' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageLogin.formUsernameEmail2.passwordboxPassword&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/&quot;).FindElement(&quot;//input[@name='password']&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="369"/>
+					<Prp name="image file name" type="S" value="visImage992.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textbox2"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="410"/>
+					<Prp name="object left" type="I" value="97"/>
+					<Prp name="datetime" type="D" value="45582.9579440625"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="429"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9579467361"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The text 'AutomationTest' was entered in the text editor."/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageQms.textbox2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-tab-body//app-allocation-list//input[contains(@class, 'ng-untouched')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="1905"/>
+					<Prp name="image file name" type="S" value="visImage1003.png"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageQms.textnodeAddAllocationLanes"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="333"/>
+					<Prp name="object left" type="I" value="1488"/>
+					<Prp name="datetime" type="D" value="45582.9579996759"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="983"/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="date" type="D" value="45582.9580010185"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="remarks" type="S" value="'[BS]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageQms.textnodeAddAllocationLanes&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://prod.gocatapult.com/qms/#/allocation/agreement/create&quot;).FindElement(&quot;//mat-sidenav[contains(., 'Add Allocation Lanes')]&quot;))"/>
+			<Prp name="linkmessage" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

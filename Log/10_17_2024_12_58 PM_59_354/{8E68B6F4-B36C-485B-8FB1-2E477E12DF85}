@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="45582.5473350694"/>
+				<Prp name="end time" type="D" value="45582.5482045139"/>
+				<Prp name="name" type="S" value="TC_27_QMS_4836_Messages_Add_new_message_with_attachments [KeywordTests - TC_27_QMS_4836_Messages_AddMessage_Attachments]"/>
+				<Prp name="details" type="S" value="{E641FEF3-E3A0-41D6-B25A-5AEB89298359}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="45582.5433209144"/>
+				<Prp name="end time" type="D" value="45582.5473344097"/>
+				<Prp name="name" type="S" value="TC_9_QMS_4610_MultiOption_Lane [KeywordTests - TC_9_QMS_4610_MultiOption_Lane]"/>
+				<Prp name="details" type="S" value="{482E58AE-79F6-4003-8B4E-77150A456239}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="start time" type="D" value="45582.5409651273"/>
+				<Prp name="end time" type="D" value="45582.543320706"/>
+				<Prp name="name" type="S" value="TC_5_QMS_4345_Linked_Master_Quote [KeywordTests - TC_5_QMS_4345_Linked_MasterQuote]"/>
+				<Prp name="details" type="S" value="{104CA3D3-1812-4398-9873-894328BE9346}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

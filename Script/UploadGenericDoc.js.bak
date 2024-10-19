@@ -1,0 +1,10 @@
+﻿
+function UploadGenericDoc(){
+var uploadPath = Project.Variables.upload_path;
+
+// Asume que el cuadro de diálogo de carga de archivos está abierto
+Delay(1000); // Esperar un segundo para asegurarse de que el diálogo esté visible
+
+// Enviar la ruta del archivo
+Sys.Keys(uploadPath); // Enviar la ruta del archivo al cuadro de diálogo
+}

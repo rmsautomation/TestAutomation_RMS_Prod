@@ -1,0 +1,14 @@
+﻿function CtrlAndEsc()
+{
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page("https://staging.gocatapult.com/qms/#/rate-search");
+  page.Keys("[Esc]");
+//Obj.Keys("^");
+//Obj.Keys("[Esc]");
+  /*var p, wnd, onscreenObj;
+
+  p = Sys.Process("chrome");
+  wnd = p.Window("chrome", "chrome", -1);
+  onscreenObj = wnd.Window("chrome", "", -1);
+  onscreenObj.Keys("[Esc]");*/
+}

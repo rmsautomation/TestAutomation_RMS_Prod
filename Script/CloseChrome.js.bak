@@ -1,0 +1,96 @@
+﻿// Event handler function to be called when an error occurs
+function OnLogError(Sender, LogParams) {
+    
+    var browser = Aliases.browser;
+    if (browser.Exists) {
+        browser.Close();
+        Log.Message("Browser window has been closed.");
+    } else {
+        Log.Message("Browser window was not found.");
+    }
+}
+
+
+
+
+function closeAllChromeInstances() {
+  var processName = "chrome";
+  var chromeProcesses = Sys.Process(processName);
+
+  while (chromeProcesses.Exists) {
+    chromeProcesses.Terminate();
+    chromeProcesses = Sys.Process(processName); // Re-check if there are any remaining instances
+  }
+}
+
+function Hooks_OnStartTest(Sender)
+{
+  try {
+    var page = Sys.Browser("chrome").Page("https://staging.gocatapult.com/qms/#/rate-search");
+
+    // Check if the mat-icon with the text 'person' exists
+    var personIcon = page.FindChild("XPath", "//mat-icon[.='person']", 1000);
+    if (personIcon.Exists) {
+      // Click on the 'Logout' button
+      var logoutButton = page.FindChild("XPath", "//div[contains(text(), 'Logout')]", 1000);
+      if (logoutButton.Exists) {
+        logoutButton.Click();
+
+        // Click on the 'OK' button
+        var okButton = page.FindChild("XPath", "//button[.='OK']", 1000);
+        if (okButton.Exists) {
+          okButton.Click();
+
+          // Close the Chrome browser window
+          Sys.Browser("chrome").Close();
+        } else {
+          Log.Error("'OK' button not found.");
+        }
+      } else {
+        Log.Error("'Logout' button not found.");
+      }
+    } else {
+      Log.Error("'person' icon not found.");
+    }
+  } catch (e) {
+    Log.Error("An error occurred: " + e.message);
+  }
+  
+}
+
+function Hooks_OnStopTest(Sender)
+{
+  try {
+    var page = Sys.Browser("chrome").Page("https://staging.gocatapult.com/qms/#/rate-search");
+
+    // Check if the mat-icon with the text 'person' exists
+    var personIcon = page.FindChild("XPath", "//mat-icon[.='person']", 1000);
+    if (personIcon.Exists) {
+      // Click on the 'Logout' button
+      var logoutButton = page.FindChild("XPath", "//div[contains(text(), 'Logout')]", 1000);
+      if (logoutButton.Exists) {
+        logoutButton.Click();
+
+        // Click on the 'OK' button
+        var okButton = page.FindChild("XPath", "//button[.='OK']", 1000);
+        if (okButton.Exists) {
+          okButton.Click();
+
+          // Close the Chrome browser window
+          Sys.Browser("chrome").Close();
+        } else {
+          Log.Error("'OK' button not found.");
+        }
+      } else {
+        Log.Error("'Logout' button not found.");
+      }
+    } else {
+      Log.Error("'person' icon not found.");
+    }
+  } catch (e) {
+    Log.Error("An error occurred: " + e.message);
+  }
+  
+}
+
+

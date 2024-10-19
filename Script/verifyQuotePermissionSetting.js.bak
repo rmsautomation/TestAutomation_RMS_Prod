@@ -1,0 +1,90 @@
+﻿//NEW
+function CheckQuotedByColumn() {
+  // XPath to locate all relevant cells
+  var cellsXPath = "//mat-cell[contains(@class, 'cdk-column-user_request-app_user-user_first_name--user_request-app_user-user_last_name')]";
+  var cells = Aliases.browser.pageQms.FindElements(cellsXPath);
+  
+  if (cells.length === 0) {
+    Log.Error("No cells found for the specified XPath.");
+    return;
+  }
+  
+  var foundDifferentText = false;
+  
+  // Loop through each cell and check the text content
+  for (var i = 0; i < cells.length; i++) {
+    var cellText = cells[i].textContent.trim(); // Get the text content and trim extra spaces
+    
+    // Check if the text is different from 'Aylin_UPS Rodriguez Magaya'
+    if (cellText !== "Aylin_UPS Rodriguez Magaya") {
+      foundDifferentText = true;
+      Log.Message("Found different text: " + cellText + ". Test Passed.");
+      break; // Exit the loop as we've found a different text
+    }
+  }
+  
+  // If no different text was found, fail the test
+  if (!foundDifferentText) {
+    Log.Error("No different text found. Test Failed.");
+  }
+}
+
+
+function verifyQuotePermissionSetting(setting) {
+    var quotedByColumn = getColumnNumberBasedOnColumnNameFromResultGrid("Quoted By");
+    var otherQuoteCreatorCount = 0;
+    
+    do {
+        var quoteRows = getQuoteRows();
+        otherQuoteCreatorCount += countOtherQuoteCreators(quoteRows, quotedByColumn, "Aylin_UPS Rodriguez Magaya");
+    } while (clickNextPageButtonIfEnabled());
+    
+    // Log or assert based on the `otherQuoteCreatorCount` and `setting` as needed
+    Log.Message("Other quote creators count: " + otherQuoteCreatorCount);
+}
+
+function getQuoteRows() {
+    return Aliases.browser.pageQms.FindElements("//mat-row[position() > 1]");
+}
+
+function countOtherQuoteCreators(quoteRows, quotedByColumn, excludedText) {
+    var count = 0;
+    
+    for (var i = 0; i < quoteRows.length; i++) {
+        var row = quoteRows[i];
+        var quotedByCell = row.FindElement("//mat-cell[" + quotedByColumn + "]");
+        
+        if (quotedByCell.textContent.indexOf(excludedText) === -1) {
+            count++;
+        }
+    }
+    
+    return count;
+}
+
+function clickNextPageButtonIfEnabled() {
+    var nextButton = Aliases.browser.pageQms.FindElement("//mat-paginator/div/div/div[2]/button[2]");
+    
+    if (nextButton.getAttribute("class").indexOf("mat-button-disabled") === -1) {
+        nextButton.Click();
+        return true;
+    }
+    
+    return false;
+}
+
+function getColumnNumberBasedOnColumnNameFromResultGrid(columnName) {
+    var columnCells = Aliases.browser.pageQms.FindElements("//mat-header-cell[contains(@class, 'mdc-data-table__header-cell')]");
+    var totalCells = columnCells.length;
+    
+    for (var i = 0; i < totalCells; i++) {
+        var cellText = columnCells[i].textContent.trim().toLowerCase();
+        if (cellText === columnName.toLowerCase()) {
+            return i + 1; // Adding 1 to match 1-based index
+        }
+    }
+    
+    return 0; // Column not found
+}
+
+

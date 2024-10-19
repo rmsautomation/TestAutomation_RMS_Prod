@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45499.8063657407" objectName="Aliases.browser.pageQms.enter_origin" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi3654092811767122.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45499.806412037" objectName="Aliases.browser.pageQms.textnodeLosAngelesCaUs" objectLeft="96" objectTop="616" objectRight="228" objectBottom="640" clickPointX="169" clickPointY="630" imageFileName="tcvi3654139841767123.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45499.8370138889" objectName="Aliases.browser.pageQms.enter_destination" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi368057890402883.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45499.8371296296" objectName="Aliases.browser.pageQms.textnodeShanghaiCnshChina" objectLeft="96" objectTop="554" objectRight="241" objectBottom="578" clickPointX="215" clickPointY="563" imageFileName="tcvi368067843402884.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

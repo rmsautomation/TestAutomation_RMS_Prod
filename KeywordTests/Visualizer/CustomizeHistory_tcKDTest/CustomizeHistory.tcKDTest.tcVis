@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7603EA02-35F6-414A-84ED-1022A997DD8F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45539.8732638889" objectName="Aliases.browser.pageQms.letfmenu_search" objectLeft="18" objectTop="251" objectRight="38" objectBottom="271" clickPointX="26" clickPointY="260" imageFileName="tcvi11528826563280.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45539.8737615741" objectName="Aliases.browser.pageQms.toggleCarrier" objectLeft="119" objectTop="277" objectRight="155" objectBottom="291" clickPointX="147" clickPointY="281" imageFileName="tcvi11533060963284.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45539.8737615741" objectName="Aliases.browser.pageQms.checkboxWon" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi11533107863286.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45539.87375" objectName="Aliases.browser.pageQms.saveCustomize" objectLeft="634" objectTop="215" objectRight="657" objectBottom="238" clickPointX="646" clickPointY="226" imageFileName="tcvi11533046863283.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

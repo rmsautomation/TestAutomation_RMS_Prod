@@ -1,0 +1,7 @@
+﻿function PerssEsc(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/rate-search");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{3905C25E-DD5C-4DC1-A745-B0FC3013A49D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45518.6645138889" objectName="Aliases.browser.pageQms.ControlPanel_Button" objectLeft="1846" objectTop="86" objectRight="1906" objectBottom="142" clickPointX="1873" clickPointY="111" imageFileName="tcvi782804640139960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45518.6645833333" objectName="Aliases.browser.pageQms.textnodeSurchargeListManager" objectLeft="755" objectTop="885" objectRight="909" objectBottom="902" clickPointX="858" clickPointY="898" imageFileName="tcvi782810296139962.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45518.6707523148" objectName="Aliases.browser.pageQms.buttonSave" objectLeft="834" objectTop="931" objectRight="898" objectBottom="961" clickPointX="860" clickPointY="954" imageFileName="tcvi783343609139960.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45518.6707638889" objectName="Aliases.browser.pageQms.panelSurchargeListManager" objectLeft="762" objectTop="984" objectRight="1073" objectBottom="1032" clickPointX="891" clickPointY="1016" imageFileName="tcvi783345171139961.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

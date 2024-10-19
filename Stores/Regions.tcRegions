@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="pageQms" key="{EC9421B8-3F51-4B3D-8E57-9F4B27C6D0C4}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageQms" ID="{EC9421B8-3F51-4B3D-8E57-9F4B27C6D0C4}" FileName="Regions\pageQms.png" Update="False" />
+		</child>
+		<child name="pageQms1" key="{2646A87E-3B4E-4835-B26E-DB125A998281}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="pageQms1" ID="{2646A87E-3B4E-4835-B26E-DB125A998281}" FileName="Regions\pageQms1.png" Update="False" />
+		</child>
+		<child name="EXCEL7" key="{D7826191-E6C0-462D-8903-FB472B01DE2D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="EXCEL7" ID="{D7826191-E6C0-462D-8903-FB472B01DE2D}" FileName="Regions\EXCEL7.png" Update="False" />
+		</child>
+		<child name="canvas" key="{590F25C7-F398-4545-A9DB-275918D1268B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="canvas" ID="{590F25C7-F398-4545-A9DB-275918D1268B}" FileName="Regions\canvas.png" Update="False" />
+		</child>
+	</children>
+</Root>

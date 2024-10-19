@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7617E95B-BE28-47CD-AD41-8B9130B5290D}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45503.905162037" objectName="Aliases.browser.pageQms.checkbox20" objectLeft="395" objectTop="440" objectRight="435" objectBottom="480" clickPointX="409" clickPointY="455" imageFileName="tcvi7195444842110560.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45503.9051967593" objectName="Aliases.browser.pageQms.checkbox40Hc" objectLeft="395" objectTop="496" objectRight="435" objectBottom="536" clickPointX="411" clickPointY="514" imageFileName="tcvi7195474212110563.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45503.9060185185" objectName="Aliases.browser.pageQms.panel601041" objectLeft="1092" objectTop="507" objectRight="1216" objectBottom="527" clickPointX="1161" clickPointY="518" imageFileName="tcvi7196187502110568.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

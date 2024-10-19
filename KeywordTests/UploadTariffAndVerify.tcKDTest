@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{91FB6FAD-79F8-47AB-9DEC-134A3B939A82}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.browser.dlgOpen" Data="61717A697000000001000000360400007801C591CD4B024118C69FA03FA03FA163C7E8E0A14BD42528A2637436BC4404753028A420F42044501991111925E42582923A4474F250418720A8285A5357F37B77DD8F59B7D955635D45EAE40CCF30C3F0FCE699F71D1AB375C21836BAF6507555D5816EBAA3A37A5F3954560DED9FE1C006A6466CFF9239B5EE57B81C94620672210D39978294652165E290D2319412EF109867706F8FE05E1E8C77AC7E22145A32C4148352EC15FCC753737F89430323FF4DB324698E8491A3C6D0FF6A7D5F1579902A83F0799A250B45FF4B1386D57F75E4832A8B50250144E70845B46258FD37213FCA44FE1B83D6D5EA8F9C1DA2AC92168CFADE58FD771741689AD6C030D7C4DC5FAB3F79E2852E36E801BBBF88F8F62C626B767CB927C0B846C13807F139DFFFAB88BDB7AEFEBA57BB0D40BDF6835CFAA09CAF433EF5420AAD420CBA200416C0EFCD81DF994671CB817B475F83BF962179EC067BB08CC4AE13F1CD994A0ECF24A22BE3882E0DD32C03460E73FFDBB9FF01EBA33263" />
+					<Bitmap Name="Aliases.browser.dlgOpen.cbxFileName" Data="61717A697000000001000000360400007801AD924B4B02511886DFA01FD04F68D92FF007B40C82A0562D5A4910EDDAB48A0ABA407659489B6A11512B8B36454582250CD8852CB58B76C12EE6E4781967C6716E6A73460D472D233AC377CE0CC3F39C77BE39ED9D966618C3A2CF6D7AB594AA09ADFA9D3E4AEF8B0FC5B980FFBBAC1D1634AA9F76DB5BB323E0BBC495F71C671E0A94DB0597731F1BAB4B989F1E33DC8DF8D0DD0D6EAFFD350EE7C16E4DB66A17D93FFCF488C7FB508DC3ED3A3478F12D08E1C957370BE13FE8285E5F9E4D8E8BB3137828B7C148CC2BC4C8C3B73C717C57A4B772220A8979ABCB97BF87F03945822665A0893CD44C1A2A9F84928E434EC52027A38D794DA97128C4C1E90E3666E2ABFF39D95FA6C39022F7C88603C83E7821064F91B9A620F88F21F88E4CBC915716A16505687AD6F8E61CF81D3BB8AD19B0EB23482D0F2161EF47DCD60B66AA07B1892EDCDAAC5F2797F0795546AEE4601CB3486E2F20E9B021B13E0E666518B1C541D0B37DA027BB111DED40C43E60E20B39CDE42039543E05954B406119BD67B4DEFB7753EECA7E17F279543A7246EF39A8026B72905E95B9F24AF2FFB6EAF165CF5FD64FAED21512" />
+					<Bitmap Name="Aliases.browser.pageQms" Data="61717A69700000000100000036040000780173F235636100033320A901C40250CCC8A000640101541EC2A10DC92EC421A516ABDE61D7EF707EC7CD1B2F7CCEFDFC65BFFEEA358DC2CE2E0E7119197CB64ADA4A45B92C75FBE4B1CEEB3F08F79EE9FB3FF3E9BFFFDE1721D8E3C4A7CFD23EB1B1D8CC90B2938AF258EBF50FA617447BAEF3FE7FFAD5B5FFD1571166785FF8FB4FDA37360ED90C909B5D96B97D46D79BBE27F37FF7999EFFBBDEFE85BB01E4168F139FBF7088CBCAC2CC508B516F47D69BBA3BEDFFFDC7A7FEFF3C38EFFFCFFD73FEFF79F7F47FF16D243700CDD02CEAEE86E9B7EEB7BD04D3EFB9DEFBFF8367E7FF7FED0FFCFFA5D5098CBFF6F8FEBFF3EC198A1BEC375EBB0ED3EFB6C2E31B4C7FCF99DEFFBF4EAC86EB8599F1F3D0C2FF49D7116EF03AF7EB374CBFEB7277B0FEC04DC1FF4F5F7DF5FFD7990D18FA7F1D5DF63FEE1A42BFE7D99FBF60FAADFB6C2E80EC5F7163D5FFC4C477FF8FEE7BFBFFDBF438B8195FA744FE3FFFE21D8AFBEDD65DBE02D3AF1AA1D698B433F9FFBA8D9FFE5B5ABEFAEFEEFEFAFFFE9DEFFEFF38BFE3FFEF0BDBFEFFFBFEF9FFBE77FFFEAF7B85C0FE654DCD30FD6C7C6CA21B4EEF7AE3EDFD06AC1F6406083B38BCFEEFE9F906037B783CFDCEC3A3A004D30FA2151583C22D2D5FFE83E9C5478B8BC7A622EB85B145454363CDCCEE7FC6A5D7CCECC11731B1C844987A6C341B9B84949C5C759BBEFE814BE6E68FBE81B0BEFEC14B727235ED6C6C92D2D8F4502206005B5EADC2" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.tariffButtonMenu;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="tariffBefore_add">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageQms.numberOfPage.contentText" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="tariffBefore_add" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="project_path">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Path" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="project_path" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="upload_path">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Project.Variables.project_path + &quot;Stores\\Files\\BulkTariffFilingTemplateOKK.xlsm&quot;" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="upload_path" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="today">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="aqDateTime.Today()" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="today" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="tariffReference">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="(&quot;AutomationUpload_&quot; +aqDateTime.Now()).replace(/ /g, &quot;_&quot;).replace(/:/g, &quot;&quot;).replace(/GMT.*/, &quot;&quot;).replace(/(_00)$/, &quot;&quot;)" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="tariffReference" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
+				<Data Description="Puts the value of a variable to an Excel cell.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="upload_path" />
+						<Parameter Name="Cell" DefVarType="0" VarType="8" ValueType="6" ValueValue="All Rates!G2" />
+						<Parameter Name="Value" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="today" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
+				<Data Description="Puts the value of a variable to an Excel cell.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="FileName" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="upload_path" />
+						<Parameter Name="Cell" DefVarType="0" VarType="8" ValueType="6" ValueValue="All Rates!W2" />
+						<Parameter Name="Value" DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="tariffReference" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnodeUpload2;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; radio button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.radiobuttonTariffTemplate;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.uploadButton;" />
+				</Data>
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="UploadGenericDoc" Unit="UploadGenericDoc" />
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.dlgOpen.btnOpen;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the state of the &apos;%n&apos; checkbox to %p1." Action="ClickChecked">
+					<CommonData WaitTimeout="100000" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Checked" DefVarType="11" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.checkboxRed;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonPublish;" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageQms.FindElement(&quot;//div[text()=&apos;Number of rates not uploaded: 0&apos;]&quot;)" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="9" ValueValue="54006100720069006600660020007300750063006300650073007300660075006C006C00790020007000750062006C00690073006800650064002E00200050006C0065006100730065002000720065007600690065007700200079006F0075007200200072006100740065007300200069006E002000540061007200690066006600200054006F006F006C000A004E0075006D0062006500720020006F0066002000720061007400650073002000750070006C006F0061006400650064003A00200031000A004E0075006D0062006500720020006F00660020007200610074006500730020006E006F0074002000750070006C006F0061006400650064003A0020003000" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonOk_Logout;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnodeFiledRates;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonSearch;" />
+				</Data>
+			</Operation>
+			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
+				<Data VariableType="2" VariableName="tariffAfter_add">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageQms.numberOfPage.contentText" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="tariffAfter_add" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="TariffReferenceFilter" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{3BE5042D-F1E2-4306-BC6B-B2C974F9B407}" />
+</Root>

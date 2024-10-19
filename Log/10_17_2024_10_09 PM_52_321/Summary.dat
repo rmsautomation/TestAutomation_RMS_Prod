@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test24">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_25_QMS_5135_Price_Settings___Greater_option"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="161526"/>
+						<Prp name="starttime" type="D" value="45582.9677605324"/>
+						<Prp name="durationwithoutchildren" type="I" value="161526"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEIAMgA2ADkANQA1AEMALQBBADIAMwA3AC0ANAA1ADkAQwAtAEIAOQBBAEEALQA2ADUARQBGADgAOAA1ADIAOAAyAEIAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test20">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_21_QMS_5581_Contract_Management___Add__LCL_rule_Min_and_Max"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="268911"/>
+						<Prp name="starttime" type="D" value="45582.9591527315"/>
+						<Prp name="durationwithoutchildren" type="I" value="268911"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADgANQA0ADQARQA5ADgALQBEADkAMQA5AC0ANAA1ADEARgAtAEIAMQBCADAALQA5ADIARQBCADQAQQAwAEQARgBGAEYAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test14">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_15_QMS_11323_EFT_FCL_No_city_linking_Standard_user"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="143877"/>
+						<Prp name="starttime" type="D" value="45582.9527722454"/>
+						<Prp name="durationwithoutchildren" type="I" value="143877"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEYAOQA5AEMAMwAxADQALQA1ADQAMwAyAC0ANABCADUAQQAtAEEANQA4ADUALQA3ADEAMgA2ADEAMwA4ADYAOAA0ADcAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_3_QMS_4325_Single_Generate_a_Single_AIR_Quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="123800"/>
+						<Prp name="starttime" type="D" value="45582.9271166319"/>
+						<Prp name="durationwithoutchildren" type="I" value="123800"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzADUAQQBGADUARAA0AEYALQBBADIAMQBDAC0ANABFADAAMAAtAEIANwBFADYALQBEADYAQgAxAEEANABDAEQANwBFADUANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_6_QMS_4597_Single_Search_by_Contract_ID_FCLTHIS"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="50962"/>
+						<Prp name="starttime" type="D" value="45582.9332858449"/>
+						<Prp name="durationwithoutchildren" type="I" value="50962"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEYANAA1ADAAMwBCADUALQAwADQARABBAC0ANAAyAEEAQQAtAEIARABDADgALQBEAEIAMgBGADMAMwBEAEQAMgAzAEEAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test33">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_34_QMS_4974_External_Mappings___Create_a_new_group"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="111990"/>
+						<Prp name="starttime" type="D" value="45582.9792382986"/>
+						<Prp name="durationwithoutchildren" type="I" value="111990"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEQANAA2ADkAQgA0ADIALQBEADYANQBCAC0ANABDAEQAQwAtAEIAOQBGAEIALQAyADcANwBBADIAQgA3ADcANABEADAAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test34">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_35_QMS_5587_Role_Management"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="136953"/>
+						<Prp name="starttime" type="D" value="45582.9805346412"/>
+						<Prp name="durationwithoutchildren" type="I" value="136953"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADEAMwAxADkAOAAyADMALQBEADMAOABGAC0ANABFAEQARQAtADkANQA3AEYALQAzADcAQQA0AEYANgBDADIANQBBAEIARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_7_QMS_4224_Search_Single_Multi_API_Selection__ONE"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="53528"/>
+						<Prp name="starttime" type="D" value="45582.933875787"/>
+						<Prp name="durationwithoutchildren" type="I" value="53528"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADkAMABDAEUARQBBADcALQBDADAAMABGAC0ANABBADMARAAtAEEARgBFAEUALQA3AEIAOABGADQARQA4AEUARQBBADAANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_10_QMS_4635_History_Refreshed_Master_Quote_and_Resend_Master_quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="296022"/>
+						<Prp name="starttime" type="D" value="45582.9385449537"/>
+						<Prp name="durationwithoutchildren" type="I" value="296022"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEUANgA3ADgAOQBBAEUALQBBADIAQgBCAC0ANAA3ADIANQAtADgANQAxADYALQA2ADQAMgA5ADEANQBBADAAMwBGAEUANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test27">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_28_QMS_4932_Commodity_Mapping___Do_a_search_indicating_a_commodity"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="70593"/>
+						<Prp name="starttime" type="D" value="45582.9709890625"/>
+						<Prp name="durationwithoutchildren" type="I" value="70593"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1AEEAQgAzADYAOQAyAEIALQBDADYAOABFAC0ANAA5AEEARgAtADkAOAA5AEEALQA0ADAAMgA5AEUAMwA2ADIAMgA0ADAARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test30">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_31_QMS_5198_Rate_Prioritization___Create_a_Rate_Prioritization_rule"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="73069"/>
+						<Prp name="starttime" type="D" value="45582.9750841088"/>
+						<Prp name="durationwithoutchildren" type="I" value="73069"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxAEQAMgBGAEQAMwBDADUALQBGADcAQwA0AC0ANAAyADcAMwAtAEIAMQBFAEQALQA4ADQARAAzADgARAA5ADcANABFADEARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test41">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_42_QMS_12257_Zip_to_Port_Incomplete_Linked_rates_missing_ground_Check_Uncheck"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="63231"/>
+						<Prp name="starttime" type="D" value="45582.9873246065"/>
+						<Prp name="durationwithoutchildren" type="I" value="63231"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADQAQgAyADEARQBBADYALQAwAEQAOQBFAC0ANABFADEANAAtAEEAQgBDADUALQA0AEEANgA4ADAARgBDADUAOQA0ADUANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test39">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_40_QMS_6409_Xeneta_long_term__LT"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="32700"/>
+						<Prp name="starttime" type="D" value="45582.9860301852"/>
+						<Prp name="durationwithoutchildren" type="I" value="32700"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADgARAA5AEQAOQAwADgALQA1ADQARAA1AC0ANAA1AEMARAAtAEIANAAwADEALQBFADAAMwBDAEEAMwBBADIAMAAxADYAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test26">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_27_QMS_4836_Messages_Add_new_message_with_attachments"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="72241"/>
+						<Prp name="starttime" type="D" value="45582.9701527894"/>
+						<Prp name="durationwithoutchildren" type="I" value="72241"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEIANwBDADUAQQA2ADQALQA3ADUARAA3AC0ANAAxADEAOQAtAEIAMQA0AEEALQBDADgAMwAzAEIANgA4AEIAMABCADUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_13_QMS_5200_Quote_History_Permissions_Everyone_can_view_everyone_quotes"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="504354"/>
+						<Prp name="starttime" type="D" value="45582.9455440972"/>
+						<Prp name="durationwithoutchildren" type="I" value="504354"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEYAMAAwAEQAOQBDAEMALQA5ADkAOAA2AC0ANABDAEQAMAAtAEEAMQBFADAALQAxAEIAOAA4AEIAMwA5ADEANQA4ADIARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test36">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_37_QMS_5618_Single_ADHOC_Send_Quote__Save_as_Spot_Rate__with_zip_code"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="84236"/>
+						<Prp name="starttime" type="D" value="45582.9833695486"/>
+						<Prp name="durationwithoutchildren" type="I" value="84236"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4AEMARABDADMAOAAwADgALQBCADcANQA1AC0ANAA1ADAARAAtADgARQBGADkALQA0ADEAOABEAEEAQwAxAEYANAAwADkANgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test37">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_38_QMS_4746_Multi_Rate_Selection"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="56000"/>
+						<Prp name="starttime" type="D" value="45582.9843446181"/>
+						<Prp name="durationwithoutchildren" type="I" value="56000"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADIAOQBBAEMANQAwAEQALQAwADcARQAxAC0ANAAxADgANwAtADkARABGADkALQBCADQANQAxAEIAMgAzADAANQA3AEEAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_11_QMS_5968_Refresh_FCL_Quote__Custom_Carrier_Duplicate_Quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="108962"/>
+						<Prp name="starttime" type="D" value="45582.9419712616"/>
+						<Prp name="durationwithoutchildren" type="I" value="108962"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADEAOQBEAEUAQQBBADEALQA5ADYAQgA5AC0ANABEAEYARQAtADkANQA2ADcALQA5ADgANgA0AEQAOAAwADcAQgA0AEEANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test21">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_22_QMS_5095_Organization_Settings_Contract_Management"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="122832"/>
+						<Prp name="starttime" type="D" value="45582.9622652662"/>
+						<Prp name="durationwithoutchildren" type="I" value="122832"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAwADIANABDADcAMwBBADYALQA4AEQAMwAxAC0ANAAwAEEAQQAtAEIARAAxADcALQA3ADYAMgAzADAANwBBADcANAA5ADMARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test31">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_32_QMS_5272_Add_trade_lane"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="53081"/>
+						<Prp name="starttime" type="D" value="45582.9759299769"/>
+						<Prp name="durationwithoutchildren" type="I" value="53081"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADIANwBCAEQAQwAzAEQALQBBAEUANQA4AC0ANAA0ADEANwAtADkAQwAwAEQALQA2AEEARgAxADYAQgAwAEEARABEADAAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test17">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_18_QMS_4770_Booking_Upload_template_Matched_Status"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="75050"/>
+						<Prp name="starttime" type="D" value="45582.9568408681"/>
+						<Prp name="durationwithoutchildren" type="I" value="75050"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADcAMwAwAEQAOQBCADQALQA2ADgANwA2AC0ANAA1AEUAQwAtADgAQwBGAEYALQA1AEYAQgBFADcANwBDADcANwBFAEQAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test28">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_29_QMS_4967_City_Linking_Do_a_search_with_City_Linking"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="185049"/>
+						<Prp name="starttime" type="D" value="45582.9718062731"/>
+						<Prp name="durationwithoutchildren" type="I" value="185049"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA0ADIARABBADcAOQBEADkALQAxADQARgA3AC0ANAA4ADEANAAtADkAQQBEADUALQAwAEIANwAxADMANgA2AEMARQBEAEUAMAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test32">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_33_QMS_5585_Surcharge_List_Manager_Catapult_List"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="232732"/>
+						<Prp name="starttime" type="D" value="45582.9765444792"/>
+						<Prp name="durationwithoutchildren" type="I" value="232732"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEIAMgAzAEYANgBGAEUALQAyADQANQAxAC0ANAA5AEYAOAAtADkAQQBFAEEALQBEAEMAMgBFAEIAMgBBADMAOQBDAEYAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_4_QMS_4336_GroundQuote_ITG_API"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="140535"/>
+						<Prp name="starttime" type="D" value="45582.9285496296"/>
+						<Prp name="durationwithoutchildren" type="I" value="140535"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEQAOQAyAEIAMAA5ADUALQAyADQAOAA5AC0ANAAzADQANwAtAEEANwBDADIALQBDADUARQBGAEUAMwBBAEYAMgBDADcAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_1_QMS_4315_STANDARD_USER_Generate_FCL_Single_Quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="205775"/>
+						<Prp name="starttime" type="D" value="45582.9235225463"/>
+						<Prp name="durationwithoutchildren" type="I" value="205775"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADEAQwA1ADcAQwAyADkALQBCAEIAOQAwAC0ANAAxADcAQgAtADkAQwAxADIALQBGAEUARgA4AEMARgAyAEYANwA4ADcANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test15">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_16_QMS_4655_Tariff_Add_New_Tariff"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="152548"/>
+						<Prp name="starttime" type="D" value="45582.9544376273"/>
+						<Prp name="durationwithoutchildren" type="I" value="152548"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADUARgBDADEAOQA2ADcALQA4AEYAOQBDAC0ANAA4ADYAMQAtADgANwBGADYALQBCADAAQQA3ADgARAAxAEEAMgA1ADQAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test29">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_30_QMS_5584_Region_Management___Create_a_Region___Default_Forms"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="98130"/>
+						<Prp name="starttime" type="D" value="45582.9739481944"/>
+						<Prp name="durationwithoutchildren" type="I" value="98130"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEUAOAA5ADEAMABGADgALQA3AEYAQwA4AC0ANABBAEEAMgAtAEIARgA4ADkALQAwADYAOQBEADMAMABBAEEAQgA1ADAANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test23">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_24_QMS_5071_Contract_Access_Restricts_contract_access_Select_a_user"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="164475"/>
+						<Prp name="starttime" type="D" value="45582.9658567477"/>
+						<Prp name="durationwithoutchildren" type="I" value="164475"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEQARgAzADEAQwA3ADcALQA4ADgAMAAxAC0ANAA1AEEAMgAtADkANwAwADIALQA0ADkANgA5ADgAQQA5ADQAMQBBAEYAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test38">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_39_QMS_4606_Multi_Lane_Upload_template___Verify_the_existing_templates"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="89608"/>
+						<Prp name="starttime" type="D" value="45582.9849929051"/>
+						<Prp name="durationwithoutchildren" type="I" value="89608"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADMAQQAwADkAQgAyADEALQA1AEYAOABGAC0ANABCAEQANQAtAEEAMgA3ADYALQAzADMANQBFAEMAMQAwADMAMAA2ADgANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_12_QMS_5969_Refresh_and_Duplicate_LCL_Quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="199709"/>
+						<Prp name="starttime" type="D" value="45582.9432325116"/>
+						<Prp name="durationwithoutchildren" type="I" value="199709"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADAAOAA0ADYANgBCAEYALQA1ADcAMgAxAC0ANAA5AEMAQQAtADkAQgAzADUALQBDADQAQgA2ADEARgAwADMAQwAwAEEAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test22">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_23_QMS_5163_Contract_Access_Select_a_User_and_a_Named_Account"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="187448"/>
+						<Prp name="starttime" type="D" value="45582.9636870718"/>
+						<Prp name="durationwithoutchildren" type="I" value="187448"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADEAMwBEADUAOABEAEMALQAyADgAMwAxAC0ANAA5ADgAMwAtAEIAMwBEADYALQA0AEYAMQA0ADQAMwA0ADUAQwBBADEARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_9_QMS_4610_MultiOption_Lane"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="276463"/>
+						<Prp name="starttime" type="D" value="45582.9353450347"/>
+						<Prp name="durationwithoutchildren" type="I" value="276463"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYAQQBGADMAMQA2ADMALQBEADkANQBEAC0ANABFAEUAMQAtADkAOQBGADYALQAzADgAQwAxADcANgA1AEIARAA1ADEAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_8_QMS_9992_Single_Search__FT_OFF_ON"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="73396"/>
+						<Prp name="starttime" type="D" value="45582.9344954398"/>
+						<Prp name="durationwithoutchildren" type="I" value="73396"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADYANwBFAEIAQwBFAEIALQBEAEIARABEAC0ANAAyADAAQwAtADgAMAA2AEQALQAyADAAMwBCAEMARAA3ADEANAA4ADkAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test16">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_17_QMS_4738_Tariff_Bulk_Upload_Upload_Template"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="55068"/>
+						<Prp name="starttime" type="D" value="45582.9562033681"/>
+						<Prp name="durationwithoutchildren" type="I" value="55068"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEEAOQA1ADYANQBDAEMALQA1ADQANAA3AC0ANAAyADgANAAtADkARgA4ADEALQAwADIARQBDADEAMAA1ADQAOQA3ADMAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test19">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_20_QMS_5579_Contract_Management_Self_Serve_Upload_a_contract"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="78836"/>
+						<Prp name="starttime" type="D" value="45582.9582401505"/>
+						<Prp name="durationwithoutchildren" type="I" value="78836"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADAAQQBBADAAQgA3ADkALQA1ADUARgBDAC0ANABEADIAMwAtAEIANABGAEEALQAzAEYANwA0ADEAQQBGAEQANgBCADAAQgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_5_QMS_4345_Linked_Master_Quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="268655"/>
+						<Prp name="starttime" type="D" value="45582.9301763079"/>
+						<Prp name="durationwithoutchildren" type="I" value="268655"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3ADgAMQA3ADUAMwBCADkALQAyADcAQQA2AC0ANAA4AEEAMgAtADgAMQA5AEQALQA1AEEARQBGADEANgAxAEMAQwBBADIAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test18">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_19_QMS_4784_Allocation__Agreement_Creation_and_Dashboard"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="45823"/>
+						<Prp name="starttime" type="D" value="45582.9577096528"/>
+						<Prp name="durationwithoutchildren" type="I" value="45823"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyADIANAAyADAANwBEADAALQAzAEUAMAA4AC0ANABEAEIAMwAtADkAQQBDADMALQBFADEARQA4ADUAMgA5AEQANAAxADYARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test40">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="79114"/>
+						<Prp name="starttime" type="D" value="45582.9864088194"/>
+						<Prp name="durationwithoutchildren" type="I" value="79114"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADIAMwAyADcARAA2ADcALQA0AEQAQgAzAC0ANABGADUAMAAtAEEANABDADMALQBFAEYANQAwADQAQwAzADEANAAxADUANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test13">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_14_QMS_7727_Contract_ManagementEFT_SurchargeSUPER_USER_Add_Origin_FCL"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="120137"/>
+						<Prp name="starttime" type="D" value="45582.9513816551"/>
+						<Prp name="durationwithoutchildren" type="I" value="120137"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEMANwBEAEUAOAAzADgALQBEAEMAQQA4AC0ANABBADAAOAAtADgARQA3ADcALQAzADQAQgAwADEAMwBCAEYAQwA2ADMARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_2_QMS_4322_STANDARD_USER_LCL_Single_APIs"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="104734"/>
+						<Prp name="starttime" type="D" value="45582.9259043056"/>
+						<Prp name="durationwithoutchildren" type="I" value="104734"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADAAMABFAEUAQgBBAEUALQBGADAANABFAC0ANAA0ADIANAAtADgANAA0ADIALQBEADcANQA1ADgAOQBGADQAMABEAEEARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test25">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_26_QMS_5125_Prepaid_Collect___Add_New_Surcharge"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="45137"/>
+						<Prp name="starttime" type="D" value="45582.9696302083"/>
+						<Prp name="durationwithoutchildren" type="I" value="45137"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADcAOQBFAEUANwBEADkALQAxADQAQwA1AC0ANABDADUANAAtAEIAMgBFADUALQA5ADEAOAA1AEMARAAyADMANwBDAEUAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+					<Node name="test35">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="TC_36_QMS_5079_Single_Multi_History_Tariff_tabs_can_be_customized"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="duration" type="I" value="107964"/>
+						<Prp name="starttime" type="D" value="45582.9821198611"/>
+						<Prp name="durationwithoutchildren" type="I" value="107964"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQAQgA5ADIARAA3AEUALQBCADgARgAyAC0ANABCAEYAQQAtAEIAQgBGADQALQAxAEIAOABBADAAMwA0ADIAQgBCADQARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="RMS_Project"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="5575254"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45582.9235225463"/>
+			</Node>
+		</Node>
+		<Prp name="name" type="S" value="RMS_Project"/>
+		<Prp name="stop" type="D" value="45582.9880700579"/>
+		<Prp name="tests" type="I" value="42"/>
+		<Prp name="testname" type="S" value="RMS_Project"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45582.9235223148"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="host" type="S" value="SSM1CTCOMAUTO01"/>
+		<Prp name="user" type="S" value="aylin.rodriguez"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{65448256-63FB-4C47-B7A6-412C1866EA1E}"/>
+	</Node>
+</Nodes>

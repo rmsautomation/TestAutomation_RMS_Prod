@@ -1,0 +1,40 @@
+﻿
+function VerifyOriginCityLinking() {
+    
+    var xpath = "//mat-cell[contains(@class, 'cdk-column-origin_city--origin_state_code')]";
+ 
+    var page = Sys.Browser("chrome").Page("https://staging.gocatapult.com/qms/#/rate-search");
+    
+    var element = page.WaitElement(xpath, 1000000);
+   
+    if (element !== null) {
+       
+        var elements = page.EvaluateXPath(xpath);
+        
+        if (elements !== null && element.VisibleOnScreen) {
+            
+            var foundDifferentText = false;
+            
+            for (var i = 0; i < elements.length; i++) {
+                var element = elements[i];
+                if (element.contentText.trim() !== 'Los Angeles, CA') {
+                    foundDifferentText = true;
+                    break; 
+                }
+            }
+            
+            if (foundDifferentText) {
+                Log.Message('There is another location different to "Los Angeles". The Test Pass');
+            } else {
+                Log.Error('The Test Fail there is not another different location');
+            }
+        } else {
+            Log.Error('There are no elements.');
+        }
+    } else {
+        Log.Error('Element not found');
+    }
+}
+
+
+

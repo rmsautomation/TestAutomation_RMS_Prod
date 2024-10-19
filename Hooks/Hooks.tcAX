@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}" version="1400" key="{CE17AC6A-49DD-496D-9684-202FEC178E91}" typeId="{E7ABA87F-E873-4452-9921-6F4BAAEB2BCC}">
+	<config nodeName="Hooks" tlbHistory="&quot;TestComplete general events&quot;" />
+	<testData />
+	<data />
+	<children>
+		<child key="{693EEAC8-94D1-472F-A4C7-9A782CFE7197}">
+			<config nodeName="Hooks" lastOpenedTLB="" generatedCLSID="{F0279A6C-2A36-4036-8E0B-10AB1BA8CD52}" generatedTLBKey="{4135B6D2-4A04-482C-97B3-3827D68B2E8F}" generatedEventsKey="{53223417-79A6-441E-AB68-3565A32221FF}" generatedTLBDesc="TestComplete Hooks Control - 8/28/2024 5:41:40 PM">
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743811" infoControlName="General Events" infoEventName="OnLogError" infoEventRealName="OnLogError" infoDescription="Occurs when an error message is posted to the test log." />
+				<eventInfo infoTLBVer="version.dll" infoGUID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" infoID="1610743810" infoControlName="General Events" infoEventName="OnLogWarning" infoEventRealName="OnLogWarning" infoDescription="Occurs when a warning message is posted to the test log." />
+				<handlerInfo handlerName="OnLogError" handlerMoniker="{6ABAD279-7AA8-4420-A928-0BA0E9C76806}OnLogError" handlerEventName="OnLogError" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743811" />
+				<handlerInfo handlerName="Event_OnLogWarningObjectReplaced" handlerMoniker="{4D4BF37D-98E4-4136-8D41-9BD82BBE486E}Event_OnLogWarningObjectReplaced" handlerEventName="OnLogWarning" handlerRealIID="{4C03E9F2-BB22-4E21-B2E7-E51B754FCBBA}" handlerRealDispID="1610743810" />
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

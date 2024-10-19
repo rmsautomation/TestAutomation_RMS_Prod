@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{2717825A-8D4C-4DC1-B58D-9066D2E89811}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="11" kind="0" dateTime="45531.587025463" objectName="Aliases.browser.pageQms.radiobuttonLcl" objectLeft="976" objectTop="204" objectRight="1016" objectBottom="244" clickPointX="994" clickPointY="222" imageFileName="tcvi591505828151480.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="12" kind="0" dateTime="45531.5870717593" objectName="Aliases.browser.pageQms.vg16" objectLeft="1303" objectTop="797" objectRight="1327" objectBottom="821" clickPointX="1315" clickPointY="806" imageFileName="tcvi591510468151481.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45531.5871180556" objectName="Aliases.browser.pageQms.panelMatSelect20Panel" objectLeft="958" objectTop="517" objectRight="1325" objectBottom="792" clickPointX="1316" clickPointY="599" imageFileName="tcvi591514468151484.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="45531.5875694444" objectName="Aliases.browser.pageQms.selectPCT" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi5915534681514811.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45531.587349537" objectName="Aliases.browser.pageQms.textboxNumber13" objectLeft="989" objectTop="858" objectRight="1294" objectBottom="882" clickPointX="-1" clickPointY="-1" imageFileName="tcvi591534312151488.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

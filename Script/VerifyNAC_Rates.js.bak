@@ -1,0 +1,56 @@
+﻿function VarifyNAC_AfterRuleUser() {
+  var total_quotesAfterRule_text = Project.Variables.actualRates_afterRule
+   var expected_quotes_afterRule = Project.Variables.expectedRates_afterRule;
+   if (total_quotesAfterRule_text === expected_quotes_afterRule) {
+    Log.Checkpoint("The variables are equal: " + total_quotesAfterRule_text);
+  } else {
+    Log.Error("The variables are not equal. Expected: " + expected_quotes_afterRule + ", but got: " + total_quotesAfterRule_text);
+  }
+ /* var match = total_quotesAfterRule_text.match(/of\s+(\d+)/);
+
+  if (!match) {
+    Log.Error("Unable to extract total quotes after rule from the text.");
+    return;
+  }
+
+  var total_quotes_AfterRule = Number(match[1]);
+  if (isNaN(total_quotes_AfterRule)) {
+    Log.Error("Extracted value for total quotes after rule is not a number.");
+    return;
+  }
+
+  Log.Message("Total Quotes is: " + total_quotes_AfterRule);
+
+  var expected_quotes_afterRule = Project.Variables.expectedRates_afterRule;
+  var expected_match = expected_quotes_afterRule.match(/of\s+(\d+)/);
+
+  if (!expected_match) {
+    Log.Error("Unable to extract expected total quotes from the text.");
+    return;
+  }
+
+  var expected_total_quotes = Number(expected_match[1]);
+  if (isNaN(expected_total_quotes)) {
+    Log.Error("Extracted value for expected total quotes is not a number.");
+    return;
+  }
+
+  Log.Message("Expected total quotes: " + expected_total_quotes);
+
+  if (total_quotes_AfterRule === expected_total_quotes) {
+    Log.Checkpoint("Total Quotes is correct: " + total_quotes_AfterRule);
+  } else {
+    Log.Error("Expected: " + expected_total_quotes + ", but got: " + total_quotes_AfterRule);
+  }*/
+}
+
+function verifyTotalRatesAnotherUser() {
+  var initialRates = Project.Variables.ratesBeforeRule;
+var totalRatesAnotherUser = Project.Variables.totalRates_anotherUser;
+
+  if (initialRates === totalRatesAnotherUser) {
+    Log.Checkpoint("The variables are equal: " + initialRates);
+  } else {
+    Log.Error("The variables are not equal. Expected: " + initialRates + ", but got: " + totalRatesAnotherUser);
+  }
+}
