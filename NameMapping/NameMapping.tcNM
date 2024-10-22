@@ -128,10 +128,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-option-15" />
+												<Value Value="//mat-option[contains(., &apos;Is&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-option[contains(., &apos;Is&apos;)]" />
+												<Value Value="#mat-option-15" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -2036,7 +2036,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)]/div[contains(@class,&apos;mat-mdc-select-arrow&apos;)])[6]" />
+												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)]/div[contains(@class,&apos;mat-mdc-select-arrow&apos;)])[5]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
@@ -3899,10 +3899,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[7]" />
+												<Value Value="xpath=//*[@class=&quot;value green&quot;]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//*[@class=&quot;value green&quot;]" />
+												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[6]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -5086,9 +5086,6 @@
 										<Image FileName="389729515" Left="1365" Top="852" Right="1821" Bottom="884" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
-											<Selector>
-												<Value Value="#mat-select-value-219" />
-											</Selector>
 											<Selector>
 												<Value Value="//search-charges-result-charge-form/div[3]//mat-form-field//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
 											</Selector>
@@ -14797,6 +14794,75 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode" Key="{7F2390DA-32EC-477E-9982-79D037996BBE}">
+										<Image FileName="-1294046391" Left="203" Top="537" Right="224" Bottom="561" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//span)[73]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{901735FD-F305-4931-8B52-A67BBD899F35}">
+										<Image FileName="566530068" Left="220" Top="567" Right="235" Bottom="591" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;ion-md-document&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="value" Key="{1C1E7905-9DF5-4B64-800E-EC56834E610C}">
+										<Image FileName="-293749873" Left="798" Top="532" Right="1088" Bottom="564" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//mat-dialog-container[@role=&apos;dialog&apos;]//cp-prepaid-collect-dialog//div/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)])[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="prepaidOption" Key="{E6116CB0-358C-41B0-9243-70285FB07208}">
+										<Image FileName="1181796853" Left="797" Top="573" Right="1107" Bottom="621" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[.=&apos;Prepaid&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="directionOption" Key="{279AE650-0AE2-4467-9CBF-5A9897022B9C}">
+										<Image FileName="1570753219" Left="798" Top="606" Right="1088" Bottom="638" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-prepaid-collect-dialog//div[2]/mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="exportOption" Key="{E0EBB7B2-8FAB-4F8F-BAD2-4B31C679BCE2}">
+										<Image FileName="-2001710711" Left="797" Top="647" Right="1107" Bottom="695" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[.=&apos;Export&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{60565485-EB70-4FCF-9A72-2FEF45F81E9F}">
+										<Image FileName="-589902025" Left="1029" Top="672" Right="1069" Bottom="708" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//div/div/div/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-2&apos;]//div/div/div/shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//div/div/div/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -15875,6 +15941,13 @@
 			</Child>
 			<Child Name="pageQms2" Owner="{FE0D44EF-5280-486F-A03A-95F193329338}">
 				<Child Name="panel" Owner="{BB60C083-0BEB-429C-B787-675DEE107ABF}" />
+				<Child Name="textnode" Owner="{7F2390DA-32EC-477E-9982-79D037996BBE}" />
+				<Child Name="textnode2" Owner="{901735FD-F305-4931-8B52-A67BBD899F35}" />
+				<Child Name="value" Owner="{1C1E7905-9DF5-4B64-800E-EC56834E610C}" />
+				<Child Name="prepaidOption" Owner="{E6116CB0-358C-41B0-9243-70285FB07208}" />
+				<Child Name="directionOption" Owner="{279AE650-0AE2-4467-9CBF-5A9897022B9C}" />
+				<Child Name="exportOption" Owner="{E0EBB7B2-8FAB-4F8F-BAD2-4B31C679BCE2}" />
+				<Child Name="button" Owner="{60565485-EB70-4FCF-9A72-2FEF45F81E9F}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
