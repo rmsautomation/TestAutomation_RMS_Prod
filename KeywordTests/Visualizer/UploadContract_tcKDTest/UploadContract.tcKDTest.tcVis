@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{DE53AD68-A693-4177-A1C6-84EB1C6C756F}" />
+	<data key="{DE53AD68-A693-4177-A1C6-84EB1C6C756F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45587.6493518519" objectName="Aliases.browser.pageQms.ControlPanel_Button" objectLeft="1846" objectTop="120" objectRight="1906" objectBottom="176" clickPointX="1881" clickPointY="143" imageFileName="tcvi737261437138320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45587.6494444444" objectName="Aliases.browser.pageQms.textnodeOrganizationSettings2" objectLeft="85" objectTop="937" objectRight="224" objectBottom="954" clickPointX="182" clickPointY="953" imageFileName="tcvi737268921138322.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45587.6494791667" objectName="Aliases.browser.pageQms.panel1" objectLeft="85" objectTop="257" objectRight="1895" objectBottom="969" clickPointX="1887" clickPointY="374" imageFileName="tcvi737271812138323.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45587.6495138889" objectName="Aliases.browser.pageQms.radiobuttonSelfServe" objectLeft="258" objectTop="698" objectRight="298" objectBottom="738" clickPointX="276" clickPointY="719" imageFileName="tcvi737275359138324.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
