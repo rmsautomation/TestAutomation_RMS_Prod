@@ -336,6 +336,6 @@
 	</TestData>
 	<Parameters Key="{21E0EE67-2593-42AA-B83D-B4906C9498B8}">
 		<Parameter0 Name="ruleName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AUTOMATION_USER_NAC" Description="" />
-		<Parameter1 Name="user" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" Description="" />
+		<Parameter1 Name="user" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="AYLINADMIN@TEST.COM" Description="" />
 	</Parameters>
 </Root>

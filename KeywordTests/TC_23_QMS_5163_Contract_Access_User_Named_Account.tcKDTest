@@ -12,7 +12,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Login">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="AYLINADMIN@TEST.COM" />
 						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
 					</Parameters>
 				</Data>
@@ -201,7 +201,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Login">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="AYLINADMIN@TEST.COM" />
 						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
 					</Parameters>
 				</Data>
@@ -259,7 +259,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Login">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylinadmin@test.com" />
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
 						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
 					</Parameters>
 				</Data>
@@ -325,7 +325,7 @@
 				<DefValue StrValue="AUTOMATION_USER_NAC" />
 			</Variable>
 			<Variable Name="user" Type="String" Local="False">
-				<DefValue StrValue="aylin.rodriguez@magaya.com" />
+				<DefValue StrValue="AYLINADMIN@TEST.COM" />
 			</Variable>
 			<Variable Name="nac_name" Type="String" Local="False">
 				<DefValue StrValue="10" />
