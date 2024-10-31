@@ -224,6 +224,7 @@
 			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="actualRates_afterRule">
+					<CommonData WaitTimeout="70000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="NewValue" DefVarType="0" ParamType="{5EF65F78-D6E6-4C84-90CA-F464F32D7A1D}" Expression="Aliases.browser.pageQms.quoteNumber.contentText" />
 					</Parameters>
