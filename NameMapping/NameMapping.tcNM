@@ -2699,9 +2699,6 @@
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-52" />
-											</Selector>
-											<Selector>
 												<Value Value="//div[4]//search-removable-location-and-shipment-form//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
 											</Selector>
 											<Selector>
@@ -5791,12 +5788,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelTotalBuyPrice2" Key="{721A00E6-82AB-49A8-A684-AE7DEC02FF40}">
+									<Child Name="versionAuto" Key="{721A00E6-82AB-49A8-A684-AE7DEC02FF40}">
 										<Image FileName="-513926724" Left="1541" Top="-197" Right="1867" Bottom="1174" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//search-rate-panel-multi-modal/div[contains(@class, &apos;flex-layout-stretch&apos;)]/mat-tab-group//mat-tab-body//div[contains(@class, &apos;flex-layout-stretch&apos;)]/div[contains(@class, &apos;flex-layout-stretch&apos;)]" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(normalize-space(text()), &apos;EFT (v.Auto&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15265,7 +15262,7 @@
 				<Child Name="panel22" Owner="{B07E34F6-48AC-463B-813B-4A76AF343005}" />
 				<Child Name="textnodeOverview" Owner="{8D20238C-FA48-40C0-9FD7-4CCE9A4E1017}" />
 				<Child Name="radiobuttonSell" Owner="{61AEDA33-8313-4892-BD69-97F62A6A9D93}" />
-				<Child Name="panelTotalBuyPrice2" Owner="{721A00E6-82AB-49A8-A684-AE7DEC02FF40}" />
+				<Child Name="versionAuto" Owner="{721A00E6-82AB-49A8-A684-AE7DEC02FF40}" />
 				<Child Name="panel23" Owner="{9870D676-A19E-4E9E-94F5-7E19ACADE640}" />
 				<Child Name="linkSurchargeOriginAddedCharge" Owner="{448AA506-2FD9-41D5-9E77-0DB565B41ECF}" />
 				<Child Name="panelSpot2" Owner="{914F4BE5-AF99-41E0-92DF-34BAECB3EF02}" />
