@@ -4959,12 +4959,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel100" Key="{AA7C2BAB-D5AC-4FB0-A94B-8425D34C488D}">
+									<Child Name="panelITG" Key="{AA7C2BAB-D5AC-4FB0-A94B-8425D34C488D}">
 										<Image FileName="-781544368" Left="1583" Top="730" Right="1621" Bottom="786" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//search-charges-result-charge-form/div[3]//div[4]/mat-form-field//div[contains(@class, &apos;mat-mdc-form-field-infix&apos;)]" />
+												<Value Value="xpath=//mat-cell//div[contains(text(), &apos;ITGA&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14860,6 +14860,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelFullServeContractOptions" Key="{8F77F8C6-071F-4F2C-9B9F-9D3E6E4E77A0}">
+										<Image FileName="-1353878541" Left="229" Top="311" Right="1895" Bottom="978" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;full-serve-main&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-0&apos;]//upload-full-serve/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//upload-full-serve/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDone" Key="{EDC095ED-9C33-433D-8419-07A6EC5535AA}">
+										<Image FileName="-1986027175" Left="1790" Top="954" Right="1814" Bottom="978" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-icon[.=&apos;done&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-icon[contains(@class, &apos;done&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -15194,7 +15221,7 @@
 				<Child Name="dashboardMessage" Owner="{BEFC1E17-218A-424E-B4C9-887E9642B766}" />
 				<Child Name="miamiPort" Owner="{04500AB5-D6A3-4DB3-9AD2-17E5FCA93207}" />
 				<Child Name="radiobuttonBuy" Owner="{86D79814-3E7B-458D-B4CD-434208ACEC41}" />
-				<Child Name="panel100" Owner="{AA7C2BAB-D5AC-4FB0-A94B-8425D34C488D}" />
+				<Child Name="panelITG" Owner="{AA7C2BAB-D5AC-4FB0-A94B-8425D34C488D}" />
 				<Child Name="textnodeCollect" Owner="{EA60C97B-FAAF-4904-B2D1-B7A64D61ED1A}" />
 				<Child Name="save" Owner="{5B4E8B40-E25B-4102-8A56-DA406909D6C8}" />
 				<Child Name="panel16" Owner="{898CF50D-2268-46D3-9945-59BD14B1813F}" />
@@ -15945,6 +15972,8 @@
 				<Child Name="directionOption" Owner="{279AE650-0AE2-4467-9CBF-5A9897022B9C}" />
 				<Child Name="exportOption" Owner="{E0EBB7B2-8FAB-4F8F-BAD2-4B31C679BCE2}" />
 				<Child Name="button" Owner="{60565485-EB70-4FCF-9A72-2FEF45F81E9F}" />
+				<Child Name="panelFullServeContractOptions" Owner="{8F77F8C6-071F-4F2C-9B9F-9D3E6E4E77A0}" />
+				<Child Name="textnodeDone" Owner="{EDC095ED-9C33-433D-8419-07A6EC5535AA}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
