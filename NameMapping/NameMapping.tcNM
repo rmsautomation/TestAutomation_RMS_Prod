@@ -6407,7 +6407,7 @@
 												<Value Value="xpath=(//button[@role=&apos;switch&apos;])[5]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=css=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
+												<Value Value="xpath=(//div[@class=&apos;mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator&apos;])[5]" />
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//button[@aria-labelledby=&apos;mat-mdc-slide-toggle-16-label&apos;]" />
@@ -10555,15 +10555,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel12" Key="{B081A2DB-B26B-470E-89C5-F78766ED5AEE}">
+									<Child Name="hazToggleSelected" Key="{B081A2DB-B26B-470E-89C5-F78766ED5AEE}">
 										<Image FileName="-1474911955" Left="1357" Top="566" Right="1863" Bottom="582" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@aria-describedby=(//div[.=&apos;EFT (v.AutomationLCL_MIN_MAX)&apos;]/@id)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(text(), &apos;Surcharge Origin:&apos;)]" />
+												<Value Value="xpath=//div[label[contains(text(), &apos;Hazardous&apos;)]]//button[@role=&apos;switch&apos; and contains(@class, &apos;mdc-switch mdc-switch--selected mdc-switch--checked&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14861,7 +14858,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="panelFullServeContractOptions" Key="{8F77F8C6-071F-4F2C-9B9F-9D3E6E4E77A0}">
-										<Image FileName="-1353878541" Left="229" Top="311" Right="1895" Bottom="978" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -14876,7 +14872,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeDone" Key="{EDC095ED-9C33-433D-8419-07A6EC5535AA}">
-										<Image FileName="-1986027175" Left="1790" Top="954" Right="1814" Bottom="978" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15620,7 +15615,7 @@
 				<Child Name="numberinputMatInput118" Owner="{AEC7103F-BBF9-450B-9391-3EAEACEBAB9B}" />
 				<Child Name="textnodeUpload3" Owner="{E757ACCD-CDC9-4104-8557-9EC3970B3347}" />
 				<Child Name="getBaseRatePriceLCL" Owner="{CB6CC885-7813-43E1-A908-CE30706DD374}" />
-				<Child Name="panel12" Owner="{B081A2DB-B26B-470E-89C5-F78766ED5AEE}" />
+				<Child Name="hazToggleSelected" Owner="{B081A2DB-B26B-470E-89C5-F78766ED5AEE}" />
 				<Child Name="panelSurchargeOrigin" Owner="{29AA9CEC-B2BD-4EFE-B2C5-89948F7DAF3B}" />
 				<Child Name="panel43" Owner="{F2EE0160-7E8C-4215-A22C-AE0F2B33702F}" />
 				<Child Name="eft_lcl" Owner="{90DB1BCC-096C-40C1-8650-C38C89453EF6}" />
