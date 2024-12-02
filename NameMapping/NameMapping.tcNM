@@ -6906,18 +6906,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel29" Key="{666707E7-14DF-4028-B8D5-303DD686F6FB}">
+									<Child Name="surchargeCell" Key="{666707E7-14DF-4028-B8D5-303DD686F6FB}">
 										<Image FileName="-1331898185" Left="1172" Top="484" Right="1863" Bottom="500" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[@aria-describedby=(//div[.=&apos;EFT (v.AutomationFCLOrigin)&apos;]/@id)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[contains(text(), &apos;Surcharge Origin:&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//search-charges-result-charge-form/div/div" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(@class, &apos;ng-star-inserted&apos;) and normalize-space(text())=&apos;AutomationLCL_MIN_MAX&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15360,7 +15354,7 @@
 				<Child Name="commoditygroup" Owner="{43FCDC4A-28FD-405F-BF4A-ED42E03F3689}" />
 				<Child Name="panel28" Owner="{66566B8D-F3D0-48FA-A3BA-309A11EB3895}" />
 				<Child Name="save_EFT" Owner="{D3070E05-DF4C-4B0D-98E2-55AD93CDCFBA}" />
-				<Child Name="panel29" Owner="{666707E7-14DF-4028-B8D5-303DD686F6FB}" />
+				<Child Name="surchargeCell" Owner="{666707E7-14DF-4028-B8D5-303DD686F6FB}" />
 				<Child Name="textnodeOrigin" Owner="{6D51315E-8B26-484E-83B3-E9013F11C339}" />
 				<Child Name="panelMatSelectValue91" Owner="{71A7AC53-47F3-4AD2-A5C2-2CCBFEAC9B52}" />
 				<Child Name="panelFreetimetest11" Owner="{129AB52B-6D43-48A8-9714-0B985C243EBA}" />
