@@ -5,11 +5,11 @@
 			<child name="BulkTariffFilingTemplateOKK_xlsm" key="{547F4569-47A5-4C36-98AB-0B5C5C0248D3}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="BulkTariffFilingTemplateOKK_xlsm" ID="{547F4569-47A5-4C36-98AB-0B5C5C0248D3}" FileName="Files\BulkTariffFilingTemplateOKK.xlsm" Update="False" />
 			</child>
-			<child name="RegressionStaging_xlsm" key="{8C06790B-9444-40D0-A480-CECF4FEC45B8}">
-				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="RegressionStaging_xlsm" ID="{8C06790B-9444-40D0-A480-CECF4FEC45B8}" FileName="Files\RegressionStaging.xlsm" Update="False" />
-			</child>
 			<child name="BookingUpload_xlsx" key="{9AFC4B34-84B0-48A8-9972-B0F049EBEB59}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="BookingUpload_xlsx" ID="{9AFC4B34-84B0-48A8-9972-B0F049EBEB59}" FileName="Files\BookingUpload.xlsx" Update="False" />
+			</child>
+			<child name="RegressionStaging_xlsm" key="{A3F089A4-7312-4405-A9A2-473B8499F79A}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="RegressionStaging_xlsm" ID="{A3F089A4-7312-4405-A9A2-473B8499F79A}" FileName="Files\RegressionStaging.xlsm" Update="False" />
 			</child>
 		</folder>
 		<child name="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" key="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}">
