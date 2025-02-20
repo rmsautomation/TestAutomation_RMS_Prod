@@ -7359,6 +7359,9 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//span[contains(normalize-space(), &apos;8016&apos;) and contains(normalize-space(), &apos;TEST AIR&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//span[contains(text(), &apos;8016 (TEST AIR)&apos;)]" />
 											</Selector>
 											<Selector>
