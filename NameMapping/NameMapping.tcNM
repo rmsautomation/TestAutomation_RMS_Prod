@@ -734,9 +734,6 @@
 												<Value Value="//input[@id=(//label[.=&apos;Rate&apos;]/@for)]" />
 											</Selector>
 											<Selector>
-												<Value Value="#mat-input-6" />
-											</Selector>
-											<Selector>
 												<Value Value="//input[@type=&apos;number&apos;]" />
 											</Selector>
 											<Selector>
@@ -4526,6 +4523,9 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//a[contains(normalize-space(), &apos;Base Rate&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//div[@id=&apos;search-rate-details-wrapper&apos;]//div//div[2]/a)[1]" />
 											</Selector>
 										</Selectors>
@@ -4536,9 +4536,6 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//div[5]/div[2]/div/mat-form-field//input[@type=&apos;number&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="#mat-input-45" />
 											</Selector>
 											<Selector>
 												<Value Value="//div[5]/div[2]/div/mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
@@ -5385,10 +5382,13 @@
 										<TypeInfo Item0="{631957E0-E6E9-4AB9-AD38-6DC8505DBF42}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Line Haul&apos;)]" />
+												<Value Value="xpath=//a[contains(normalize-space(), &apos;Base Rate&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=//a[contains(text(), &apos;Base Rate&apos;)]" />
+												<Value Value="xpath=//a[contains(normalize-space(), &apos;Line Haul&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Line Haul&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -7358,6 +7358,9 @@
 										<Image FileName="-2141380713" Left="1568" Top="500" Right="1669" Bottom="524" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(normalize-space(), &apos;8016&apos;) and contains(normalize-space(), &apos;TEST AIR&apos;)]" />
+											</Selector>
 											<Selector>
 												<Value Value="//span[contains(text(), &apos;8016 (TEST AIR)&apos;)]" />
 											</Selector>
