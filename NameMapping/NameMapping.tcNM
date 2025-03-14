@@ -9346,10 +9346,13 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-select[@id=&apos;mat-select-198&apos;]//*[name()=&apos;svg&apos;]" />
+												<Value Value="xpath=//h6[contains(@class, &apos;options-header&apos;) and text()=&apos;Open Saved Grid&apos;]/ancestor::search-form-multi-lane-saved-grid-options//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//search-form-multi-lane-saved-grid-options//mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-198&apos;]//*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
