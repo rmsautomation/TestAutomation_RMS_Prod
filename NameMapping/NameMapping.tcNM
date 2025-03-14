@@ -2033,6 +2033,9 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Commodity&apos;]/parent::div/following-sibling::mat-form-field//div[contains(@class, &apos;mat-mdc-select-arrow&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-arrow-wrapper&apos;)]/div[contains(@class,&apos;mat-mdc-select-arrow&apos;)])[5]" />
 											</Selector>
 											<Selector>
@@ -8839,10 +8842,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[text()=&apos;Options&apos;]" />
+												<Value Value="//span[text()=&apos;Filed Rates&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//span[text()=&apos;Filed Rates&apos;]" />
+												<Value Value="xpath=//span[text()=&apos;Options&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-1-0&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
@@ -9015,6 +9018,9 @@
 										<Image FileName="1823951071" Left="220" Top="585" Right="310" Bottom="609" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;mat-tooltip-trigger&apos;) and normalize-space(text())=&apos;AUTOMATIONTEST&apos;]" />
+											</Selector>
 											<Selector>
 												<Value Value="//div[contains(@class, &apos;bg-gray&apos;)]" />
 											</Selector>
@@ -13900,6 +13906,38 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
+								<Image FileName="104430154" Left="8" Top="181" Right="1928" Bottom="738" />
+								<TypeInfo Item0="{CA41DE9F-6C38-41BA-9AE2-C703EFF0CEF6}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://outlook.office.com/mail/inbox/id/AAQkADZhNjEyM2NkLTBiMjEtNGVlMy1iODIzLTM4ZDVhYTliYjEwNQAQAJpcF1tuOYhAvbPz3E%2Brrb8%3D" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeQuoteIdQ6902481" Key="{69D2D473-B803-4C67-9B69-B35C753A4AC5}">
+										<Image FileName="104430154" Left="645" Top="325" Right="789" Bottom="346" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(normalize-space(@title), &apos;Quote ID:&apos;) and contains(normalize-space(text()), &apos;Quote ID:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@title, &apos;Quote ID:&apos;) and contains(text(), &apos;Quote ID:&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -14879,6 +14917,443 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode15" Key="{C4637BD1-DAF6-4B64-BA66-557AC6CC2E85}">
+										<Image FileName="516868365" Left="235" Top="540" Right="251" Bottom="554" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;mat-tooltip-trigger&apos;) and normalize-space(text())=&apos;15&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
+								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/oauth2/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
+										<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="174" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Pick an account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDlDfpRmsMagayaCom" Key="{C16E4DEA-191F-4EB0-AC9D-FFECFD298B5E}">
+										<Image FileName="-862692709" Left="844" Top="594" Right="1124" Bottom="610" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;DL-DFP_RMS@magaya.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tilesHolder&apos;]//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{B48E48B9-6AF8-496D-9CC9-BA09471C4009}">
+										<Image FileName="-237077329" Left="786" Top="587" Right="1134" Bottom="623" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{F3156E87-B83C-473F-B5B6-C1630D804CC3}">
+										<Image FileName="218655903" Left="1028" Top="685" Right="1136" Bottom="717" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputSomeoneExampleCom" Key="{601B541B-1596-4A22-9756-152A12B3AE99}">
+										<Image FileName="785243643" Left="786" Top="530" Right="1134" Bottom="566" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;loginfmt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToOutlook2" Key="{976B7658-A325-4EBA-80C6-668ABEE8E39A}">
+								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="submitbuttonNext" Key="{AC7C7B01-9EBC-43AB-A5C6-989F8B08283D}">
+										<Image FileName="634842439" Left="1028" Top="714" Right="1136" Bottom="746" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSubmit_ProofUp_Redirect" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSecurityinfo" Key="{0F1B8526-F4B5-43AF-AA48-862557D9B409}">
+								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://account.activedirectory.windowsazure.com/securityinfo*" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageMySignInsRegisterMicrosoftCo" Key="{694EA6F0-8547-485C-8EA2-D88630BFE9FC}">
+								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mysignins.microsoft.com/register*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSkipSetup" Key="{51B6E58F-C8DF-4F90-AD4E-B8AECAF5E118}">
+										<Image FileName="912798168" Left="1208" Top="652" Right="1304" Bottom="672" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMailDlDfpRmsOutlook" Key="{7DD08D18-7424-4E65-9125-43924427E5E5}">
+								<Image FileName="-127136533" Left="0" Top="173" Right="1920" Bottom="987" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://outlook.office.com/mail/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeAylinStandardRodriguezPe" Key="{6F7E2612-0802-4F8C-93AA-920489FEFEF2}">
+										<Image FileName="-127136533" Left="338" Top="370" Right="552" Bottom="389" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAylinStandardRodriguezPe2" Key="{F30D55EF-55B3-436F-B62F-8D5A0B40EA76}">
+										<Image FileName="298412083" Left="346" Top="811" Right="560" Bottom="830" />
+										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[.=&apos;Aylin STANDARD Rodriguez Perez&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMailDlDfpRmsOutlook2" Key="{EFE22D52-2846-4DCB-BC16-D8BA07BBB00A}">
+								<Image FileName="-127136533" Left="0" Top="173" Right="1920" Bottom="987" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://outlook.office.com/mail/inbox/id/AAQkADZhNjEyM2NkLTBiMjEtNGVlMy1iODIzLTM4ZDVhYTliYjEwNQAQAC4TyTo6pEdKk2%2F4Y%2BvP6K4%3D" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel1Messages" Key="{61762DF4-C37D-4D43-A29A-064D9815B520}">
+										<Image FileName="2011790741" Left="623" Top="406" Right="1920" Bottom="987" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;Q8TCC&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="imageImg" Key="{F6D71987-DB95-405F-B65A-D6F090A77181}">
+										<Image FileName="1145907305" Left="693" Top="121" Right="1413" Bottom="709" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@role=&apos;document&apos;]//tr/td/img[contains(@src, &apos;GetAttachmentThumbnail&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//img[contains(@class, &apos;Do8Zj&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;UniqueMessageBody_2&apos;]//img" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//div[@role=&apos;document&apos;]//tr/td/img" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeQuoteIdQ6899250" Key="{E6AC0442-914D-4B16-8B28-B9AE12769662}">
+										<Image FileName="-1531418103" Left="637" Top="317" Right="783" Bottom="338" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@title, &apos;Quote ID:&apos;) and contains(text(), &apos;Quote ID:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@title, &apos;Quote&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;JdFsz&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageQuoteAcceptance" Key="{FD1FBD26-A64C-4C3A-9B92-70118EC8FD00}">
+								<Image FileName="2051880447" Left="0" Top="173" Right="1919" Bottom="986" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.gocatapult.com/quote/f66362ef-ab15-48b6-915c-48114f0ec761/reject/DL-DFP_RMS@magaya.com" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeQuoteRejection" Key="{8FCBE30B-F0A4-4A97-BF88-B336CC608879}">
+										<Image FileName="2051880447" Left="748" Top="241" Right="851" Bottom="259" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Quote Rejection&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonDeny" Key="{8B1FE9D1-F63D-4C79-B596-E2EABB749779}">
+										<Image FileName="1327083499" Left="897" Top="370" Right="1041" Bottom="397" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;DENY&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageQuoteAcceptance2" Key="{902FDE4C-7D3F-4EA6-8BBD-F1E3A2943860}">
+								<Image FileName="29867438" Left="0" Top="173" Right="1919" Bottom="986" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://staging.gocatapult.com/quote/f66362ef-ab15-48b6-915c-48114f0ec761/confirm" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeQuoteRejection" Key="{6C11FBA4-6BAE-4F54-854D-439F2B5419F6}">
+										<Image FileName="29867438" Left="748" Top="241" Right="851" Bottom="259" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Quote Rejection&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;heading-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//quote-acceptance-feedback/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{77ECC51F-8CAD-4E32-B828-40851DD0B201}">
+										<Image FileName="29867438" Left="748" Top="275" Right="1044" Bottom="293" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//b[.=&apos;Quote q6899250 has been denied. Thank you!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYouMayCloseThisWindowIfY" Key="{5897DDBB-B008-4067-B447-616A2EF7BB59}">
+										<Image FileName="29867438" Left="748" Top="420" Right="1155" Bottom="456" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//i[contains(@class, &apos;ng-star-inserted&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFeedback" Key="{55EC3EF3-975F-4313-A1F5-CA1C76229F42}">
+										<Image FileName="349621446" Left="757" Top="372" Right="1158" Bottom="387" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-panel-title[contains(text(), &apos;Feedback&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-panel-title[contains(@class, &apos;mat-expansion-panel-header-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-expansion-panel-header[@id=&apos;mat-expansion-panel-header-0&apos;]//mat-panel-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-panel-title" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{36E57055-75EE-4FCE-BADA-C6D90E63B32C}">
+										<Image FileName="463277896" Left="748" Top="449" Right="791" Bottom="492" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-expansion-panel//div[2]/mat-checkbox//div[contains(@class, &apos;mat-mdc-checkbox-touch-target&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textareaMatInput1" Key="{D096EF7A-3256-4859-BF42-3CD879DF568D}">
+										<Image FileName="-1564685144" Left="765" Top="576" Right="1179" Bottom="619" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mat-input-1" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-accordion-child-0&apos;]//textarea" />
+											</Selector>
+											<Selector>
+												<Value Value="//textarea" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCheck" Key="{00144B21-58FD-4F22-BDA3-B110F970EC15}">
+										<Image FileName="671698323" Left="748" Top="682" Right="777" Bottom="709" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(., &apos;check&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 						</Children>
@@ -15507,7 +15982,7 @@
 				<Child Name="textnodeView" Owner="{2F627079-17F1-442E-AC2A-C48F87FFE8A6}" />
 				<Child Name="button5" Owner="{2A6134B6-C126-48C5-956C-8893CDFFADD1}" />
 				<Child Name="textnode10" Owner="{9D75D79E-9628-425D-BF5A-A7829412964C}" />
-				<Child Name="panel152" Owner="{029FD21F-D051-4BEC-8F7E-688AD79C27C2}" />
+				<Child Name="panelContractOriginal" Owner="{029FD21F-D051-4BEC-8F7E-688AD79C27C2}" />
 				<Child Name="textnodeNoContractsFound" Owner="{C6702A59-2709-42AB-9DE6-7C4ECD1C7FF1}" />
 				<Child Name="textnodeAutomationtest" Owner="{58EAC692-DFDA-43BA-AA14-F56C81C04CAD}" />
 				<Child Name="textnodeAmdReleaseDownload" Owner="{DCB73454-3449-46AA-9EC7-F2174EEDADB2}" />
@@ -15862,6 +16337,9 @@
 				<Child Name="panelReports" Owner="{8A20B864-A7BF-41A1-A252-6EEC73BE12A0}" />
 				<Child Name="checkboxMatMdcCheckbox121Input" Owner="{493029EB-E305-4FD1-BB23-197BDB00729D}" />
 			</Child>
+			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
+				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -15966,6 +16444,44 @@
 				<Child Name="button" Owner="{60565485-EB70-4FCF-9A72-2FEF45F81E9F}" />
 				<Child Name="panelFullServeContractOptions" Owner="{8F77F8C6-071F-4F2C-9B9F-9D3E6E4E77A0}" />
 				<Child Name="textnodeDone" Owner="{EDC095ED-9C33-433D-8419-07A6EC5535AA}" />
+				<Child Name="textnode15" Owner="{C4637BD1-DAF6-4B64-BA66-557AC6CC2E85}" />
+			</Child>
+			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
+				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
+					<Child Name="panelDlDfpRmsMagayaCom" Owner="{C16E4DEA-191F-4EB0-AC9D-FFECFD298B5E}" />
+					<Child Name="passwordboxPasswd" Owner="{B48E48B9-6AF8-496D-9CC9-BA09471C4009}" />
+					<Child Name="submitbuttonSignIn" Owner="{F3156E87-B83C-473F-B5B6-C1630D804CC3}" />
+					<Child Name="emailinputSomeoneExampleCom" Owner="{601B541B-1596-4A22-9756-152A12B3AE99}" />
+				</Child>
+			</Child>
+			<Child Name="pageSignInToOutlook2" Owner="{976B7658-A325-4EBA-80C6-668ABEE8E39A}">
+				<Child Name="submitbuttonNext" Owner="{AC7C7B01-9EBC-43AB-A5C6-989F8B08283D}" />
+			</Child>
+			<Child Name="pageSecurityinfo" Owner="{0F1B8526-F4B5-43AF-AA48-862557D9B409}" />
+			<Child Name="pageMySignInsRegisterMicrosoftCo" Owner="{694EA6F0-8547-485C-8EA2-D88630BFE9FC}">
+				<Child Name="buttonSkipSetup" Owner="{51B6E58F-C8DF-4F90-AD4E-B8AECAF5E118}" />
+			</Child>
+			<Child Name="pageMailDlDfpRmsOutlook" Owner="{7DD08D18-7424-4E65-9125-43924427E5E5}">
+				<Child Name="textnodeAylinStandardRodriguezPe" Owner="{6F7E2612-0802-4F8C-93AA-920489FEFEF2}" />
+				<Child Name="textnodeAylinStandardRodriguezPe2" Owner="{F30D55EF-55B3-436F-B62F-8D5A0B40EA76}" />
+			</Child>
+			<Child Name="pageMailDlDfpRmsOutlook2" Owner="{EFE22D52-2846-4DCB-BC16-D8BA07BBB00A}">
+				<Child Name="panel1Messages" Owner="{61762DF4-C37D-4D43-A29A-064D9815B520}" />
+				<Child Name="imageImg" Owner="{F6D71987-DB95-405F-B65A-D6F090A77181}" />
+				<Child Name="textnodeQuoteId" Owner="{E6AC0442-914D-4B16-8B28-B9AE12769662}" />
+			</Child>
+			<Child Name="pageQuoteAcceptance" Owner="{FD1FBD26-A64C-4C3A-9B92-70118EC8FD00}">
+				<Child Name="textnodeQuoteRejection" Owner="{8FCBE30B-F0A4-4A97-BF88-B336CC608879}" />
+				<Child Name="buttonDeny" Owner="{8B1FE9D1-F63D-4C79-B596-E2EABB749779}" />
+			</Child>
+			<Child Name="pageQuoteAcceptance2" Owner="{902FDE4C-7D3F-4EA6-8BBD-F1E3A2943860}">
+				<Child Name="textnodeQuoteRejection" Owner="{6C11FBA4-6BAE-4F54-854D-439F2B5419F6}" />
+				<Child Name="textnode" Owner="{77ECC51F-8CAD-4E32-B828-40851DD0B201}" />
+				<Child Name="textnodeYouMayCloseThisWindowIfY" Owner="{5897DDBB-B008-4067-B447-616A2EF7BB59}" />
+				<Child Name="textnodeFeedback" Owner="{55EC3EF3-975F-4313-A1F5-CA1C76229F42}" />
+				<Child Name="panel" Owner="{36E57055-75EE-4FCE-BADA-C6D90E63B32C}" />
+				<Child Name="textareaMatInput1" Owner="{D096EF7A-3256-4859-BF42-3CD879DF568D}" />
+				<Child Name="buttonCheck" Owner="{00144B21-58FD-4F22-BDA3-B110F970EC15}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
