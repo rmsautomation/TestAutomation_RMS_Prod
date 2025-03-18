@@ -3899,6 +3899,9 @@
 												<Value Value="xpath=//*[@class=&quot;value green&quot;]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;) and contains(text(), &apos;USD&apos;)])[3]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//div[contains(@class, &apos;value&apos;)])[6]" />
 											</Selector>
 										</Selectors>
@@ -13910,7 +13913,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
-								<Image FileName="104430154" Left="8" Top="181" Right="1928" Bottom="738" />
 								<TypeInfo Item0="{CA41DE9F-6C38-41BA-9AE2-C703EFF0CEF6}" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -13922,7 +13924,6 @@
 								</Properties>
 								<Children>
 									<Child Name="textnodeQuoteIdQ6902481" Key="{69D2D473-B803-4C67-9B69-B35C753A4AC5}">
-										<Image FileName="104430154" Left="645" Top="325" Right="789" Bottom="346" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
@@ -14921,7 +14922,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnode15" Key="{C4637BD1-DAF6-4B64-BA66-557AC6CC2E85}">
-										<Image FileName="516868365" Left="235" Top="540" Right="251" Bottom="554" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -14932,7 +14932,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
-								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -14943,7 +14942,6 @@
 								</Properties>
 								<Children>
 									<Child Name="formF1" Key="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
-										<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="174" />
 										<Selectors>
 											<Selector>
 												<Value Value="//form[@name=&apos;f1&apos;]" />
@@ -14960,7 +14958,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="panelDlDfpRmsMagayaCom" Key="{C16E4DEA-191F-4EB0-AC9D-FFECFD298B5E}">
-										<Image FileName="-862692709" Left="844" Top="594" Right="1124" Bottom="610" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -14972,7 +14969,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="passwordboxPasswd" Key="{B48E48B9-6AF8-496D-9CC9-BA09471C4009}">
-										<Image FileName="-237077329" Left="786" Top="587" Right="1134" Bottom="623" />
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
 											<Selector>
@@ -14993,7 +14989,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="submitbuttonSignIn" Key="{F3156E87-B83C-473F-B5B6-C1630D804CC3}">
-										<Image FileName="218655903" Left="1028" Top="685" Right="1136" Bottom="717" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
@@ -15017,7 +15012,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="emailinputSomeoneExampleCom" Key="{601B541B-1596-4A22-9756-152A12B3AE99}">
-										<Image FileName="785243643" Left="786" Top="530" Right="1134" Bottom="566" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15034,7 +15028,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook2" Key="{976B7658-A325-4EBA-80C6-668ABEE8E39A}">
-								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
 								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -15046,7 +15039,6 @@
 								</Properties>
 								<Children>
 									<Child Name="submitbuttonNext" Key="{AC7C7B01-9EBC-43AB-A5C6-989F8B08283D}">
-										<Image FileName="634842439" Left="1028" Top="714" Right="1136" Bottom="746" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
@@ -15072,7 +15064,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageSecurityinfo" Key="{0F1B8526-F4B5-43AF-AA48-862557D9B409}">
-								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
 								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -15084,7 +15075,6 @@
 								</Properties>
 							</Child>
 							<Child Name="pageMySignInsRegisterMicrosoftCo" Key="{694EA6F0-8547-485C-8EA2-D88630BFE9FC}">
-								<Image FileName="-862692709" Left="0" Top="173" Right="1920" Bottom="987" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -15095,7 +15085,6 @@
 								</Properties>
 								<Children>
 									<Child Name="buttonSkipSetup" Key="{51B6E58F-C8DF-4F90-AD4E-B8AECAF5E118}">
-										<Image FileName="912798168" Left="1208" Top="652" Right="1304" Bottom="672" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
@@ -15109,7 +15098,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{7DD08D18-7424-4E65-9125-43924427E5E5}">
-								<Image FileName="-127136533" Left="0" Top="173" Right="1920" Bottom="987" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -15120,7 +15108,6 @@
 								</Properties>
 								<Children>
 									<Child Name="textnodeAylinStandardRodriguezPe" Key="{6F7E2612-0802-4F8C-93AA-920489FEFEF2}">
-										<Image FileName="-127136533" Left="338" Top="370" Right="552" Bottom="389" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15132,7 +15119,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeAylinStandardRodriguezPe2" Key="{F30D55EF-55B3-436F-B62F-8D5A0B40EA76}">
-										<Image FileName="298412083" Left="346" Top="811" Right="560" Bottom="830" />
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
@@ -15146,7 +15132,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook2" Key="{EFE22D52-2846-4DCB-BC16-D8BA07BBB00A}">
-								<Image FileName="-127136533" Left="0" Top="173" Right="1920" Bottom="987" />
 								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
 								<Properties>
 									<Property Name="ObjectType">
@@ -15158,7 +15143,6 @@
 								</Properties>
 								<Children>
 									<Child Name="panel1Messages" Key="{61762DF4-C37D-4D43-A29A-064D9815B520}">
-										<Image FileName="2011790741" Left="623" Top="406" Right="1920" Bottom="987" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15167,7 +15151,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="imageImg" Key="{F6D71987-DB95-405F-B65A-D6F090A77181}">
-										<Image FileName="1145907305" Left="693" Top="121" Right="1413" Bottom="709" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15185,7 +15168,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeQuoteIdQ6899250" Key="{E6AC0442-914D-4B16-8B28-B9AE12769662}">
-										<Image FileName="-1531418103" Left="637" Top="317" Right="783" Bottom="338" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15205,7 +15187,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageQuoteAcceptance" Key="{FD1FBD26-A64C-4C3A-9B92-70118EC8FD00}">
-								<Image FileName="2051880447" Left="0" Top="173" Right="1919" Bottom="986" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -15216,7 +15197,6 @@
 								</Properties>
 								<Children>
 									<Child Name="textnodeQuoteRejection" Key="{8FCBE30B-F0A4-4A97-BF88-B336CC608879}">
-										<Image FileName="2051880447" Left="748" Top="241" Right="851" Bottom="259" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15228,7 +15208,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="buttonDeny" Key="{8B1FE9D1-F63D-4C79-B596-E2EABB749779}">
-										<Image FileName="1327083499" Left="897" Top="370" Right="1041" Bottom="397" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
@@ -15245,7 +15224,6 @@
 								</Children>
 							</Child>
 							<Child Name="pageQuoteAcceptance2" Key="{902FDE4C-7D3F-4EA6-8BBD-F1E3A2943860}">
-								<Image FileName="29867438" Left="0" Top="173" Right="1919" Bottom="986" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -15256,7 +15234,6 @@
 								</Properties>
 								<Children>
 									<Child Name="textnodeQuoteRejection" Key="{6C11FBA4-6BAE-4F54-854D-439F2B5419F6}">
-										<Image FileName="29867438" Left="748" Top="241" Right="851" Bottom="259" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15271,7 +15248,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnode" Key="{77ECC51F-8CAD-4E32-B828-40851DD0B201}">
-										<Image FileName="29867438" Left="748" Top="275" Right="1044" Bottom="293" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15286,7 +15262,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeYouMayCloseThisWindowIfY" Key="{5897DDBB-B008-4067-B447-616A2EF7BB59}">
-										<Image FileName="29867438" Left="748" Top="420" Right="1155" Bottom="456" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15298,7 +15273,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textnodeFeedback" Key="{55EC3EF3-975F-4313-A1F5-CA1C76229F42}">
-										<Image FileName="349621446" Left="757" Top="372" Right="1158" Bottom="387" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15316,7 +15290,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="panel" Key="{36E57055-75EE-4FCE-BADA-C6D90E63B32C}">
-										<Image FileName="463277896" Left="748" Top="449" Right="791" Bottom="492" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15325,7 +15298,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="textareaMatInput1" Key="{D096EF7A-3256-4859-BF42-3CD879DF568D}">
-										<Image FileName="-1564685144" Left="765" Top="576" Right="1179" Bottom="619" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
@@ -15343,7 +15315,6 @@
 										</Selectors>
 									</Child>
 									<Child Name="buttonCheck" Key="{00144B21-58FD-4F22-BDA3-B110F970EC15}">
-										<Image FileName="671698323" Left="748" Top="682" Right="777" Bottom="709" />
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>

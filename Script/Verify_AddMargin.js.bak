@@ -4,8 +4,8 @@ function Verify_AddMargin(margin) {
   var originalMargin = Number(Project.Variables.original_margin.replace(" USD", ""));
 
   // Perform the addition
-  var expectedResult = Project.Variables.new_margin.replace(" USD", "");
-  var actualResult = margin + originalMargin;
+  var actualResult = Number(Project.Variables.new_margin.replace(" USD", ""));
+  var expectedResult = margin + originalMargin;
 
   // Verify the result
   if (actualResult == expectedResult) {

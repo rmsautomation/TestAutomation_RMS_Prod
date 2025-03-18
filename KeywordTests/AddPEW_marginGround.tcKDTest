@@ -285,6 +285,6 @@
 		</Children>
 	</TestData>
 	<Parameters Key="{094A8323-3FCD-43FF-AB61-0CFB2AAAD914}">
-		<Parameter0 Name="margin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="10" Description="" />
+		<Parameter0 Name="margin" VarType="5" IsOptional="False" DefValueType="3" DefValueValue="10" Description="" />
 	</Parameters>
 </Root>
