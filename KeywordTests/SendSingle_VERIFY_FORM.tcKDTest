@@ -345,14 +345,6 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnodeArrowForward2;" />
 				</Data>
 			</Operation>
-			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
-				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://staging.gocatapult.com/qms/#/rate-search" />
-						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
-					</Parameters>
-				</Data>
-			</Operation>
 			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
 				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
 					<CommonData WaitTimeout="80000" />
