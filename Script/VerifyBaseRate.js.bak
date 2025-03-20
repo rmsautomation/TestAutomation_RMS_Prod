@@ -4,8 +4,10 @@ function VerifyBaseRate(margin) {
   var originalBR =Number(Project.Variables.original_base_rate);
 
   // Perform the addition
-  var actualResult = Project.Variables.new_baseRate;
+  var actualResult = Number(Project.Variables.new_baseRate);
   var expectedResult = margin + originalBR;
+  var decimalExpected = parseFloat(expectedResult.toFixed(2));
+  var decimalActual = parseFloat(actualResult.toFixed(2));
 
   // Verify the result
   if (actualResult == expectedResult) {
