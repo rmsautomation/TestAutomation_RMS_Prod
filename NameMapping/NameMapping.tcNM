@@ -48,18 +48,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelPrepaidCollect" Key="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}">
+									<Child Name="dryDropdown" Key="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}">
 										<Image FileName="338097165" Left="75" Top="935" Right="395" Bottom="992" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//div[.=&apos;Prepaid / Collect&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//div[2]/cp-card[11]//div[contains(@class, &apos;control-panel-form-card-header&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//cp-card[11]/div/div/div/div" />
+												<Value Value="xpath=(//div[contains(@class, &apos;mat-mdc-select-value&apos;)]//span[contains(text(), &apos;Dry&apos;)])[3]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -321,21 +315,12 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="textnodeExport" Key="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}">
+									<Child Name="allTypes" Key="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}">
 										<Image FileName="1854202892" Left="813" Top="668" Right="862" Bottom="692" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[.=&apos;Export&apos;]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-28&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option[@id=&apos;mat-option-28&apos;]/span" />
-											</Selector>
-											<Selector>
-												<Value Value="//mat-option/span" />
+												<Value Value="xpath=//span[.=&apos;All Types&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -15340,7 +15325,6 @@
 		<Child Name="browser" Owner="{6ABDEC25-3C57-4995-843F-981AA7E8E0AB}">
 			<Child Name="pageQms" Owner="{7E9889C6-0E49-46DC-9CDF-74E62C2A578D}">
 				<Child Name="ControlPanel_Button" Owner="{23B141F7-D89C-4454-AB95-155AD3DB9CA9}" />
-				<Child Name="panelPrepaidCollect" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
 				<Child Name="buttonAddFilter_PrepaidCollect" Owner="{57E7DC4C-38EE-44B0-999C-5965BC5916A2}" />
 				<Child Name="textnodeSelectColumn" Owner="{52E4A44C-D1E8-44E7-A3E1-BBC9F8FBDE2F}" />
 				<Child Name="textnodeSurcharge" Owner="{12167879-B1B6-4C85-BDE5-67E02565259B}" />
@@ -15358,7 +15342,7 @@
 				<Child Name="panelMatSelectValue17" Owner="{A87C1FB5-4DBF-4DDF-885E-E1DCD34CB78F}" />
 				<Child Name="textnodePrepaid" Owner="{7570A398-51F5-4EB5-BB9F-A1B131252C60}" />
 				<Child Name="selectLCLForm" Owner="{F4887355-226C-4324-8A9F-7FBF54BC24B8}" />
-				<Child Name="textnodeExport" Owner="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}" />
+				<Child Name="allTypes" Owner="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}" />
 				<Child Name="savePrepaidCollect" Owner="{C5F65C2F-AA9F-4101-9A9D-78E38AEE25E3}" />
 				<Child Name="panelSucessfullyCreatedThePrepai" Owner="{5CFD4601-B4A5-4734-A28E-E2E7F5B51015}" />
 				<Child Name="textnodeSelectColumn2" Owner="{82CABA6C-C09B-44B3-9792-860258292DBD}" />
@@ -16314,6 +16298,8 @@
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
 				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />
 			</Child>
+			<Child Name="allTypes" Owner="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}" />
+			<Child Name="dryDropdown" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -16377,7 +16363,9 @@
 			<Child Name="pageQms" Owner="{A6E1DCDF-D08A-4F08-B469-2A98722D818E}">
 				<Child Name="panelTrainingaylinfcl" Owner="{1C28DC33-E9B7-4C3D-9B56-23C204F8E98C}" />
 				<Child Name="panelSearchPanelValuesHaveBeen" Owner="{5C03ACD6-89F9-4458-883E-DA6ED75679CA}" />
-				<Child Name="buttonSearch" Owner="{87E64485-FE3D-4C7E-9418-0A74FE853933}" />
+				<Child Name="buttonSearch" Owner="{87E64485-FE3D-4C7E-9418-0A74FE853933}">
+					<Child Name="dryDropdown" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
+				</Child>
 				<Child Name="textboxMatInput76" Owner="{854B9E49-D65F-4C31-B106-AECA5CE57879}" />
 				<Child Name="linkRateSearch" Owner="{E4EC5619-9CDC-47F7-8FD7-CB629916AD6B}" />
 				<Child Name="quoteCreator" Owner="{B93B5EC6-2CD4-49D5-BDA9-5862ADAF9660}" />
