@@ -1,6 +1,15 @@
-﻿function PerssEsc()
-{
+﻿function PerssEsc(baseUrl) {
   var browser = Sys.Browser("chrome");
-  var page = browser.Page("https://staging.gocatapult.com/qms/#/rate-search");
+  var page = browser.Page(baseUrl + "qms/#/rate-search");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}
+
+function PerssEscMACAccess(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/rate-search");
+  
+  // Send the ESC key to the page
   page.Keys("[Esc]");
 }
