@@ -14914,6 +14914,57 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel2" Key="{B718B196-8AFD-4F3F-88BF-99424C857F2A}">
+										<Image FileName="-597927083" Left="1878" Top="962" Right="1895" Bottom="982" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;control--decrease&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel3" Key="{7D968C7A-ADFA-48B2-B747-3BD7DA2638B8}">
+										<Image FileName="-27579770" Left="1822" Top="954" Right="1902" Bottom="989" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//i[.=&apos;arrow_right&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;controls-toggle&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGridView" Key="{430C3BF7-FFAE-430D-B490-6CDB6700C4F4}">
+										<Image FileName="1487717251" Left="85" Top="337" Right="1523" Bottom="382" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;mat-mdc-tab-label-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//mat-tab-header/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-header/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGridView" Key="{CE51FB9D-82D0-4877-A28E-94F43A045116}">
+										<Image FileName="-1254095754" Left="97" Top="345" Right="157" Bottom="359" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Grid View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-1-0&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -16407,6 +16458,10 @@
 				<Child Name="panelFullServeContractOptions" Owner="{8F77F8C6-071F-4F2C-9B9F-9D3E6E4E77A0}" />
 				<Child Name="textnodeDone" Owner="{EDC095ED-9C33-433D-8419-07A6EC5535AA}" />
 				<Child Name="textnode15" Owner="{C4637BD1-DAF6-4B64-BA66-557AC6CC2E85}" />
+				<Child Name="panel2" Owner="{B718B196-8AFD-4F3F-88BF-99424C857F2A}" />
+				<Child Name="texnodeArrowRight" Owner="{7D968C7A-ADFA-48B2-B747-3BD7DA2638B8}" />
+				<Child Name="panelGridView" Owner="{430C3BF7-FFAE-430D-B490-6CDB6700C4F4}" />
+				<Child Name="textnodeGridView" Owner="{CE51FB9D-82D0-4877-A28E-94F43A045116}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">

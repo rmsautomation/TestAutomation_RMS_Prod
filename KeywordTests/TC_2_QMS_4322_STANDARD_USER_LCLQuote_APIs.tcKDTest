@@ -86,6 +86,9 @@
 				<Data Description="Runs a keyword test." TestName="SelectAndVerifyLCLAPi_s" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CollapseInfoPanel" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="AddLCLPercentageMargin">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="margin_percent" DefVarType="12" DefValueType="3" DefValueValue="100" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="margin_percent" />
