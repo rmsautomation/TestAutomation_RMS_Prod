@@ -137,6 +137,7 @@
 					<child name="AddLCLPercentageMargin" key="{B08E1D21-CB3C-439C-95BB-9A08BC6C816D}" path="AddLCLPercentageMargin.tcKDTest" />
 					<child name="SelectRollUP" key="{85623424-C16B-42A2-8085-44D6B806FF6A}" path="SelectRollUP.tcKDTest" />
 					<child name="VerifyEFT_FCLCharge" key="{7754E499-24F7-427B-A659-90D51FCBBCC7}" path="VerifyEFT_FCLCharge.tcKDTest" />
+					<child name="CollapseInfoPanel" key="{46F33EF8-77D6-4C77-A7DC-F2711303F268}" path="CollapseInfoPanel.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />

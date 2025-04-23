@@ -106,6 +106,9 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.first_rate;" />
 				</Data>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CollapseInfoPanel" />
+			</Operation>
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="total_quotes">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">

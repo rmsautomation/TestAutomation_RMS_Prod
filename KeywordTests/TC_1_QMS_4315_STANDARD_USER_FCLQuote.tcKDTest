@@ -63,6 +63,9 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="CollapseInfoPanel" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Get_BaseRate_Sell" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
