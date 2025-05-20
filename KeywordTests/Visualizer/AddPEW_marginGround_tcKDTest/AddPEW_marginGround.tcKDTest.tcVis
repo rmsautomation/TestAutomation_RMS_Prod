@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
-	<data key="{56BFD1F8-B46B-4F36-A9AC-6991863FFC03}" />
+	<data key="{56BFD1F8-B46B-4F36-A9AC-6991863FFC03}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45792.5705324074" objectName="Aliases.chrome.pageQms2.textnodeCancel" objectLeft="1536" objectTop="375" objectRight="1560" objectBottom="399" clickPointX="1546" clickPointY="388" imageFileName="tcvi-2095778156101523.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
 </Root>
