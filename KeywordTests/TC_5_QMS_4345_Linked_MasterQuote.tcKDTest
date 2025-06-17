@@ -103,7 +103,13 @@
 				<Data Description="Runs a keyword test." TestName="Search_Without_CityLinking" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="SearchAndVerifyLinkedRate" />
+				<Data Description="Runs a keyword test." TestName="SearchAndVerifyLinkedRate">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="originVia" DefVarType="8" DefValueType="6" DefValueValue="Los Angeles" VarType="8" ValueType="6" ValueValue="Los Angeles" />
+						<Parameter Name="groundAPI" DefVarType="8" DefValueType="6" DefValueValue="XENON_API" VarType="8" ValueType="6" ValueValue="XENON_API" />
+						<Parameter Name="oceanAPI" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="MAERSK SPOT" />
+					</Parameters>
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="Get_BaseRate_Sell" />

@@ -12,6 +12,14 @@ function SelectFirstGroundAndFCLAPIs(){
 function SelectLatestGroundAndFCLAPIs(){
   SelectAPI("ITG","Maersk Spot","Xenon");
 }
+function SelectFCLAPISIncomplete(){
+  SelectAPI("Evergreen Spot", "Maersk Spot");
+}
+
+function SelectLCLAnd7LPortal(){
+  SelectAPI("7L Portal","Carotrans LCL", "Vanguard LCL", "ECU Worldwide", "Shipco WWA");
+}
+
 
 function SelectAPI() {
     var apiList = [];

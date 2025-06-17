@@ -16,6 +16,14 @@ function SelectFCLAPISIncomplete(){
   SelectAPI("Evergreen Spot", "Maersk Spot");
 }
 
+function SelectLCLAnd7LPortal(){
+  SelectAPI("7L Portal","Carotrans LCL", "Vanguard LCL", "ECU Worldwide", "Shipco WWA");
+}
+
+function Select7LPortal(){
+  SelectAPI("7L Portal");
+}
+
 
 function SelectAPI() {
     var apiList = [];
