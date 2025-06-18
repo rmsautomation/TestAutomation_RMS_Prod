@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5A634D5A-F289-4EF6-944F-E6DD339EA688}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45825.9706828704" objectName="Aliases.browser.pageQms.buttonSend" objectLeft="1070" objectTop="204" objectRight="1108" objectBottom="244" clickPointX="1084" clickPointY="223" imageFileName="tcvi1806206640138080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45826.548125" objectName="Aliases.browser.pageQms.addContactAylinRodriguez" objectLeft="606" objectTop="401" objectRight="688" objectBottom="415" clickPointX="657" clickPointY="409" imageFileName="tcvi185609459321320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45826.5481481481" objectName="Aliases.browser.pageQms.textnodeArrowForward" objectLeft="504" objectTop="431" objectRight="528" objectBottom="455" clickPointX="515" clickPointY="439" imageFileName="tcvi185609715621321.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

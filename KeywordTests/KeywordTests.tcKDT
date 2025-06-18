@@ -15,6 +15,7 @@
 					<child name="TC_7_QMS_4224_Search_API_Selection_ONE" key="{F04F423A-373C-4DD9-BC66-515D6BB844EC}" path="TC_7_QMS_4224_Search_API_Selection_ONE.tcKDTest" />
 					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 					<child name="TC_4_QMS_4336_GroundQuote_ITG_API" key="{4F518239-7414-44C6-B8F8-30F37A572654}" path="TC_4_QMS_4336_GroundQuote_ITG_API.tcKDTest" />
+					<child name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{A2614445-F21F-4B4B-B888-64DF9B8D3038}" path="TC_49_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
@@ -148,6 +149,7 @@
 					<child name="VerifyTotalRatesLinked7L" key="{98576B4D-6661-4D9A-8F30-1774374D1496}" path="VerifyTotalRatesLinked7L.tcKDTest" />
 					<child name="SaveTotalRatesAfter" key="{4F63096D-23E9-4EEC-AD52-E42A9C3AC5E0}" path="SaveTotalRatesAfter.tcKDTest" />
 					<child name="CheckPopUpInfoPanel" key="{9D4B51AC-4096-4603-99DA-AACE6FFB63F5}" path="CheckPopUpInfoPanel.tcKDTest" />
+					<child name="VerifyCustomerOptionsInfoPanel" key="{0C7E0654-618D-4A3F-A891-EF3CE2E7D4A5}" path="VerifyCustomerOptionsInfoPanel.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -173,10 +175,26 @@
 					<child name="AddDestinationVia" key="{810B4E51-AD7F-402A-ADC1-58731702D2FF}" path="AddDestinationVia.tcKDTest" />
 					<child name="SelectTruckDestinationLinked" key="{5FDA63D2-A785-4DCA-AC7F-BE555816BCFA}" path="SelectTruckDestinationLinked.tcKDTest" />
 					<child name="VerifyLinkedAndAPIs" key="{7E4ED35A-A078-4D45-B1AB-9FF0D33353C3}" path="VerifyLinkedAndAPIs.tcKDTest" />
+					<child name="AddCustomerOptions" key="{7EA5F9C0-5715-4A3D-A444-81A554AD8822}" path="AddCustomerOptions.tcKDTest" />
+					<child name="GoToSearchMenu" key="{861EC0F2-4CBB-4435-96B6-0928D917B0E8}" path="GoToSearchMenu.tcKDTest" />
+					<child name="SelectSingleSearchOption" key="{AF41B278-0D6A-4953-B139-4808BE8F5B74}" path="SelectSingleSearchOption.tcKDTest" />
+					<child name="SelectAIROption" key="{46C59D0E-5110-4A8F-8558-16778950A3C4}" path="SelectAIROption.tcKDTest" />
+					<child name="SelectSize40" key="{53B4C834-9307-42CB-A758-647125F6EA23}" path="SelectSize40.tcKDTest" />
+					<child name="SelectFCLOption" key="{5C50E6B6-7E22-4527-AE3E-002860978916}" path="SelectFCLOption.tcKDTest" />
+					<child name="SelectAlltypes" key="{F4B49E15-3C0F-4525-A63A-CCBFD0C2AB51}" path="SelectAlltypes.tcKDTest" />
 				</folder>
-				<child name="SearchAndVerifyQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyQuoteForm.tcKDTest" />
-				<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
-				<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
+				<folder name="General">
+					<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
+					<child name="CustomerOptionsFCL" key="{75042E14-A77C-4484-A239-C26A37FC07CF}" path="CustomerOptionsFCL.tcKDTest" />
+					<child name="CustomerOptionsLCL" key="{1E487C12-AC19-40F8-B2D2-6CFF12217F6C}" path="CustomerOptionsLCL.tcKDTest" />
+					<child name="GoToCart" key="{FEFDA6F9-188E-49FB-AB26-504B804AA6E9}" path="GoToCart.tcKDTest" />
+					<child name="RejectQuote" key="{C6F74037-0D20-4BAD-8B1C-03F0A7169C4B}" path="RejectQuote.tcKDTest" />
+					<child name="SearchAndVerifyQuoteForm" key="{03727DDC-3131-40EF-9EBE-DC45CF7823C1}" path="SearchAndVerifyQuoteForm.tcKDTest" />
+					<child name="VerifycustomerOptionsCart" key="{149E8CDE-3391-4848-9F6E-CB4CD20CEFF1}" path="VerifycustomerOptionsCart.tcKDTest" />
+					<child name="CustomerOptionsAIR" key="{9B295744-5DBE-44E8-A3C3-C1F972CA214B}" path="CustomerOptionsAIR.tcKDTest" />
+					<child name="CustomerOptionsGround" key="{869B3918-B83E-45C1-AC2B-4A912CB07F8A}" path="CustomerOptionsGround.tcKDTest" />
+					<child name="VerifyCustomerOptionCartSearch" key="{32044725-5816-48F2-8D0E-F9DC5E066191}" path="VerifyCustomerOptionCartSearch.tcKDTest" />
+				</folder>
 			</folder>
 			<folder name="History">
 				<child name="EditQuote" key="{FB5DFAC5-FC4C-4B3B-A393-59FF6A1ED39C}" path="EditQuote.tcKDTest" />
@@ -190,6 +208,7 @@
 				<child name="HistoryVerifyQuoteID" key="{77E32099-E343-44BA-909A-ADD5A4AAF6AA}" path="HistoryVerifyQuoteID.tcKDTest" />
 				<child name="VerifyQuoteCreator" key="{A0112684-0CB5-4B6E-BA9D-302B9D9C7ECD}" path="VerifyQuoteCreator.tcKDTest" />
 				<child name="VerifyLinkedQuoteHistory" key="{EC574EB0-75DC-407A-9542-82095A27E4FB}" path="VerifyLinkedQuoteHistory.tcKDTest" />
+				<child name="VerifyCompanyHistory" key="{D781A9B2-6A5C-4ED7-8DA5-60C356C3E792}" path="VerifyCompanyHistory.tcKDTest" />
 			</folder>
 			<folder name="Filters">
 				<child name="TradeLaneFilter" key="{04425864-FC43-4E3B-A121-F7514C6C3E1C}" path="TradeLaneFilter.tcKDTest" />
@@ -210,6 +229,7 @@
 				<child name="EditCartAndSendQuote" key="{76BF870B-E280-47FA-B907-5127FFA08EAC}" path="EditCartAndSendQuote.tcKDTest" />
 				<child name="CheckQ2TMSAndSendQuote" key="{2C7AB837-BC5C-4818-9BED-62B9274164A8}" path="CheckQ2TMSAndSendQuote.tcKDTest" />
 				<child name="SendMasterSetVariablesForm" key="{49FA9045-2EBC-4ED5-9A9D-412E34DA35A7}" path="SendMasterSetVariablesForm.tcKDTest" />
+				<child name="SendQuoteFromCartAndWithCompany" key="{5A634D5A-F289-4EF6-944F-E6DD339EA688}" path="SendQuoteFromCartAndWithCompany.tcKDTest" />
 			</folder>
 			<folder name="Search_Multi">
 				<child name="MultiRate_Select2Rates_VerifyCart" key="{D0BA28BC-B57B-4BBC-9DFA-5E498FB94B12}" path="MultiRate_Select2Rates_VerifyCart.tcKDTest" />
@@ -256,6 +276,8 @@
 					<child name="EnableAmendment" key="{0F11D621-39B8-48C1-917D-50F7FD6C597B}" path="EnableAmendment.tcKDTest" />
 					<child name="VerifyEnableAmendment" key="{B7BA2368-8659-48E7-B2A5-271D97544B79}" path="VerifyEnableAmendment.tcKDTest" />
 					<child name="VerifyDisableAmendment" key="{CBECF930-BE22-4605-A5A1-92BFB61597CA}" path="VerifyDisableAmendment.tcKDTest" />
+					<child name="EnableCustomerOptions" key="{109B3DCE-043A-4C99-B52D-D2ACE616A874}" path="EnableCustomerOptions.tcKDTest" />
+					<child name="GoToOrganizationSettings" key="{32A446DA-E4FC-4589-88B5-80B59FB29C41}" path="GoToOrganizationSettings.tcKDTest" />
 				</folder>
 				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
 				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />
@@ -273,6 +295,7 @@
 				<child name="VerifyPriceSettingsQuoteForm" key="{C24A33F2-6BA9-4CDE-8BC8-52F65775F2A5}" path="VerifyPriceSettingsQuoteForm.tcKDTest" />
 				<child name="VerifyPriceSettingsHistory" key="{BA638762-98A6-400B-9B86-D05A2BA15ACA}" path="VerifyPriceSettingsHistory.tcKDTest" />
 				<child name="VerifyPriceSettingInfoPanel" key="{A8379CFA-F9AE-4FF2-AB21-7716DC227712}" path="VerifyPriceSettingInfoPanel.tcKDTest" />
+				<child name="GoToControlPanel" key="{28241421-A539-4802-AF2E-0017C8B8758B}" path="GoToControlPanel.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />
@@ -283,9 +306,11 @@
 				<child name="TariffSearchAsDate" key="{672C8855-BADB-423A-BAFE-036BD61A292E}" path="TariffSearchAsDate.tcKDTest" />
 				<child name="TariffSearchByCommodity" key="{FE386596-2BDA-4B15-B512-D0845ECEC24C}" path="TariffSearchByCommodity.tcKDTest" />
 			</folder>
-			<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
-			<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
-			<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
+			<folder name="Common">
+				<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
+				<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
+				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
+			</folder>
 		</folder>
 		<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
 	</children>

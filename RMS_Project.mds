@@ -225,6 +225,11 @@
 				<environments activeCloud="CBT" />
 				<children />
 			</testItem>
+			<testItem name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{F387B7EC-5891-4D92-A975-E5A498DEAF88}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A2614445-F21F-4B4B-B888-64DF9B8D3038}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="CBT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{E63952BC-BCF5-4233-86A2-1ECEA6559C77}">

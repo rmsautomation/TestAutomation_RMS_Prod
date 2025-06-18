@@ -998,7 +998,7 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-input-17" />
+												<Value Value="xpath=//label[normalize-space(.)=&apos;Company Name or ID&apos;]/following-sibling::search-form-autocomplete-form-md//input" />
 											</Selector>
 											<Selector>
 												<Value Value="//tariff-rate-details//mat-form-field[4]//textarea[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
@@ -10153,7 +10153,7 @@
 												<Value Value="//h6[.=&apos;Organization Settings&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[2]/cp-card[11]//h6" />
+												<Value Value="//div[2]/cp-card[11]//h6" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -13892,6 +13892,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelSingle" Key="{92398E96-8FA6-4BAF-AA5A-BDA279290FC9}">
+										<Image FileName="976181954" Left="60" Top="246" Right="1675" Bottom="271" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;search-header-link-btn&apos;) and normalize-space(.)=&apos;Single&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;rate-search-header-nav&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
@@ -15121,6 +15133,165 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="checkboxMatMdcCheckbox17Input" Key="{5780060D-C4AB-4DF6-957A-63B133FFF872}">
+										<Image FileName="759030839" Left="94" Top="705" Right="134" Bottom="745" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Display Customer Selection Dropdown in Rate Search&apos;)]/@for)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel4" Key="{2A317A82-3457-4EA8-BCB1-17F0D8380B34}">
+										<Image FileName="766309487" Left="0" Top="139" Right="1905" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel5" Key="{A4813D26-A04F-4D70-9FFB-C3E76B3A7666}">
+										<Image FileName="1958363287" Left="1554" Top="647" Right="1860" Bottom="679" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;flex-equal-width&apos;) and contains(normalize-space(.), &apos;Company Name&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Company Name (ID)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/div[contains(@class, &apos;flex-equal-width&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel6" Key="{742C64B7-86E3-4F20-9412-F3F32CD53F3E}">
+										<Image FileName="784526283" Left="798" Top="300" Right="1113" Bottom="340" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;company-name&apos;) and contains(normalize-space(.), &apos;Company Name (ID):&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Company Name (ID): AYLENCOMPANYTESTINTEGRATION&#32;&#32;(UPS2)&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Company Name (ID):&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//shopping-cart-dialog//shopping-cart-card/mat-card//div//div[contains(@class, &apos;py-2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//div/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-card/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel7" Key="{F1237F01-7361-4B9D-B997-CDD54ED5DC71}">
+										<Image FileName="1220435861" Left="798" Top="300" Right="1113" Bottom="340" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;company-name&apos;) and contains(normalize-space(.), &apos;Company Name (ID):&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-2&apos;]//div/div/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-card/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAll" Key="{BE09706B-5E2C-4337-8FAF-B7E8638391A9}">
+										<Image FileName="1264588433" Left="740" Top="556" Right="762" Bottom="573" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[text()=&apos;Dry&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-shipment-options//div[2]//dropdown-select/mat-form-field//mat-select//span[contains(@class, &apos;mat-mdc-select-min-line&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mat-select-value-201&apos;]//span/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkbox20" Key="{3904BAB9-5FA4-469A-AB05-56127E3F7DA5}">
+										<Image FileName="1603672451" Left="715" Top="609" Right="755" Bottom="649" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;20&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-833-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-shipment-options//mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-shipment-options//mat-checkbox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{24A64F0F-F0FC-4E58-8040-CAE66B37F8DF}">
+										<Image FileName="-529342947" Left="830" Top="563" Right="840" Bottom="568" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[name()=&apos;path&apos;][contains(@class, &apos;ng-tns-c3393473648-671&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-200&apos;]//*[name()=&apos;path&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-form-shipment-options//div[2]//dropdown-select/mat-form-field//mat-select//*[name()=&apos;svg&apos;]/*[name()=&apos;path&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAll2" Key="{C6F1E69C-E198-45EA-85D2-82F384F1C57C}">
+										<Image FileName="-1332492044" Left="736" Top="602" Right="756" Bottom="626" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;mdc-list-item__primary-text&apos;) and normalize-space(.)=&apos;All&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-overlay-35&apos;]//mat-option/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(@class, &apos;mdc-list-item__primary-text&apos;) and normalize-space(.)=&apos;All&apos;]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSearch" Key="{8AEF155F-0EFB-49B9-8678-61E597755E53}">
+										<Image FileName="-1610669649" Left="676" Top="947" Right="740" Bottom="977" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Search&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//search-form-search-panel//button[contains(@class, &apos;mdbtn-state-secondary&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card/div[3]/search-form-search-panel//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -15595,7 +15766,7 @@
 				<Child Name="textnodeCommodityDescription" Owner="{500DDF4D-1867-4578-BA3A-14AF7E3F0CE9}" />
 				<Child Name="commodity_Tariff_panel100CottonFabricAnd100Poly" Owner="{5F86747D-96CD-4D7B-BC40-E6E806F7A69C}" />
 				<Child Name="panelJan252021" Owner="{5D73C840-9304-4A21-9FDE-25F2590FEB97}" />
-				<Child Name="textareaMatInput17" Owner="{22F3D396-EC9D-4FB6-B46B-BD7C3032CB09}" />
+				<Child Name="companyOptionsInput" Owner="{22F3D396-EC9D-4FB6-B46B-BD7C3032CB09}" />
 				<Child Name="tariffSearch" Owner="{67A7CF24-2265-4246-BC90-4646CC0F04BA}" />
 				<Child Name="textareaMatInput18" Owner="{D0FB4FDE-7A16-4D55-8D02-66B5E2174997}" />
 				<Child Name="textboxMatInput19" Owner="{CF42532C-AC58-4D51-8C8F-497E28F1BE55}" />
@@ -16507,6 +16678,7 @@
 			</Child>
 			<Child Name="allTypes" Owner="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}" />
 			<Child Name="dryDropdown" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
+			<Child Name="panelSingle" Owner="{92398E96-8FA6-4BAF-AA5A-BDA279290FC9}" />
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -16626,6 +16798,14 @@
 				<Child Name="textnodeDisableAutoRoutingOn" Owner="{D584A4BB-9E9E-4DE8-A6E2-906AF1CE5214}" />
 				<Child Name="textboxNumber2" Owner="{3E4EE591-0F95-42D3-9386-D0795F5BD496}" />
 				<Child Name="panelLocationOptions" Owner="{4575663B-538E-4538-9459-FFB58A8B27D9}" />
+				<Child Name="customerOptions" Owner="{5780060D-C4AB-4DF6-957A-63B133FFF872}" />
+				<Child Name="panel4" Owner="{2A317A82-3457-4EA8-BCB1-17F0D8380B34}" />
+				<Child Name="customerOptionInfoPanel" Owner="{A4813D26-A04F-4D70-9FFB-C3E76B3A7666}" />
+				<Child Name="dryOption" Owner="{BE09706B-5E2C-4337-8FAF-B7E8638391A9}" />
+				<Child Name="checkbox20" Owner="{3904BAB9-5FA4-469A-AB05-56127E3F7DA5}" />
+				<Child Name="textnode3" Owner="{24A64F0F-F0FC-4E58-8040-CAE66B37F8DF}" />
+				<Child Name="textnodeAll" Owner="{C6F1E69C-E198-45EA-85D2-82F384F1C57C}" />
+				<Child Name="buttonSearch" Owner="{8AEF155F-0EFB-49B9-8678-61E597755E53}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
@@ -16665,6 +16845,8 @@
 				<Child Name="buttonCheck" Owner="{00144B21-58FD-4F22-BDA3-B110F970EC15}" />
 			</Child>
 			<Child Name="truckDestination" Owner="{C169D125-BF58-4043-8BA8-8E033C24DD77}" />
+			<Child Name="companyCart" Owner="{742C64B7-86E3-4F20-9412-F3F32CD53F3E}" />
+			<Child Name="customerCart" Owner="{F1237F01-7361-4B9D-B997-CDD54ED5DC71}" />
 		</Child>
 	</LogicalNodes>
 </Root>
