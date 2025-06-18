@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{58C4EB68-DAF5-42FE-BD8A-BFD9FCBE8236}" Tags="@production @search @fcl @contractId @demo" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{58C4EB68-DAF5-42FE-BD8A-BFD9FCBE8236}" Tags="@production @search @fcl @contractId @demo @search_history" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
