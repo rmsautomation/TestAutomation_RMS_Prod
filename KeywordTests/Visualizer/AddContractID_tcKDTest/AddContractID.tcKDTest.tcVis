@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{0352EC52-5577-48B9-8004-9EE45DC30574}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45826.9141666667" objectName="Aliases.browser.pageQms.radiobuttonContractId" objectLeft="877" objectTop="533" objectRight="917" objectBottom="573" clickPointX="897" clickPointY="553" imageFileName="tcvi1887719031147240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45826.9141898148" objectName="Aliases.browser.pageQms.radiobuttonFiltered" objectLeft="1078" objectTop="596" objectRight="1118" objectBottom="636" clickPointX="1099" clickPointY="616" imageFileName="tcvi1887720687147241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45826.9142013889" objectName="Aliases.browser.pageQms.textcommodityMapping" objectLeft="735" objectTop="666" objectRight="1170" objectBottom="690" clickPointX="813" clickPointY="667" imageFileName="tcvi1887721734147242.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45826.9142939815" objectName="Aliases.browser.pageQms.textcommodityMapping" objectLeft="735" objectTop="666" objectRight="1170" objectBottom="690" clickPointX="-1" clickPointY="-1" imageFileName="tcvi18877232181472431.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

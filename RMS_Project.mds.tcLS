@@ -35,8 +35,41 @@
 					<Node name="var10">
 						<Prp name="name" type="S" value="new_contract_id"/>
 					</Node>
+					<Node name="var100">
+						<Prp name="name" type="S" value="finalTotalNumbAIR"/>
+					</Node>
+					<Node name="var101">
+						<Prp name="name" type="S" value="finalMarginAIR"/>
+					</Node>
+					<Node name="var102">
+						<Prp name="name" type="S" value="finalMarginNumAIR"/>
+					</Node>
+					<Node name="var103">
+						<Prp name="name" type="S" value="finalBRAIR"/>
+					</Node>
+					<Node name="var104">
+						<Prp name="name" type="S" value="finalBRNumAIR"/>
+					</Node>
+					<Node name="var105">
+						<Prp name="name" type="S" value="finalTotalGround"/>
+					</Node>
+					<Node name="var106">
+						<Prp name="name" type="S" value="finalTotalNumGround"/>
+					</Node>
+					<Node name="var107">
+						<Prp name="name" type="S" value="finalMarginGround"/>
+					</Node>
+					<Node name="var108">
+						<Prp name="name" type="S" value="finalMarginNumGround"/>
+					</Node>
+					<Node name="var109">
+						<Prp name="name" type="S" value="finalBRGround"/>
+					</Node>
 					<Node name="var11">
 						<Prp name="name" type="S" value="effective_original"/>
+					</Node>
+					<Node name="var110">
+						<Prp name="name" type="S" value="finalBRNumGround"/>
 					</Node>
 					<Node name="var12">
 						<Prp name="name" type="S" value="new_effective"/>
@@ -200,14 +233,131 @@
 					<Node name="var60">
 						<Prp name="name" type="S" value="Password2"/>
 					</Node>
+					<Node name="var61">
+						<Prp name="name" type="S" value="macName"/>
+					</Node>
+					<Node name="var62">
+						<Prp name="name" type="S" value="totaPriceFCL"/>
+					</Node>
+					<Node name="var63">
+						<Prp name="name" type="S" value="totalPriceFCLNumb"/>
+					</Node>
+					<Node name="var64">
+						<Prp name="name" type="S" value="marginFCL"/>
+					</Node>
+					<Node name="var65">
+						<Prp name="name" type="S" value="marginFCLNumb"/>
+					</Node>
+					<Node name="var66">
+						<Prp name="name" type="S" value="initialBRFCL"/>
+					</Node>
+					<Node name="var67">
+						<Prp name="name" type="S" value="initialBRNumberFCL"/>
+					</Node>
+					<Node name="var68">
+						<Prp name="name" type="S" value="initialTotalLCL"/>
+					</Node>
+					<Node name="var69">
+						<Prp name="name" type="S" value="initialTotalNumbLCL"/>
+					</Node>
 					<Node name="var7">
 						<Prp name="name" type="S" value="quote_ID"/>
+					</Node>
+					<Node name="var70">
+						<Prp name="name" type="S" value="initialMarginLCL"/>
+					</Node>
+					<Node name="var71">
+						<Prp name="name" type="S" value="initialMarginNumbLCL"/>
+					</Node>
+					<Node name="var72">
+						<Prp name="name" type="S" value="initialBRLCL"/>
+					</Node>
+					<Node name="var73">
+						<Prp name="name" type="S" value="initialBRNumbLCL"/>
+					</Node>
+					<Node name="var74">
+						<Prp name="name" type="S" value="initialTotalAIR"/>
+					</Node>
+					<Node name="var75">
+						<Prp name="name" type="S" value="initialTotalNumAIR"/>
+					</Node>
+					<Node name="var76">
+						<Prp name="name" type="S" value="initialMarginAIR"/>
+					</Node>
+					<Node name="var77">
+						<Prp name="name" type="S" value="initialMarginNumbAIR"/>
+					</Node>
+					<Node name="var78">
+						<Prp name="name" type="S" value="initialBRAIR"/>
+					</Node>
+					<Node name="var79">
+						<Prp name="name" type="S" value="initialBRNumAIR"/>
 					</Node>
 					<Node name="var8">
 						<Prp name="name" type="S" value="base_rate_flat"/>
 					</Node>
+					<Node name="var80">
+						<Prp name="name" type="S" value="initialTotalGround"/>
+					</Node>
+					<Node name="var81">
+						<Prp name="name" type="S" value="initialTotalNumGround"/>
+					</Node>
+					<Node name="var82">
+						<Prp name="name" type="S" value="initialMarginGround"/>
+					</Node>
+					<Node name="var83">
+						<Prp name="name" type="S" value="initialMarginNumbGround"/>
+					</Node>
+					<Node name="var84">
+						<Prp name="name" type="S" value="initialBRGround"/>
+					</Node>
+					<Node name="var85">
+						<Prp name="name" type="S" value="initialBRNumbground"/>
+					</Node>
+					<Node name="var86">
+						<Prp name="name" type="S" value="finalTotalPriceFCL"/>
+					</Node>
+					<Node name="var87">
+						<Prp name="name" type="S" value="finalTotalNumFCL"/>
+					</Node>
+					<Node name="var88">
+						<Prp name="name" type="S" value="finalMarginFCL"/>
+					</Node>
+					<Node name="var89">
+						<Prp name="name" type="S" value="finalMarginNumbFCL"/>
+					</Node>
 					<Node name="var9">
 						<Prp name="name" type="S" value="contract_id_original"/>
+					</Node>
+					<Node name="var90">
+						<Prp name="name" type="S" value="finalBRFCL"/>
+					</Node>
+					<Node name="var91">
+						<Prp name="name" type="S" value="finalBRNumbFCL"/>
+					</Node>
+					<Node name="var92">
+						<Prp name="name" type="S" value="expectedTotalPrice"/>
+					</Node>
+					<Node name="var93">
+						<Prp name="name" type="S" value="finalTotalPriceLCL"/>
+					</Node>
+					<Node name="var94">
+						<Prp name="name" type="S" value="finalTotalNumLCL"/>
+					</Node>
+					<Node name="var95">
+						<Prp name="name" type="S" value="finalMarginLCL"/>
+					</Node>
+					<Node name="var96">
+						<Prp name="name" type="S" value="finalMarginNumbLCL"/>
+					</Node>
+					<Node name="var97">
+						<Prp name="name" type="S" value="finalBRLCL"/>
+					</Node>
+					<Node name="var98">
+						<Prp name="name" type="S" value="finalBRNumbLCL"/>
+					</Node>
+					<Node name="var99">
+						<Prp name="name" type="S" value="finalTotalAIR"/>
 					</Node>
 				</Node>
 				<Prp name="version" type="I" value="4"/>

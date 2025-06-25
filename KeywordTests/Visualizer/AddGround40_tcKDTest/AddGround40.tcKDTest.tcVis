@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{38C28071-698A-4F37-B22D-A6A725001DA3}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45826.8905092593" objectName="Aliases.chrome.pageQms2.radiobuttonGround" objectLeft="1073" objectTop="416" objectRight="1113" objectBottom="456" clickPointX="1093" clickPointY="434" imageFileName="tcvi1885675328147240.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45826.8905671296" objectName="Aliases.chrome.pageQms2.checkbox40" objectLeft="842" objectTop="698" objectRight="882" objectBottom="738" clickPointX="864" clickPointY="720" imageFileName="tcvi1885680109147242.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{E289F05B-522E-4DB3-BF86-9B13BBF34CA0}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45826.8939930556" objectName="Aliases.browser.pageQms.navSydneyToPortKelang.checkAllCommodity" objectLeft="898" objectTop="381" objectRight="938" objectBottom="421" clickPointX="918" clickPointY="404" imageFileName="tcvi1885976000147241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45826.8940393519" objectName="Aliases.browser.pageQms2.buttonAdd" objectLeft="1249" objectTop="842" objectRight="1313" objectBottom="872" clickPointX="1275" clickPointY="863" imageFileName="tcvi1885980359147242.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

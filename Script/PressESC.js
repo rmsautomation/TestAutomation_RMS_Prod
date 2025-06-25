@@ -13,3 +13,11 @@ function PerssEscMACAccess(baseUrl) {
   // Send the ESC key to the page
   page.Keys("[Esc]");
 }
+
+function PerssEscMargin(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/control-panel/margin-management");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}
