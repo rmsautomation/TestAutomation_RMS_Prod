@@ -68,6 +68,7 @@
 					</folder>
 					<folder name="Add Margin">
 						<child name="TC_50_QMS_5080_MarginRule_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_MarginRule_Department.tcKDTest" />
+						<child name="TC_43_QMS_15022_MarginCopyExisting_NewRules" key="{9661715B-A746-4620-BCA4-35F13395CBCC}" path="TC_43_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
 					</folder>
 				</folder>
 				<child name="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge" key="{E1359843-27BE-4AD5-BAEB-F10A8962AA97}" path="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge.tcKDTest" />
@@ -150,6 +151,19 @@
 					<child name="SaveTotalRatesAfter" key="{4F63096D-23E9-4EEC-AD52-E42A9C3AC5E0}" path="SaveTotalRatesAfter.tcKDTest" />
 					<child name="CheckPopUpInfoPanel" key="{9D4B51AC-4096-4603-99DA-AACE6FFB63F5}" path="CheckPopUpInfoPanel.tcKDTest" />
 					<child name="VerifyCustomerOptionsInfoPanel" key="{0C7E0654-618D-4A3F-A891-EF3CE2E7D4A5}" path="VerifyCustomerOptionsInfoPanel.tcKDTest" />
+					<child name="SaveInitialValuesFCL" key="{4D4201DD-56D4-461E-AA32-6F17879CEF51}" path="SaveInitialValuesFCL.tcKDTest" />
+					<child name="PressButtonCharges" key="{B5F5C9A6-CFCB-408A-9A78-2E0851A37CDF}" path="PressButtonCharges.tcKDTest" />
+					<child name="SaveInitialValuesLCL" key="{CE565935-7AC7-4297-96A7-4FE48CAD2494}" path="SaveInitialValuesLCL.tcKDTest" />
+					<child name="SaveInitialValuesAIR" key="{0B033D48-0207-4C74-9168-86BB6864F995}" path="SaveInitialValuesAIR.tcKDTest" />
+					<child name="SaveInitialValuesGround" key="{A221A0B2-76D3-40EA-BBE7-EA3854C601C2}" path="SaveInitialValuesGround.tcKDTest" />
+					<child name="SaveFinalValuesFCL" key="{D53BB456-F868-4FC3-8710-0488669C5C06}" path="SaveFinalValuesFCL.tcKDTest" />
+					<child name="VerifyAddedMarginFCL" key="{148247E7-3310-4235-8C2A-7E7C9876356F}" path="VerifyAddedMarginFCL.tcKDTest" />
+					<child name="SaveFinalValuesLCL" key="{BBFAD399-1DFB-4CA6-A94A-4AAC0AE1BEF7}" path="SaveFinalValuesLCL.tcKDTest" />
+					<child name="VerifyAddedMarginLCL" key="{99F6FED7-FCC6-4BF4-86A7-314DD03595E1}" path="VerifyAddedMarginLCL.tcKDTest" />
+					<child name="SaveFinalValuesAIR" key="{6D79D421-139F-42A3-95F5-B72ED0A93F34}" path="SaveFinalValuesAIR.tcKDTest" />
+					<child name="VerifyAddedMarginAIR" key="{3E1F3445-BFF8-4D15-8BEC-BC0CA3FCBBF2}" path="VerifyAddedMarginAIR.tcKDTest" />
+					<child name="SaveFinalValuesGround" key="{C053E845-BE17-4887-B299-22893D152574}" path="SaveFinalValuesGround.tcKDTest" />
+					<child name="VerifyAddedMarginGround" key="{EC30DD60-D756-45B6-AE26-02BE9B13CFA0}" path="VerifyAddedMarginGround.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -182,6 +196,10 @@
 					<child name="SelectSize40" key="{53B4C834-9307-42CB-A758-647125F6EA23}" path="SelectSize40.tcKDTest" />
 					<child name="SelectFCLOption" key="{5C50E6B6-7E22-4527-AE3E-002860978916}" path="SelectFCLOption.tcKDTest" />
 					<child name="SelectAlltypes" key="{F4B49E15-3C0F-4525-A63A-CCBFD0C2AB51}" path="SelectAlltypes.tcKDTest" />
+					<child name="SearchByContractID_FCL" key="{122A0D03-F474-4767-91E3-DC70E8A3D8EF}" path="SearchByContractID_FCL.tcKDTest" />
+					<child name="SearchByContractID_AIR" key="{12EC97F5-305E-431C-A08E-EED9213FCF05}" path="SearchByContractID_AIR.tcKDTest" />
+					<child name="SearchByContractID_Ground" key="{C9BDEE20-002D-4E7A-8285-5F25FD261F22}" path="SearchByContractID_Ground.tcKDTest" />
+					<child name="GoToMode" key="{7EFCBD0C-A6B0-49C4-BB49-4F35CE6E9614}" path="GoToMode.tcKDTest" />
 				</folder>
 				<folder name="General">
 					<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
@@ -256,6 +274,29 @@
 					<child name="MAC_CreateNACRule" key="{B313825F-3B7E-49EA-9696-E5DD365D97BB}" path="MAC_CreateNACRule.tcKDTest" />
 					<child name="MAC_CreateRestrictsContract" key="{7BEFBBF0-2579-4AEE-94FC-763D96448ACD}" path="MAC_CreateRestrictsContract.tcKDTest" />
 					<child name="DeleteMarginRule" key="{5EE49D1A-AB19-4712-B8F4-0547957D41A8}" path="DeleteMarginRule.tcKDTest" />
+					<child name="AddNewMACRule" key="{01658C36-80DC-4FA4-956D-BB00FC5F0E35}" path="AddNewMACRule.tcKDTest" />
+					<child name="PressButtonAdd" key="{8427D3A7-28C0-411A-BA15-3C47BB705F54}" path="PressButtonAdd.tcKDTest" />
+					<child name="PressButtonSaveMAC" key="{DE27E737-1A71-4CA8-9F23-971C29B141D6}" path="PressButtonSaveMAC.tcKDTest" />
+					<child name="GoToCarrierContractNAC" key="{DA7ED13B-419D-45EC-ABD7-69953857B323}" path="GoToCarrierContractNAC.tcKDTest" />
+					<child name="GoToLocationQualifiers" key="{C4BF92C2-21A6-4528-9C91-049ED3D75C93}" path="GoToLocationQualifiers.tcKDTest" />
+					<child name="CheckAllUnlocLocation" key="{993C29ED-E923-4484-B28F-830F468C59FF}" path="CheckAllUnlocLocation.tcKDTest" />
+					<child name="GoToModeTypeSize" key="{FB5740BF-1BBD-4FD8-A6C9-0B515AA67A23}" path="GoToModeTypeSize.tcKDTest" />
+					<child name="AddFCL40" key="{7621267C-51EF-4305-B46F-9EAA8870E514}" path="AddFCL40.tcKDTest" />
+					<child name="AddLCLMode" key="{25ED9782-B34F-46B4-9651-48333602DAAD}" path="AddLCLMode.tcKDTest" />
+					<child name="AddAirMode" key="{0B73BB7A-DE2A-4B83-917C-4CDD15159D57}" path="AddAirMode.tcKDTest" />
+					<child name="AddGround40" key="{38C28071-698A-4F37-B22D-A6A725001DA3}" path="AddGround40.tcKDTest" />
+					<child name="GoToCompanyQualifiers" key="{1A200347-004B-4A13-A292-ED37E0870303}" path="GoToCompanyQualifiers.tcKDTest" />
+					<child name="AddCompanyqualifiers" key="{E289F05B-522E-4DB3-BF86-9B13BBF34CA0}" path="AddCompanyqualifiers.tcKDTest" />
+					<child name="SelectApplyToBaseRate" key="{673B75EB-FC68-4866-B42E-2A741B6BD0B6}" path="SelectApplyToBaseRate.tcKDTest" />
+					<child name="SelectApplyMarginOnSell" key="{7659BC10-F734-4F5E-9EE3-A68E955CCE20}" path="SelectApplyMarginOnSell.tcKDTest" />
+					<child name="InputMarginFlat" key="{D68EED25-9079-45D8-A04F-923ECFF04673}" path="InputMarginFlat.tcKDTest" />
+					<child name="PressButtonYes" key="{5CA807BB-E143-4167-9F98-E1332DABF5E9}" path="PressButtonYes.tcKDTest" />
+					<child name="SelectMACDropdown" key="{790E67E6-8AE8-4FB3-9E34-627CA5C93124}" path="SelectMACDropdown.tcKDTest" />
+					<child name="AddMACAllModes" key="{84A50BB4-A187-4404-B74C-A5B9CC7C0368}" path="AddMACAllModes.tcKDTest" />
+					<child name="AddContractID" key="{0352EC52-5577-48B9-8004-9EE45DC30574}" path="AddContractID.tcKDTest" />
+					<child name="CopyMACRule" key="{43AE872D-A675-4564-A85D-E8312AE3BEB0}" path="CopyMACRule.tcKDTest" />
+					<child name="ButonSaveNewRule" key="{5E7716CA-5CCF-4602-9A8A-EAF15EF5D772}" path="ButonSaveNewRule.tcKDTest" />
+					<child name="DeleteGenericMAC" key="{051CAA1F-929B-4DF9-A704-BDB501D1828C}" path="DeleteGenericMAC.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
@@ -296,6 +337,7 @@
 				<child name="VerifyPriceSettingsHistory" key="{BA638762-98A6-400B-9B86-D05A2BA15ACA}" path="VerifyPriceSettingsHistory.tcKDTest" />
 				<child name="VerifyPriceSettingInfoPanel" key="{A8379CFA-F9AE-4FF2-AB21-7716DC227712}" path="VerifyPriceSettingInfoPanel.tcKDTest" />
 				<child name="GoToControlPanel" key="{28241421-A539-4802-AF2E-0017C8B8758B}" path="GoToControlPanel.tcKDTest" />
+				<child name="GoToMarginManagement" key="{B9DD2D80-66CE-40EF-B5AD-0F5EA260EBB1}" path="GoToMarginManagement.tcKDTest" />
 			</folder>
 			<folder name="Hooks">
 				<child name="Hooks_OnStartTest" key="{A523E07A-FB3A-4014-9FE9-44573491223C}" path="Hooks_OnStartTest.tcKDTest" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{4D4201DD-56D4-461E-AA32-6F17879CEF51}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45832.8354050926" objectName="Aliases.browser.pageQms.baseRate" objectLeft="1554" objectTop="801" objectRight="1614" objectBottom="817" clickPointX="1593" clickPointY="810" imageFileName="tcvi-189568290648120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="45832.8438888889" objectName="Aliases.chrome.pageQms2.sellBR" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-1894949953481216.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="14" kind="0" dateTime="45832.8355092593" objectName="Aliases.browser.pageQms.panelTotalBuyPrice" objectLeft="1554" objectTop="533" objectRight="1875" objectBottom="971" clickPointX="1864" clickPointY="612" imageFileName="tcvi-189567395348123.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="15" kind="0" dateTime="45832.8355324074" objectName="Aliases.browser.pageQms.buttonClose" objectLeft="1827" objectTop="904" objectRight="1859" objectBottom="934" clickPointX="1843" clickPointY="921" imageFileName="tcvi-189567173448124.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

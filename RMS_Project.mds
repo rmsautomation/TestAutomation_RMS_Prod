@@ -220,6 +220,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_43_QMS_15022_MarginCopyExisting_NewRules" key="{1110F258-AB26-4AD6-9778-D3C0C7D89DF0}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9661715B-A746-4620-BCA4-35F13395CBCC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_46_QMS_14953_Linked7LLTL_LCL" key="{DBA6E05E-44DC-44AA-AD87-34BF16C58710}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E9D2B7B6-979E-432C-891E-AA0BCDAE9266}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
@@ -417,6 +422,156 @@
 				</Variable>
 				<Variable Name="Password2" Type="Password" Local="False">
 					<DefValue StrValue="380039003600310031003300440031004600340044003800440033004600340045004300390042003600370039003000360032004600430034003300370044003900360031003800350041003700380038004300300031003500340030004500360036004400390031004400340033003000340043004600410034004300360030003600320044003900460035004100" />
+				</Variable>
+				<Variable Name="macName" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="totaPriceFCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="totalPriceFCLNumb" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="marginFCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="marginFCLNumb" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="initialBRFCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="initialBRNumberFCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="initialTotalLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialTotalNumbLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginNumbLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRNumbLCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialTotalAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialTotalNumAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginNumbAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRNumAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialTotalGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialTotalNumGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialMarginNumbGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="initialBRNumbground" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalTotalPriceFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalTotalNumFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginNumbFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRNumbFCL" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="expectedTotalPrice" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalTotalPriceLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalTotalNumLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalMarginLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalMarginNumbLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalBRLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalBRNumbLCL" Type="String" Local="False">
+					<DefValue StrValue="0" />
+				</Variable>
+				<Variable Name="finalTotalAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalTotalNumbAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginNumAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRNumAIR" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalTotalGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalTotalNumGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalMarginNumGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRGround" Type="String" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="finalBRNumGround" Type="String" Local="False">
+					<DefValue />
 				</Variable>
 			</Items>
 		</data>
