@@ -132,8 +132,17 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textnodeBaseRate;" />
 				</Data>
 			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="1000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters text in the text box." Action="SetText">
+					<CommonData WaitTimeout="60000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="price" />
 					</Parameters>
@@ -142,6 +151,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Enters text in the text box." Action="SetText">
+					<CommonData WaitTimeout="60000" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="price" />
 					</Parameters>
@@ -295,6 +305,6 @@
 	<Parameters Key="{14FACBB3-9440-4555-8B40-C11600AE3655}">
 		<Parameter0 Name="origin" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="33101 Miami" Description="" />
 		<Parameter1 Name="destination" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="Rotterdam" Description="" />
-		<Parameter2 Name="price" VarType="5" IsOptional="False" DefValueType="3" DefValueValue="20" Description="" />
+		<Parameter2 Name="price" VarType="5" IsOptional="False" DefValueType="3" DefValueValue="500" Description="" />
 	</Parameters>
 </Root>

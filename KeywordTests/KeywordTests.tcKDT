@@ -69,6 +69,7 @@
 					<folder name="Add Margin">
 						<child name="TC_50_QMS_5080_MarginRule_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_MarginRule_Department.tcKDTest" />
 						<child name="TC_43_QMS_15022_MarginCopyExisting_NewRules" key="{9661715B-A746-4620-BCA4-35F13395CBCC}" path="TC_43_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
+						<child name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{9A981F86-6685-4A23-948A-18D1FE0CA805}" path="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
 					</folder>
 				</folder>
 				<child name="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge" key="{E1359843-27BE-4AD5-BAEB-F10A8962AA97}" path="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge.tcKDTest" />
@@ -157,13 +158,14 @@
 					<child name="SaveInitialValuesAIR" key="{0B033D48-0207-4C74-9168-86BB6864F995}" path="SaveInitialValuesAIR.tcKDTest" />
 					<child name="SaveInitialValuesGround" key="{A221A0B2-76D3-40EA-BBE7-EA3854C601C2}" path="SaveInitialValuesGround.tcKDTest" />
 					<child name="SaveFinalValuesFCL" key="{D53BB456-F868-4FC3-8710-0488669C5C06}" path="SaveFinalValuesFCL.tcKDTest" />
-					<child name="VerifyAddedMarginFCL" key="{148247E7-3310-4235-8C2A-7E7C9876356F}" path="VerifyAddedMarginFCL.tcKDTest" />
+					<child name="VerifyAddedMarginFCLCopy" key="{148247E7-3310-4235-8C2A-7E7C9876356F}" path="VerifyAddedMarginFCLCopy.tcKDTest" />
 					<child name="SaveFinalValuesLCL" key="{BBFAD399-1DFB-4CA6-A94A-4AAC0AE1BEF7}" path="SaveFinalValuesLCL.tcKDTest" />
 					<child name="VerifyAddedMarginLCL" key="{99F6FED7-FCC6-4BF4-86A7-314DD03595E1}" path="VerifyAddedMarginLCL.tcKDTest" />
 					<child name="SaveFinalValuesAIR" key="{6D79D421-139F-42A3-95F5-B72ED0A93F34}" path="SaveFinalValuesAIR.tcKDTest" />
 					<child name="VerifyAddedMarginAIR" key="{3E1F3445-BFF8-4D15-8BEC-BC0CA3FCBBF2}" path="VerifyAddedMarginAIR.tcKDTest" />
 					<child name="SaveFinalValuesGround" key="{C053E845-BE17-4887-B299-22893D152574}" path="SaveFinalValuesGround.tcKDTest" />
 					<child name="VerifyAddedMarginGround" key="{EC30DD60-D756-45B6-AE26-02BE9B13CFA0}" path="VerifyAddedMarginGround.tcKDTest" />
+					<child name="VerifyAddedMarginFCLOriginalRule" key="{F7795682-4EA2-4137-8A15-6082D1276220}" path="VerifyAddedMarginFCLOriginalRule.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -298,6 +300,9 @@
 					<child name="ButonSaveNewRule" key="{5E7716CA-5CCF-4602-9A8A-EAF15EF5D772}" path="ButonSaveNewRule.tcKDTest" />
 					<child name="DeleteGenericMAC" key="{051CAA1F-929B-4DF9-A704-BDB501D1828C}" path="DeleteGenericMAC.tcKDTest" />
 					<child name="AddUserMAC" key="{20E51CC8-FFDB-4AA1-BA5F-6DFB36CD96B0}" path="AddUserMAC.tcKDTest" />
+					<child name="AddAllContractCarrier" key="{B0F8AE1A-2482-4BE3-966D-7104B4998C5E}" path="AddAllContractCarrier.tcKDTest" />
+					<child name="AddAllLocations" key="{5066E6C0-529D-48D5-A36C-C984051C0E99}" path="AddAllLocations.tcKDTest" />
+					<child name="AddAllModes" key="{2AD3FE2F-5B0A-4AC3-A287-5F5C4D276DD7}" path="AddAllModes.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
@@ -320,6 +325,7 @@
 					<child name="VerifyDisableAmendment" key="{CBECF930-BE22-4605-A5A1-92BFB61597CA}" path="VerifyDisableAmendment.tcKDTest" />
 					<child name="EnableCustomerOptions" key="{109B3DCE-043A-4C99-B52D-D2ACE616A874}" path="EnableCustomerOptions.tcKDTest" />
 					<child name="GoToOrganizationSettings" key="{32A446DA-E4FC-4589-88B5-80B59FB29C41}" path="GoToOrganizationSettings.tcKDTest" />
+					<child name="DisabledCustomerOptions" key="{ECF2B73A-FBC7-487A-99FD-67C770D616D0}" path="DisabledCustomerOptions.tcKDTest" />
 				</folder>
 				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
 				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />

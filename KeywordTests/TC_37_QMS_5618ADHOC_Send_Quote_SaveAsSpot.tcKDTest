@@ -334,7 +334,7 @@
 				<DefValue StrValue="Rotterdam" />
 			</Variable>
 			<Variable Name="price" Type="String" Local="False">
-				<DefValue StrValue="20" />
+				<DefValue StrValue="500" />
 			</Variable>
 		</Items>
 	</Variables>
