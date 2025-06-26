@@ -297,6 +297,7 @@
 					<child name="CopyMACRule" key="{43AE872D-A675-4564-A85D-E8312AE3BEB0}" path="CopyMACRule.tcKDTest" />
 					<child name="ButonSaveNewRule" key="{5E7716CA-5CCF-4602-9A8A-EAF15EF5D772}" path="ButonSaveNewRule.tcKDTest" />
 					<child name="DeleteGenericMAC" key="{051CAA1F-929B-4DF9-A704-BDB501D1828C}" path="DeleteGenericMAC.tcKDTest" />
+					<child name="AddUserMAC" key="{20E51CC8-FFDB-4AA1-BA5F-6DFB36CD96B0}" path="AddUserMAC.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />

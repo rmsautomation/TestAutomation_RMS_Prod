@@ -21,7 +21,7 @@
 				<Data Description="Runs a keyword test." TestName="Origin_Destination">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Origin" DefVarType="8" DefValueType="6" DefValueValue="Los Angeles" VarType="8" ValueType="6" ValueValue="90210-Los Angeles" />
-						<Parameter Name="Destination" DefVarType="8" DefValueType="6" DefValueValue="Shanghai" VarType="8" ValueType="6" ValueValue="Singapore" />
+						<Parameter Name="Destination" DefVarType="8" DefValueType="6" DefValueValue="Shanghai" VarType="8" ValueType="6" ValueValue="Shanghai" />
 					</Parameters>
 				</Data>
 			</Operation>
