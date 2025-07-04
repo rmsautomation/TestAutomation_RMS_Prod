@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{487B0E34-9C03-45E4-ABFA-E10B18CCE48A}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{487B0E34-9C03-45E4-ABFA-E10B18CCE48A}" Tags="@production" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -213,7 +213,7 @@
 				<Data Description="Runs a keyword test." TestName="SaveFinalValuesFCL" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyAddedMarginFCL">
+				<Data Description="Runs a keyword test." TestName="VerifyAddedMarginFCLCopy">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="margin" DefVarType="12" DefValueType="3" DefValueValue="10" VarType="5" ValueType="3" ValueValue="10" />
 					</Parameters>

@@ -227,10 +227,15 @@
 			</testItem>
 			<testItem name="TC_46_QMS_14953_Linked7LLTL_LCL" key="{DBA6E05E-44DC-44AA-AD87-34BF16C58710}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E9D2B7B6-979E-432C-891E-AA0BCDAE9266}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 			<testItem name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{F387B7EC-5891-4D92-A975-E5A498DEAF88}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A2614445-F21F-4B4B-B888-64DF9B8D3038}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{E6744980-7636-4212-82DB-B09250B4023A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9A981F86-6685-4A23-948A-18D1FE0CA805}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />

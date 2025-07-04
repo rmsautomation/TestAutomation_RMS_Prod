@@ -146,6 +146,9 @@
 												<Value Value="//button[contains(., &apos;done&apos;)]" />
 											</Selector>
 											<Selector>
+												<Value Value="xpath=//shared-icon-button[@code=&apos;QMS_Icon__Save&apos;]/button" />
+											</Selector>
+											<Selector>
 												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
@@ -713,10 +716,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-form-field-infix&apos;)]/input[@type=&apos;number&apos;]" />
+												<Value Value="xpath=(//input[@type=&quot;number&quot; and contains(@class, &quot;mat-mdc-input-element&quot;)]) [2]" />
 											</Selector>
 											<Selector>
-												<Value Value="xpath=(//input[@type=&quot;number&quot; and contains(@class, &quot;mat-mdc-input-element&quot;)]) [2]" />
+												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-form-field-infix&apos;)]/input[@type=&apos;number&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//input[@id=(//label[.=&apos;Rate&apos;]/@for)]" />
@@ -7287,6 +7290,9 @@
 										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//shared-icon-button[@code=&apos;QMS_Icon__Save&apos;]/button" />
+											</Selector>
+											<Selector>
 												<Value Value="//button[contains(., &apos;save&apos;)]" />
 											</Selector>
 											<Selector>
@@ -8463,6 +8469,9 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//button[@aria-describedby=(//div[.=&apos;Save&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//shared-icon-button[@code=&apos;QMS_Icon__Save&apos;]/button" />
 											</Selector>
 											<Selector>
 												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-city-linking-tool//div[2]/div[2]/shared-icon-button/button" />
@@ -13975,6 +13984,57 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel2" Key="{B6C8A7B5-0A40-407E-BE31-31A206894823}">
+										<Image FileName="66621402" Left="0" Top="139" Right="1905" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;cdk-overlay-transparent-backdrop&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHowDoesThisRuleApply" Key="{75B0C32D-FE27-4E21-99D2-CB5237813CCB}">
+										<Image FileName="1855127362" Left="117" Top="414" Right="272" Bottom="429" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[./span[contains(text(), &apos;0000TC51CUSTOMEROPTIONS&apos;)]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;step-label&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[2]/label" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUsername" Key="{BE9B6406-BECA-4151-919B-E62E3CED577A}">
+										<Image FileName="-1929997031" Left="563" Top="638" Right="760" Bottom="686" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[contains(., &apos;Username&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxSelectRow" Key="{E066C27C-B62C-47A5-9EA0-A8106C980A22}">
+										<Image FileName="1143247127" Left="553" Top="637" Right="593" Bottom="677" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@id=&apos;mat-mdc-checkbox-163-input&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-mdc-checkbox-163-input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
@@ -15428,7 +15488,10 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" />
+												<Value Value="xpath=//div[contains(@class, &apos;mdc-tab mat-mdc-tab mat-mdc-focus-indicator ng-star-inserted&apos;) and .//span[text()=&apos;Company Qualifiers&apos;]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[text()=&apos;Company Qualifiers&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//mat-tab-group/mat-tab-header//div[@id=&apos;mat-tab-label-0-4&apos;]//span[contains(@class, &apos;mdc-tab__text-label&apos;)]" Enabled="False" />
@@ -15639,6 +15702,144 @@
 											</Selector>
 											<Selector>
 												<Value Value="//div[10]//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxSelectRow" Key="{3D7EC2B9-DF2C-4326-9526-0F530C4073CF}">
+										<Image FileName="1048449917" Left="553" Top="637" Right="593" Bottom="677" />
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table/mat-row/mat-cell/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//mat-cell/mat-checkbox/div/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAdd" Key="{574E56DF-3F2E-4D2F-961B-779447A35BD8}">
+										<Image FileName="-2075660369" Left="1277" Top="737" Right="1311" Bottom="767" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//shared-icon-button/button[@aria-describedby=&apos;cdk-describedby-message-ng-1-8&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-1&apos;]//div[2]/shared-icon-button/button" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-organization-user-dialog//div[2]/shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeContractId" Key="{3FBFA0A3-151C-4342-BC60-6EFD4C235D4B}">
+										<Image FileName="-1814153315" Left="85" Top="548" Right="2028" Bottom="1245" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table[contains(., &apos;Contract ID&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table[@role=&apos;table&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table[contains(@class, &apos;mat-mdc-table&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-table" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-table" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelPrice" Key="{40FDD94D-BAC6-4809-B622-16F2CEFC5827}">
+										<Image FileName="-472898743" Left="379" Top="554" Right="410" Bottom="576" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table/mat-header-row/mat-header-cell[4]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-header-cell[4]/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-header-cell[4]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelSpot" Key="{44265C61-68CB-42EF-9A4C-2882C4DC8DC2}">
+										<Image FileName="14103058" Left="309" Top="599" Right="368" Bottom="619" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;Spot&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[3]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-cell[3]/shared-grid-cell/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[3]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMarginManagement" Key="{A000881C-AD1E-44DE-A9E3-C4A52A3E5F20}">
+										<Image FileName="-608458218" Left="128" Top="229" Right="277" Bottom="264" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Margin Management&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6[contains(@class, &apos;p-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelSelectAMarginRuleTo" Key="{EEA7C0CF-88C0-477C-9D07-6D1BFB996CED}">
+										<Image FileName="-608458218" Left="117" Top="293" Right="314" Bottom="308" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Select a Margin Rule to edit/view&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/label[contains(@class, &apos;step-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHowDoesThisRuleApply" Key="{6A519CFD-F613-443E-AB0F-F71EF9847574}">
+										<Image FileName="-608458218" Left="117" Top="414" Right="272" Bottom="429" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;mdc-tab mat-mdc-tab mat-mdc-focus-indicator mat-mdc-tab-disabled ng-star-inserted&apos;)]/span/span[text()=&apos;Company Qualifiers&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/label[contains(@class, &apos;step-label&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[2]/label" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button2" Key="{243356A7-F24B-44CD-898A-5F789D82C410}">
+										<Image FileName="-1839561387" Left="1716" Top="510" Right="1744" Bottom="531" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;ion-md-close&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17029,6 +17230,10 @@
 					<Child Name="panel" Owner="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}" />
 				</Child>
 				<Child Name="textno0000000AAUTOMATION" Owner="{9A3084D8-95FF-4E32-9429-8090A4E09CA7}" />
+				<Child Name="panel2" Owner="{B6C8A7B5-0A40-407E-BE31-31A206894823}" />
+				<Child Name="ruleTC51" Owner="{75B0C32D-FE27-4E21-99D2-CB5237813CCB}" />
+				<Child Name="textnodeUsername" Owner="{BE9B6406-BECA-4151-919B-E62E3CED577A}" />
+				<Child Name="checkboxSelectRow" Owner="{E066C27C-B62C-47A5-9EA0-A8106C980A22}" />
 			</Child>
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
 				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />
@@ -17178,6 +17383,15 @@
 				<Child Name="linkSurchargeOriginEft" Owner="{E63ED860-68F3-4280-8E5F-51B03DDBB47A}" />
 				<Child Name="sellBR" Owner="{572AFD90-BF7E-4506-9AD5-3C094AB3DA66}" />
 				<Child Name="linkOriginPickup" Owner="{A86DF167-F287-4590-99E7-DC45639593EC}" />
+				<Child Name="checkboxSelectRow" Owner="{3D7EC2B9-DF2C-4326-9526-0F530C4073CF}" />
+				<Child Name="buttonAdd" Owner="{574E56DF-3F2E-4D2F-961B-779447A35BD8}" />
+				<Child Name="textnodeContractId" Owner="{3FBFA0A3-151C-4342-BC60-6EFD4C235D4B}" />
+				<Child Name="panelPrice" Owner="{40FDD94D-BAC6-4809-B622-16F2CEFC5827}" />
+				<Child Name="panelSpot" Owner="{44265C61-68CB-42EF-9A4C-2882C4DC8DC2}" />
+				<Child Name="textnodeMarginManagement" Owner="{A000881C-AD1E-44DE-A9E3-C4A52A3E5F20}" />
+				<Child Name="labelSelectAMarginRuleTo" Owner="{EEA7C0CF-88C0-477C-9D07-6D1BFB996CED}" />
+				<Child Name="disabledCompanyQualifiers" Owner="{6A519CFD-F613-443E-AB0F-F71EF9847574}" />
+				<Child Name="button2" Owner="{243356A7-F24B-44CD-898A-5F789D82C410}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
