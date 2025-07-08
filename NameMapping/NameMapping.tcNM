@@ -13951,18 +13951,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panel" Key="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}">
+									<Child Name="eftHistoryCompany" Key="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}">
 										<Image FileName="-1347874624" Left="260" Top="491" Right="971" Bottom="547" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-margin-rule-copy//mat-stepper//form/mat-form-field/div[contains(@class, &apos;mat-mdc-text-field-wrapper&apos;)]" />
+												<Value Value="xpath=//shared-grid-cell[contains(., &apos;EFT (v.AAAutomationCompany)&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-32&apos;]//mat-stepper[@role=&apos;tablist&apos;]//form/mat-form-field/div" />
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-margin-rule-copy//mat-stepper//form/mat-form-field/div[contains(@class, &apos;mat-mdc-text-field-wrapper&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-margin-rule-copy//mat-stepper[@role=&apos;tablist&apos;]//form/mat-form-field/div" />
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-32&apos;]//mat-stepper[@role=&apos;tablist&apos;]//form/mat-form-field/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@role=&apos;dialog&apos;]//cp-margin-rule-copy//mat-stepper[@role=&apos;tablist&apos;]//form/mat-form-field/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16130,6 +16133,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeMagaya" Key="{9509B854-76B1-4374-BA0D-0C2566EE5654}">
+										<Image FileName="830607684" Left="0" Top="87" Right="1920" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//body[contains(., &apos;Magaya&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//body" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -17514,7 +17529,7 @@
 				<Child Name="checkboxMatMdcCheckbox121Input" Owner="{493029EB-E305-4FD1-BB23-197BDB00729D}" />
 				<Child Name="buttonAdd" Owner="{292EA8E6-4421-433D-908D-92C91A11E03A}" />
 				<Child Name="form" Owner="{FF968491-7B51-412E-9796-5B1F07E5E740}">
-					<Child Name="panel" Owner="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}" />
+					<Child Name="eftHistoryCompany" Owner="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}" />
 				</Child>
 				<Child Name="textno0000000AAUTOMATION" Owner="{9A3084D8-95FF-4E32-9429-8090A4E09CA7}" />
 				<Child Name="panel2" Owner="{B6C8A7B5-0A40-407E-BE31-31A206894823}" />
@@ -17695,6 +17710,7 @@
 				<Child Name="companyNameEFT" Owner="{F5FC139F-A737-4134-9459-8A243994371E}" />
 				<Child Name="textnodeCompanyAutomation" Owner="{CA839C28-DB2B-407F-B3A5-92D26E676229}" />
 				<Child Name="textnodeDestination" Owner="{88794DB6-D567-41F0-B337-AC7CE8C20881}" />
+				<Child Name="textnodeMagaya" Owner="{9509B854-76B1-4374-BA0D-0C2566EE5654}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">

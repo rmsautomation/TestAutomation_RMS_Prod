@@ -183,6 +183,7 @@
 					<child name="VerifyAddedMarginFCLOriginalRule" key="{F7795682-4EA2-4137-8A15-6082D1276220}" path="VerifyAddedMarginFCLOriginalRule.tcKDTest" />
 					<child name="VerifyEFtCompany" key="{F0D39790-C90A-4CC6-A851-9336F716F50D}" path="VerifyEFtCompany.tcKDTest" />
 					<child name="VerifySearchWihtoutCompanyOrAnother" key="{DEB9CCC6-2569-4877-90C9-117B4DE19C2A}" path="VerifySearchWihtoutCompanyOrAnother.tcKDTest" />
+					<child name="PressCloseButton" key="{3BA6D441-6025-4544-A51C-CB2FE8AC535C}" path="PressCloseButton.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -249,6 +250,7 @@
 				<child name="VerifyQuoteCreator" key="{A0112684-0CB5-4B6E-BA9D-302B9D9C7ECD}" path="VerifyQuoteCreator.tcKDTest" />
 				<child name="VerifyLinkedQuoteHistory" key="{EC574EB0-75DC-407A-9542-82095A27E4FB}" path="VerifyLinkedQuoteHistory.tcKDTest" />
 				<child name="VerifyCompanyHistory" key="{D781A9B2-6A5C-4ED7-8DA5-60C356C3E792}" path="VerifyCompanyHistory.tcKDTest" />
+				<child name="VerifyEFtCompanyHistory" key="{08BA7147-E2F9-4B71-9A76-9D2C777C9A63}" path="VerifyEFtCompanyHistory.tcKDTest" />
 			</folder>
 			<folder name="Filters">
 				<child name="TradeLaneFilter" key="{04425864-FC43-4E3B-A121-F7514C6C3E1C}" path="TradeLaneFilter.tcKDTest" />
@@ -270,6 +272,7 @@
 				<child name="CheckQ2TMSAndSendQuote" key="{2C7AB837-BC5C-4818-9BED-62B9274164A8}" path="CheckQ2TMSAndSendQuote.tcKDTest" />
 				<child name="SendMasterSetVariablesForm" key="{49FA9045-2EBC-4ED5-9A9D-412E34DA35A7}" path="SendMasterSetVariablesForm.tcKDTest" />
 				<child name="SendQuoteFromCartAndWithCompany" key="{5A634D5A-F289-4EF6-944F-E6DD339EA688}" path="SendQuoteFromCartAndWithCompany.tcKDTest" />
+				<child name="VerifySendButtonEnabled" key="{9A4250EA-D67D-422E-A5B9-5D3A3BAADA8B}" path="VerifySendButtonEnabled.tcKDTest" />
 			</folder>
 			<folder name="Search_Multi">
 				<child name="MultiRate_Select2Rates_VerifyCart" key="{D0BA28BC-B57B-4BBC-9DFA-5E498FB94B12}" path="MultiRate_Select2Rates_VerifyCart.tcKDTest" />
