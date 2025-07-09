@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{1200E055-A970-40E2-977E-49B0784425BB}" Tags="@production @search @fcl @nac" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="CATAPULT_ADMIN_IT" />
+						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="mBW3P5kmYGan" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="GoToControlPanel" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="GoToOrganizationSettings" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ShowAllNacOption">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="showNac" DefVarType="11" DefValueType="7" DefValueValue="True" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="showAllNac" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Login">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="aylin.rodriguez@magaya.com" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+						<Parameter Name="password" DefVarType="8" DefValueType="6" DefValueValue="testingprod" VarType="8" ValueType="6" ValueValue="testingprod" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue=" AUTOMATION_TC_SHOWNAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DisabledShowAllNacSearchSection" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="totalRatesNotNAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue=" AUTOMATION_TC_SHOWNAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="EnabledShowAllNACSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="totalRatesWithNAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="FCL mode is working as expected using ShowNac toggle ON/OFF!!!!!" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_LCL_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectLCLOption" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Dimensions_PerPIECE" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DisabledShowAllNacSearchSection" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_LCL_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="EnabledShowAllNACSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="LCL mode is working as expected using ShowNac toggle ON/OFF!!!!!" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_AIR_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectAIROption" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Dimensions_PerPIECE" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DisabledShowAllNacSearchSection" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="totalRatesNotNAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_AIR_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="EnabledShowAllNACSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="AIR mode is working as expected using ShowNac toggle ON/OFF!!!!!" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_GROUND_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectGroundOption" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectSize40" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DisabledShowAllNacSearchSection" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="2" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_GROUND_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="EnabledShowAllNACSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="4" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Ground mode is working as expected using ShowNac toggle ON/OFF!!!!!" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_LINKED_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFCLOption" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Origin_Destination">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Origin" DefVarType="8" DefValueType="6" DefValueValue="Los Angeles" VarType="8" ValueType="6" ValueValue="90001 Los Angeles" />
+						<Parameter Name="Destination" DefVarType="8" DefValueType="6" DefValueValue="Shanghai" VarType="8" ValueType="6" ValueValue="Shanghai" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Search_Without_CityLinking" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectTruckOriginLinked" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="DisabledShowAllNacSearchSection" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="3" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" VarType="8" ValueType="6" ValueValue="AUTOMATION_LINKED_NAC" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="EnabledShowAllNACSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="10" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
+				<Data Description="Posts an information message to the test log." MessageType="0">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="Linked Rates are working as expected using ShowNac toggle ON/OFF!!!!!" />
+						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="Priority" DefVarType="12" DefValueType="1" DefValueValue="300" VarType="3" ValueType="1" ValueValue="300">
+							<Values IsEnum="True">
+								<Value Type="1" Value="100" Text="pmLowest" />
+								<Value Type="1" Value="200" Text="pmLower" />
+								<Value Type="1" Value="300" Text="pmNormal" />
+								<Value Type="1" Value="400" Text="pmHigher" />
+								<Value Type="1" Value="500" Text="pmHighest" />
+							</Values>
+						</Parameter>
+						<Parameter Name="Attrib" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="Picture" DefVarType="12" VarType="12" ValueType="0" ValueValue="0" />
+						<Parameter Name="FolderId" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="Logout" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="4" Key="{6DDE01A6-6BF2-4547-84B7-F6BB79269E5F}">
+		<Items>
+			<Variable Name="showAllNac" Type="Boolean" Local="False">
+				<DefValue BoolValue="True" />
+			</Variable>
+			<Variable Name="totalRatesNotNAC" Type="String" Local="False">
+				<DefValue StrValue="1" />
+			</Variable>
+			<Variable Name="totalRatesWithNAC" Type="String" Local="False">
+				<DefValue StrValue="3" />
+			</Variable>
+		</Items>
+	</Variables>
+	<Parameters Key="{FA494B24-06E3-4E1B-8317-0E534B351B8C}" />
+</Root>

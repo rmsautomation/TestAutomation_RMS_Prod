@@ -240,6 +240,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{975F8239-5D92-445F-8DE3-4FF96790D15C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A443E023-4D88-41DE-8B7E-8260E8110D1C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{E6744980-7636-4212-82DB-B09250B4023A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9A981F86-6685-4A23-948A-18D1FE0CA805}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="CBT" />

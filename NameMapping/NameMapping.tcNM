@@ -5550,6 +5550,9 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=(//mat-icon[text()=&apos;local_shipping&apos;])[1]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[contains(@class, &apos;location-info-input&apos;) and contains(@class, &apos;origin&apos;) and .//label[normalize-space(.)=&apos;Origin&apos;]]//mat-icon[normalize-space(.)=&apos;local_shipping&apos;]" />
 											</Selector>
 											<Selector>
@@ -13919,12 +13922,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="labelSelectAMarginRuleTo" Key="{3D02494C-EAE5-4381-B710-249A8A3354B5}">
+									<Child Name="showAllNMacSearch" Key="{3D02494C-EAE5-4381-B710-249A8A3354B5}">
 										<Image FileName="-2125376106" Left="117" Top="293" Right="314" Bottom="308" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//span[normalize-space(.)=&apos;0000000AAUTOMATION&apos;]" />
+												<Value Value="xpath=//label[normalize-space(text())=&apos;Show NAC Rates&apos;]/preceding-sibling::button[contains(@class, &apos;mdc-switch--unselected&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[normalize-space(.)=&apos;0000000AAUTOMATION&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
 												<Value Value="//label[.=&apos;Select a Margin Rule to edit/view&apos;]" Enabled="False" />
@@ -13937,17 +13943,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="form" Key="{FF968491-7B51-412E-9796-5B1F07E5E740}">
+									<Child Name="enabledShowNacSearch" Key="{FF968491-7B51-412E-9796-5B1F07E5E740}">
 										<Image FileName="-1347874624" Left="260" Top="491" Right="1682" Bottom="569" />
 										<Selectors>
 											<Selector>
-												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" />
+												<Value Value="xpath=//label[normalize-space(text())=&apos;Show NAC Rates&apos;]/preceding-sibling::button[contains(@class, &apos;mdc-switch--selected&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;cdk-step-content-1-0&apos;]//form" />
+												<Value Value="//form[contains(@class, &apos;ng-pristine&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//form" />
+												<Value Value="//div[@id=&apos;cdk-step-content-1-0&apos;]//form" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -14086,6 +14095,21 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-form-field[4]//mat-select/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelGridView" Key="{5BCF3BC4-38D1-4237-8F41-05B0192A5170}">
+										<Image FileName="-598264354" Left="85" Top="337" Right="1523" Bottom="382" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;mat-mdc-tab-label-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-wrapper&apos;]//mat-tab-header/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-header/div" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16145,6 +16169,20 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="checkboxShowAllNac" Key="{752952F9-A966-4E14-881E-199F0D13BEA9}">
+										<TypeInfo Item0="{DC90C077-64DE-48D8-B495-02E59973EC2D}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Show All NAC&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[37]/mat-checkbox//input[@type=&apos;checkbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-card//div[37]/mat-checkbox//input" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -16929,7 +16967,7 @@
 				<Child Name="textboxNumber" Owner="{C962B46D-7A87-46AB-A7EE-D15A62C50FC0}" />
 				<Child Name="textnodeEvergreenSpot" Owner="{1EF065B6-606A-43AF-A2A7-D4EE2C570170}" />
 				<Child Name="panelMatSelect10Panel" Owner="{4306B439-488A-4E3B-BC41-8876F45116B4}">
-					<Child Name="rule0000000AAUTOMATION" Owner="{3D02494C-EAE5-4381-B710-249A8A3354B5}" />
+					<Child Name="showAllNMacSearch" Owner="{3D02494C-EAE5-4381-B710-249A8A3354B5}" />
 				</Child>
 				<Child Name="textnodeDisableAutoRoutingOnOrig" Owner="{2A957835-7E89-4F05-A11C-0D9E1C83A049}" />
 				<Child Name="panelMatSelect30Panel" Owner="{5EDD926D-D530-4473-95B9-18391D958768}" />
@@ -17528,7 +17566,7 @@
 				<Child Name="panelReports" Owner="{8A20B864-A7BF-41A1-A252-6EEC73BE12A0}" />
 				<Child Name="checkboxMatMdcCheckbox121Input" Owner="{493029EB-E305-4FD1-BB23-197BDB00729D}" />
 				<Child Name="buttonAdd" Owner="{292EA8E6-4421-433D-908D-92C91A11E03A}" />
-				<Child Name="form" Owner="{FF968491-7B51-412E-9796-5B1F07E5E740}">
+				<Child Name="enabledShowNacSearch" Owner="{FF968491-7B51-412E-9796-5B1F07E5E740}">
 					<Child Name="eftHistoryCompany" Owner="{D2F6F54B-5321-4A0D-8BF3-7605BFC8A8E3}" />
 				</Child>
 				<Child Name="textno0000000AAUTOMATION" Owner="{9A3084D8-95FF-4E32-9429-8090A4E09CA7}" />
@@ -17539,6 +17577,7 @@
 				<Child Name="panelAaidg" Owner="{3A9113B7-BC4C-42EB-8DD0-9FE0CF21DA7E}" />
 				<Child Name="textnode" Owner="{321205D7-F91C-4030-AD3B-0711A15E78C6}" />
 				<Child Name="textnodePerDocumentPd" Owner="{50CE8CF8-CF37-48AA-8265-BF6CDFEA1930}" />
+				<Child Name="panelGridView" Owner="{5BCF3BC4-38D1-4237-8F41-05B0192A5170}" />
 			</Child>
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
 				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />
@@ -17754,6 +17793,7 @@
 			<Child Name="customerCart" Owner="{F1237F01-7361-4B9D-B997-CDD54ED5DC71}" />
 			<Child Name="textnodeCompanyQualifiers" Owner="{5F06BE8A-ACA8-4DCC-B022-10144B0DB6BB}" />
 			<Child Name="numberinputMatInput20" Owner="{3FC2AE41-F842-4C21-A59D-6EAF50C5545D}" />
+			<Child Name="checkboxShowAllNac" Owner="{752952F9-A966-4E14-881E-199F0D13BEA9}" />
 		</Child>
 	</LogicalNodes>
 </Root>

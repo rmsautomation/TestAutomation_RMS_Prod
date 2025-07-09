@@ -16,6 +16,7 @@
 					<child name="TC_8_QMS_9992_Search_FT_OFF_ON" key="{977EDCA0-67B6-486E-8139-818B0A7D50C7}" path="TC_8_QMS_9992_Search_FT_OFF_ON.tcKDTest" />
 					<child name="TC_4_QMS_4336_GroundQuote_ITG_API" key="{4F518239-7414-44C6-B8F8-30F37A572654}" path="TC_4_QMS_4336_GroundQuote_ITG_API.tcKDTest" />
 					<child name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{A2614445-F21F-4B4B-B888-64DF9B8D3038}" path="TC_49_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
+					<child name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{A443E023-4D88-41DE-8B7E-8260E8110D1C}" path="TC_50_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
@@ -184,6 +185,7 @@
 					<child name="VerifyEFtCompany" key="{F0D39790-C90A-4CC6-A851-9336F716F50D}" path="VerifyEFtCompany.tcKDTest" />
 					<child name="VerifySearchWihtoutCompanyOrAnother" key="{DEB9CCC6-2569-4877-90C9-117B4DE19C2A}" path="VerifySearchWihtoutCompanyOrAnother.tcKDTest" />
 					<child name="PressCloseButton" key="{3BA6D441-6025-4544-A51C-CB2FE8AC535C}" path="PressCloseButton.tcKDTest" />
+					<child name="VerifyNACRates" key="{5B495B84-987D-412C-98D3-107FB6BB2CAD}" path="VerifyNACRates.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -223,6 +225,8 @@
 					<child name="Disabled40Size" key="{90B67D03-3958-48F9-A24F-329DF414CEFA}" path="Disabled40Size.tcKDTest" />
 					<child name="Select20Size" key="{6781790F-3255-498C-8E55-61BC2E27D2B9}" path="Select20Size.tcKDTest" />
 					<child name="Select40HC" key="{AFF097AF-934D-4EDC-B5B7-347AF75EBBCE}" path="Select40HC.tcKDTest" />
+					<child name="DisabledShowAllNacSearchSection" key="{42AABE1A-4521-4E72-96DB-8E4924C8D6FD}" path="DisabledShowAllNacSearchSection.tcKDTest" />
+					<child name="EnabledShowAllNACSearch" key="{00AFFC06-3EB8-48FA-84F8-34858F2A09DA}" path="EnabledShowAllNACSearch.tcKDTest" />
 				</folder>
 				<folder name="General">
 					<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
@@ -349,6 +353,7 @@
 					<child name="EnableCustomerOptions" key="{109B3DCE-043A-4C99-B52D-D2ACE616A874}" path="EnableCustomerOptions.tcKDTest" />
 					<child name="GoToOrganizationSettings" key="{32A446DA-E4FC-4589-88B5-80B59FB29C41}" path="GoToOrganizationSettings.tcKDTest" />
 					<child name="DisabledCustomerOptions" key="{ECF2B73A-FBC7-487A-99FD-67C770D616D0}" path="DisabledCustomerOptions.tcKDTest" />
+					<child name="ShowAllNacOption" key="{E5E79CBD-3EDF-476C-A7BC-A95B004BD90E}" path="ShowAllNacOption.tcKDTest" />
 				</folder>
 				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
 				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />
