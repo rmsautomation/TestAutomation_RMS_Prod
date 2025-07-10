@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{7F6901A8-DEC1-429D-89A5-1D0DE5932EF7}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45848.5986342593" objectName="Aliases.browser.pageQms.enter_origin" objectLeft="599" objectTop="352" objectRight="826" objectBottom="376" clickPointX="713" clickPointY="368" imageFileName="tcvi772832796176000.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45848.5986574074" objectName="Aliases.browser.pageQms.enter_origin" objectLeft="599" objectTop="352" objectRight="803" objectBottom="376" clickPointX="-1" clickPointY="-1" imageFileName="tcvi772834281176001.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45848.5987037037" objectName="Aliases.browser.pageQms.textnodeCurrencyAdjustmentFactor" objectLeft="599" objectTop="403" objectRight="733" objectBottom="427" clickPointX="684" clickPointY="412" imageFileName="tcvi772839421176002.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45848.5989699074" objectName="Aliases.browser.pageQms.savePrepaidCollect" objectLeft="842" objectTop="359" objectRight="874" objectBottom="389" clickPointX="854" clickPointY="367" imageFileName="tcvi772862375176000.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

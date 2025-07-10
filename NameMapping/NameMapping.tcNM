@@ -16183,6 +16183,36 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnode0000tc47" Key="{E846A7E7-0E00-4A07-AF25-60E80E3131C8}">
+										<Image FileName="293421231" Left="143" Top="544" Right="221" Bottom="568" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-option[./span[contains(text(), &apos;0000TC47&apos;)]]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-387&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-387&apos;]/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode6" Key="{73388CCD-7A0A-4A76-9636-1D5480F73BEC}">
+										<Image FileName="-1089413722" Left="110" Top="520" Right="1850" Bottom="790" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-list[contains(@class, &apos;mat-mdc-list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-tab-body[@id=&apos;mat-tab-content-0-4&apos;]//mat-list" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-list" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -17750,6 +17780,8 @@
 				<Child Name="textnodeCompanyAutomation" Owner="{CA839C28-DB2B-407F-B3A5-92D26E676229}" />
 				<Child Name="textnodeDestination" Owner="{88794DB6-D567-41F0-B337-AC7CE8C20881}" />
 				<Child Name="textnodeMagaya" Owner="{9509B854-76B1-4374-BA0D-0C2566EE5654}" />
+				<Child Name="textnode0000tc47" Owner="{E846A7E7-0E00-4A07-AF25-60E80E3131C8}" />
+				<Child Name="textnode6" Owner="{73388CCD-7A0A-4A76-9636-1D5480F73BEC}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">

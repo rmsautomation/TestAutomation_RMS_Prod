@@ -72,6 +72,7 @@
 						<child name="TC_50_QMS_5080_MarginRule_Department" key="{5D8D7277-AC3C-4823-A4DC-A1A3C93A886B}" path="TC_50_QMS_5080_MarginRule_Department.tcKDTest" />
 						<child name="TC_43_QMS_15022_MarginCopyExisting_NewRules" key="{9661715B-A746-4620-BCA4-35F13395CBCC}" path="TC_43_QMS_15022_MarginCopyExisting_NewRules.tcKDTest" />
 						<child name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{9A981F86-6685-4A23-948A-18D1FE0CA805}" path="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule.tcKDTest" />
+						<child name="TC_47_QMs_15160_MarginMgmtAIR_CompanyQualifiers_Not_ALL" key="{722634EB-191E-47FB-826D-977525EC9B1F}" path="TC_47_QMs_15160_MarginMgmtAIR_CompanyQualifiers_Not_ALL.tcKDTest" />
 					</folder>
 				</folder>
 				<child name="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge" key="{E1359843-27BE-4AD5-BAEB-F10A8962AA97}" path="TC_26_QMS_5125_Prepaid_Collect_New_Surcharge.tcKDTest" />
@@ -186,6 +187,8 @@
 					<child name="VerifySearchWihtoutCompanyOrAnother" key="{DEB9CCC6-2569-4877-90C9-117B4DE19C2A}" path="VerifySearchWihtoutCompanyOrAnother.tcKDTest" />
 					<child name="PressCloseButton" key="{3BA6D441-6025-4544-A51C-CB2FE8AC535C}" path="PressCloseButton.tcKDTest" />
 					<child name="VerifyNACRates" key="{5B495B84-987D-412C-98D3-107FB6BB2CAD}" path="VerifyNACRates.tcKDTest" />
+					<child name="VerifyMACRuleWasNOTApply" key="{97CF310F-16D8-4470-A7C6-B1F0D8BBFEFF}" path="VerifyMACRuleWasNOTApply.tcKDTest" />
+					<child name="VerifyAddedMarginAIROriginal" key="{85298EAB-8940-45F6-A9B3-6876D8268C38}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -330,6 +333,7 @@
 					<child name="AddAllContractCarrier" key="{B0F8AE1A-2482-4BE3-966D-7104B4998C5E}" path="AddAllContractCarrier.tcKDTest" />
 					<child name="AddAllLocations" key="{5066E6C0-529D-48D5-A36C-C984051C0E99}" path="AddAllLocations.tcKDTest" />
 					<child name="AddAllModes" key="{2AD3FE2F-5B0A-4AC3-A287-5F5C4D276DD7}" path="AddAllModes.tcKDTest" />
+					<child name="AddSpecificCompany" key="{7F6901A8-DEC1-429D-89A5-1D0DE5932EF7}" path="AddSpecificCompany.tcKDTest" />
 				</folder>
 				<folder name="SurchargeListManager">
 					<child name="CatapultList" key="{9AAF219B-E494-4A03-A393-E5E292174145}" path="CatapultList.tcKDTest" />
