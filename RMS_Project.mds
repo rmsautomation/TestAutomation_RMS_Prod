@@ -225,12 +225,27 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_45_QMS_15272_NewOCEAN_EFTCompanyName" key="{69F9B3CD-0771-489F-9D91-57F00A02E90C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C140BE71-7B50-4234-8BFC-91ADFC5B1FC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_46_QMS_14953_Linked7LLTL_LCL" key="{DBA6E05E-44DC-44AA-AD87-34BF16C58710}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{E9D2B7B6-979E-432C-891E-AA0BCDAE9266}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_47_QMs_15160_MarginMgmtAIR_CompanyQualifiers_Not_ALL" key="{237C8C57-1CEB-4364-AE05-FB9FFCCB49D3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{722634EB-191E-47FB-826D-977525EC9B1F}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{F387B7EC-5891-4D92-A975-E5A498DEAF88}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A2614445-F21F-4B4B-B888-64DF9B8D3038}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{975F8239-5D92-445F-8DE3-4FF96790D15C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{A443E023-4D88-41DE-8B7E-8260E8110D1C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
