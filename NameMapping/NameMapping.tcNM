@@ -149,10 +149,10 @@
 												<Value Value="xpath=//shared-icon-button[@code=&apos;QMS_Icon__Save&apos;]/button" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" />
+												<Value Value="//shared-icon-button/button[contains(@class, &apos;mat-tooltip-trigger&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-icon-button/button" />
+												<Value Value="//shared-icon-button/button" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>

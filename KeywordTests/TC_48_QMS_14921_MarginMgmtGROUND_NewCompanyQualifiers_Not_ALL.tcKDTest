@@ -303,7 +303,7 @@
 				<Data Description="Runs a keyword test." TestName="SaveFinalValuesGround" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApply" />
+				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApplyGround" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
@@ -362,7 +362,7 @@
 				<Data Description="Runs a keyword test." TestName="SaveFinalValuesGround" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApply" />
+				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApplyGround" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">
@@ -411,7 +411,7 @@
 				<Data Description="Runs a keyword test." TestName="SaveFinalValuesGround" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApply" />
+				<Data Description="Runs a keyword test." TestName="VerifyMACRuleWasNOTApplyGround" />
 			</Operation>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
 				<Data Description="Posts an information message to the test log." MessageType="0">

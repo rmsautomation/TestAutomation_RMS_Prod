@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{0E6E349B-E652-4C07-B0BF-5F1E0975F303}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{86980E84-0ACA-4535-9E05-CC00CB44CE48}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps>
@@ -10,17 +10,23 @@
 		</Data>
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<CommonData Disabled="True" />
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.savePrepaidCollect;" />
+				<Data Description="Sets the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<CommonData WaitTimeout="60000" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Text" DefVarType="8" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="contract_id" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.textbox;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.buttonSave2;" />
+					<CommonData WaitTimeout="60000" />
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.pageQms.button5;" />
 				</Data>
 			</Operation>
 		</Children>
 	</TestData>
-	<Parameters Key="{EA6DCB9F-C2C5-48C2-99A7-EF30110DA0C5}" />
+	<Parameters Key="{6FAA1D5C-A777-4609-A485-20F16DAAE932}">
+		<Parameter0 Name="contract_id" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="8586AIR_AYLIN" Description="" />
+	</Parameters>
 </Root>
