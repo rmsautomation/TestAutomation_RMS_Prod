@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{2C365F3A-09A3-4ED3-B16E-0ABB8D1023DC}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45825.5968865741" objectName="Aliases.browser.pageQms.contractID" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi177391282870760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45861.6548958333" objectName="Aliases.chrome.pageQms2.panelBuyPrice" objectLeft="1190" objectTop="502" objectRight="1246" objectBottom="524" clickPointX="1208" clickPointY="516" imageFileName="tcvi190082940628800.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="17" kind="0" dateTime="45825.5968865741" objectName="Aliases.browser.pageQms.contractID" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi177391282870760.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>
