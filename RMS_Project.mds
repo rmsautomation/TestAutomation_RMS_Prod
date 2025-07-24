@@ -257,7 +257,12 @@
 			</testItem>
 			<testItem name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{E6744980-7636-4212-82DB-B09250B4023A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9A981F86-6685-4A23-948A-18D1FE0CA805}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{242D0282-E21A-46B0-9878-CACA72D7AEA8}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>

@@ -14113,6 +14113,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeMscAutomationTc52" Key="{EA8D2EA5-0DBC-41AB-A1C6-BF56F419EFEB}">
+										<Image FileName="748551985" Left="265" Top="833" Right="459" Bottom="857" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;MSC-AUTOMATION_TC52&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[421]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;cdk-overlay-33&apos;]//mat-option[421]/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[421]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
@@ -17852,6 +17870,7 @@
 				<Child Name="textnode" Owner="{321205D7-F91C-4030-AD3B-0711A15E78C6}" />
 				<Child Name="textnodePerDocumentPd" Owner="{50CE8CF8-CF37-48AA-8265-BF6CDFEA1930}" />
 				<Child Name="panelGridView" Owner="{5BCF3BC4-38D1-4237-8F41-05B0192A5170}" />
+				<Child Name="textnodeMscAutomationTc52" Owner="{EA8D2EA5-0DBC-41AB-A1C6-BF56F419EFEB}" />
 			</Child>
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
 				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />

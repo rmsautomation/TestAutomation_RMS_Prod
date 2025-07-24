@@ -149,6 +149,8 @@
 					<child name="SearchContractIDView" key="{01EEC29A-A09E-41C5-A740-758A08BE9B4B}" path="SearchContractIDView.tcKDTest" />
 					<child name="ClickOnContractIDView" key="{2EAB2877-D26D-4CDB-8174-F8DABF13BEFA}" path="ClickOnContractIDView.tcKDTest" />
 					<child name="GoToAMD_ReleaseDownload" key="{806C69D2-62EC-44A5-A477-CC9BEDA241DA}" path="GoToAMD_ReleaseDownload.tcKDTest" />
+					<child name="UploadGenericContract" key="{CABF4B8A-C454-4AC8-9214-557D0AAD7E2F}" path="UploadGenericContract.tcKDTest" />
+					<child name="ClickOnAmedmentID" key="{24F4678D-6003-43B0-A19B-AF771EB4587A}" path="ClickOnAmedmentID.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Search_Single">
@@ -409,6 +411,7 @@
 				<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
 				<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
+				<child name="WriteExcel" key="{F8D8116C-EF87-4F49-8AB1-8F9294814AAB}" path="WriteExcel.tcKDTest" />
 			</folder>
 		</folder>
 		<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
