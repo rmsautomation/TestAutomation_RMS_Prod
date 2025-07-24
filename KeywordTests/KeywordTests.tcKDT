@@ -20,6 +20,7 @@
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
+					<child name="DownloadCarrierDoc" key="{836059D1-F0E9-4316-A9D4-EBA0BEE5271E}" path="DownloadCarrierDoc.tcKDTest" />
 				</folder>
 				<folder name="IncompleteLinked">
 					<child name="TC_42_QMS_12257_IncompleteLinked_MissingGround" key="{134D9103-FBE6-4819-83F1-21FC3A9DF64F}" path="TC_42_QMS_12257_IncompleteLinked_MissingGround.tcKDTest" />
@@ -54,6 +55,7 @@
 					<child name="TC_20_QMS_5579_Contract_Self_Serve" key="{4B7F805D-1B10-4499-8A67-9EEF560DB1D8}" path="TC_20_QMS_5579_Contract_Self_Serve.tcKDTest" />
 					<child name="TC_48_QMS_5580_Contract_View_Search_Contract_ID" key="{1BDFC759-08D0-4F77-B1A5-30A4B8427324}" path="TC_48_QMS_5580_Contract_View_Search_Contract_ID.tcKDTest" />
 					<child name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" path="TC_49_QMS_5578_Contract_Full_Serve_Upload.tcKDTest" />
+					<child name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" path="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Tariff">
@@ -135,6 +137,18 @@
 					<child name="ViewContractAndVerify" key="{CC82F3B8-B874-4D64-88FC-6C7193928041}" path="ViewContractAndVerify.tcKDTest" />
 					<child name="SelectFullServeNew" key="{6441D903-8C47-4D9C-B64E-56BB143DBCCB}" path="SelectFullServeNew.tcKDTest" />
 					<child name="UploadFullServe" key="{9E495365-C4AC-43BF-A8EB-DF104D15B762}" path="UploadFullServe.tcKDTest" />
+					<child name="GoToContractManagement" key="{49EB01B9-A4AE-44A6-92D8-E4D424C4D66B}" path="GoToContractManagement.tcKDTest" />
+					<child name="SelectFullServeOption" key="{6875A36D-2A92-4A15-A206-FFC65CF78162}" path="SelectFullServeOption.tcKDTest" />
+					<child name="SelectArrowIcon" key="{87C4A807-5126-4324-9102-B6896C8A1729}" path="SelectArrowIcon.tcKDTest" />
+					<child name="SelectAmendmentOption" key="{862051B6-A259-460B-922D-1C93B5C82446}" path="SelectAmendmentOption.tcKDTest" />
+					<child name="Select_FMC_Option" key="{75A70F74-36A7-4DCD-A96B-929A25E3EC30}" path="Select_FMC_Option.tcKDTest" />
+					<child name="SelectContractID" key="{44D0F695-36C3-4390-A149-D675CC08ECDD}" path="SelectContractID.tcKDTest" />
+					<child name="AddAmendmentID" key="{F8F4EC95-6846-4A0D-87A9-A0D1E90A0C47}" path="AddAmendmentID.tcKDTest" />
+					<child name="UploadGenericFile" key="{D5CF2EC8-4BBC-44A4-A508-89511B76660E}" path="UploadGenericFile.tcKDTest" />
+					<child name="SelectViewTab" key="{10E7213A-F261-41E9-B32B-B6DBA20D11A4}" path="SelectViewTab.tcKDTest" />
+					<child name="SearchContractIDView" key="{01EEC29A-A09E-41C5-A740-758A08BE9B4B}" path="SearchContractIDView.tcKDTest" />
+					<child name="ClickOnContractIDView" key="{2EAB2877-D26D-4CDB-8174-F8DABF13BEFA}" path="ClickOnContractIDView.tcKDTest" />
+					<child name="GoToAMD_ReleaseDownload" key="{806C69D2-62EC-44A5-A477-CC9BEDA241DA}" path="GoToAMD_ReleaseDownload.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Search_Single">
@@ -191,6 +205,7 @@
 					<child name="VerifyMACRuleWasNOTApply" key="{97CF310F-16D8-4470-A7C6-B1F0D8BBFEFF}" path="VerifyMACRuleWasNOTApply.tcKDTest" />
 					<child name="VerifyAddedMarginAIROriginal" key="{85298EAB-8940-45F6-A9B3-6876D8268C38}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 					<child name="VerifyAddedMarginGroundOriginal" key="{BC5EF11A-F155-47FF-A69F-AD6C6AE5042C}" path="VerifyAddedMarginGroundOriginal.tcKDTest" />
+					<child name="VerifyMACRuleWasNOTApplyGround" key="{E12D63A4-5865-47DE-9F2A-75C6D0ECCCB7}" path="VerifyMACRuleWasNOTApplyGround.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -360,6 +375,7 @@
 					<child name="GoToOrganizationSettings" key="{32A446DA-E4FC-4589-88B5-80B59FB29C41}" path="GoToOrganizationSettings.tcKDTest" />
 					<child name="DisabledCustomerOptions" key="{ECF2B73A-FBC7-487A-99FD-67C770D616D0}" path="DisabledCustomerOptions.tcKDTest" />
 					<child name="ShowAllNacOption" key="{E5E79CBD-3EDF-476C-A7BC-A95B004BD90E}" path="ShowAllNacOption.tcKDTest" />
+					<child name="VerifyCarrierDocAccessChecked" key="{8F9C5D61-0B9A-4DD5-8EEC-B33A41325CCA}" path="VerifyCarrierDocAccessChecked.tcKDTest" />
 				</folder>
 				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
 				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />

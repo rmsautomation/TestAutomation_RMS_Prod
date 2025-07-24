@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{44D0F695-36C3-4390-A149-D675CC08ECDD}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45859.8162037037" objectName="Aliases.chrome.pageQms2.textnode7" objectLeft="864" objectTop="645" objectRight="874" objectBottom="650" clickPointX="867" clickPointY="648" imageFileName="tcvi1741974921102600.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45859.8502430556" objectName="Aliases.chrome.pageQms2.vg2" objectLeft="857" objectTop="718" objectRight="881" objectBottom="742" clickPointX="863" clickPointY="729" imageFileName="tcvi174491592139440.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45859.8502777778" objectName="Aliases.chrome.pageQms2.panelMatSelect34Panel" objectLeft="249" objectTop="748" objectRight="894" objectBottom="1023" clickPointX="887" clickPointY="771" imageFileName="tcvi174491925039443.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="45859.8505324074" objectName="Aliases.chrome.pageQms2.textnodeMscAutomationNac" objectLeft="265" objectTop="846" objectRight="453" objectBottom="870" clickPointX="429" clickPointY="853" imageFileName="tcvi174494114039447.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>
