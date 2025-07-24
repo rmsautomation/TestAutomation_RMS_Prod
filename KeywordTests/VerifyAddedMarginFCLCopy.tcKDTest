@@ -10,7 +10,7 @@
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="2" VariableName="expectedTotalPrice">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.totalPriceFCLNumb) + (parseFloat(KeywordTests.VerifyAddedMarginFCL.Parameters.margin)*2))* 100) / 100" />
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.totalPriceFCLNumb) + (parseFloat(KeywordTests.VerifyAddedMarginFCLCopy.Parameters.margin)*2))* 100) / 100" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -92,7 +92,7 @@
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 					<Root Type="1" Operator="0">
-						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.marginFCLNumb) +( parseFloat(KeywordTests.VerifyAddedMarginFCL.Parameters.margin)*2)) * 100) / 100" />
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.marginFCLNumb) +( parseFloat(KeywordTests.VerifyAddedMarginFCLCopy.Parameters.margin)*2)) * 100) / 100" />
 						<Right DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="finalMarginNumbFCL" />
 					</Root>
 				</Data>
@@ -147,7 +147,7 @@
 			<Operation Type="{EEDC9229-5F2A-4450-980E-7EB218C67090}">
 				<Data LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 					<Root Type="1" Operator="0">
-						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.initialBRNumberFCL) + (parseFloat(KeywordTests.VerifyAddedMarginFCL.Parameters.margin)*2)) * 100) / 100" />
+						<Left DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="Math.round((parseFloat(Project.Variables.initialBRNumberFCL) + (parseFloat(KeywordTests.VerifyAddedMarginFCLCopy.Parameters.margin)*2)) * 100) / 100" />
 						<Right DefVarType="0" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="2" VariableName="finalBRNumbFCL" />
 					</Root>
 				</Data>

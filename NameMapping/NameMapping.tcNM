@@ -486,18 +486,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
-									<Child Name="panelMatSelectValue7" Key="{AB151D5A-9EDD-47F5-99BE-329151EA5702}">
+									<Child Name="saveIcon" Key="{AB151D5A-9EDD-47F5-99BE-329151EA5702}">
 										<Image FileName="1515719852" Left="101" Top="282" Right="263" Bottom="314" />
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#mat-select-value-7" />
+												<Value Value="css=//shared-icon-button[@code=&apos;QMS_Icon__Save&apos;]/button" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-filter//mat-form-field//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" />
+												<Value Value="//shared-filter//mat-form-field//mat-select//div[contains(@class, &apos;mat-mdc-select-value&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-filter//div/div/mat-select/div/div" />
+												<Value Value="//shared-filter//div/div/mat-select/div/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16898,7 +16898,7 @@
 				<Child Name="panelLogout" Owner="{9273DF1B-EC45-4D43-A560-CE6DDC41728F}" />
 				<Child Name="buttonOk_Logout" Owner="{0E4CFE96-0633-4344-A193-6E9B8DFD6CF9}" />
 				<Child Name="textnodePrepaidCollect" Owner="{0D3AE6E3-F7C0-4AFA-A3CB-DD4B5BB65BDE}" />
-				<Child Name="panelMatSelectValue7" Owner="{AB151D5A-9EDD-47F5-99BE-329151EA5702}" />
+				<Child Name="saveIcon" Owner="{AB151D5A-9EDD-47F5-99BE-329151EA5702}" />
 				<Child Name="textboxNumber2" Owner="{4759FB32-0060-4C3C-98A9-9DD7A587CD7C}" />
 				<Child Name="textnodeCurrencyAdjustmentFactor2" Owner="{82A722E4-EABB-47B3-A48A-B72647CCDE53}" />
 				<Child Name="combo_carrier_mess" Owner="{C36F1BE6-7AB5-4584-ACB1-8904C297A3C1}" />
@@ -17447,7 +17447,6 @@
 				<Child Name="panelLink1" Owner="{F25048EC-E7D4-4363-AC4B-0DE6E9DF59B4}" />
 				<Child Name="panelCityLinkingSuccessfully" Owner="{BC0E30A7-35D6-4695-8FA4-073E197CADA7}" />
 				<Child Name="panelCityLinkingSuccessfully2" Owner="{FF696A7C-7275-4EC1-ACF2-6A94ECEB304C}" />
-				<Child Name="buttonSave2" Owner="{FD7F4791-00A8-4272-87DC-6B958412AEAF}" />
 				<Child Name="panel37" Owner="{5D0F5AAC-624C-47C0-876A-53237EBC9259}" />
 				<Child Name="panelMatSelectValue9" Owner="{69E5C912-8EC2-48A8-A1FE-911903E00B4F}" />
 				<Child Name="Item" Owner="{47E76AB1-D946-41A6-9E9A-883D0D02C6FB}" />
@@ -17860,6 +17859,7 @@
 			<Child Name="allTypes" Owner="{A13777DD-F630-4DDA-BBD7-7B4B6D322F96}" />
 			<Child Name="dryDropdown" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
 			<Child Name="panelSingle" Owner="{92398E96-8FA6-4BAF-AA5A-BDA279290FC9}" />
+			<Child Name="buttonSave2" Owner="{FD7F4791-00A8-4272-87DC-6B958412AEAF}" />
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">

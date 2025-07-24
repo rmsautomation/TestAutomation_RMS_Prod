@@ -15,10 +15,21 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="PressButtonAdd" />
+				<Data Description="Runs a keyword test." TestName="PressButtonAdd">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="PressButtonSaveMAC" />
+				<Data Description="Runs a keyword test." TestName="AddUserMAC">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="username" DefVarType="8" DefValueType="6" DefValueValue="AYLINADMIN@TEST.COM" VarType="8" ValueType="6" ValueValue="aylin.rodriguez@magaya.com" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="PressButtonSaveMAC">
+					<CommonData Disabled="True" />
+				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="GoToCarrierContractNAC" />
