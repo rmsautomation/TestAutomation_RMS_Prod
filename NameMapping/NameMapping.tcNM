@@ -14163,6 +14163,145 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageSignInToYourAccount" Key="{94A8F8B8-8DE5-49D9-A4B8-3AEB952EB7E1}">
+								<Image FileName="-2032521682" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{91513E8E-033A-4FB1-BD4F-31BE1CA4974F}">
+										<Image FileName="-2032521682" Left="0" Top="139" Right="1920" Bottom="140" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;dl-dfp_rms@magaya.com&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{FC4F1066-8922-4A14-ADA5-B679A724378E}">
+										<Image FileName="-2032521682" Left="786" Top="567" Right="1134" Bottom="603" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{B3348EDE-FA93-4499-80C3-92CA1CEE1497}">
+										<Image FileName="-967598374" Left="1028" Top="665" Right="1136" Bottom="697" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[5]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin3" Key="{0C8DD5C2-B640-4219-868D-38DD95C0583F}">
+								<Image FileName="-2032521682" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="submitbuttonNext" Key="{9E2F0AF9-D0B7-4863-82C0-C50A433C4F2B}">
+										<Image FileName="256600710" Left="1028" Top="684" Right="1136" Bottom="716" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSubmit_ProofUp_Redirect" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageRegister" Key="{ADDA30D0-85C5-49C5-AA3A-B109C393F318}">
+								<Image FileName="-2032521682" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mysignins.microsoft.com/register" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonSkipSetup" Key="{31B5E5FD-7DC0-467D-B033-ED7F295B70E5}">
+										<Image FileName="-2050365679" Left="1208" Top="618" Right="1304" Bottom="638" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Skip setup&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;L0g5CbGcDigQv3yxT1b_&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
@@ -14577,9 +14716,6 @@
 						<Properties>
 							<Property Name="ProcessName">
 								<Value Value="chrome" />
-							</Property>
-							<Property Name="Index">
-								<Value Value="1" Type="0" />
 							</Property>
 						</Properties>
 						<Children>
@@ -16650,7 +16786,7 @@
 										<Value Value="Page" />
 									</Property>
 									<Property Name="URL">
-										<Value Value="https://outlook.office.com/mail/" />
+										<Value Value="https://outlook*" />
 									</Property>
 								</Properties>
 								<Children>
@@ -16673,6 +16809,51 @@
 											</Selector>
 											<Selector>
 												<Value Value="xpath=//div[6]//span[@title=&apos;aylin.rodriguez@magaya.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFullServeUpload" Key="{B24F680B-4F37-4CCC-A2F4-DBBCC33307BC}">
+										<Image FileName="1831795688" Left="337" Top="361" Right="448" Bottom="380" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Full Serve Upload&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//span[@title=&apos;FullServeUpload@gocatapult.com&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUploadedFile" Key="{2EE12B8E-5696-4058-9834-9E9C0E644556}">
+										<Image FileName="274497385" Left="677" Top="855" Right="768" Bottom="873" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[contains(normalize-space(.), &apos;Uploaded File:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//b[contains(text(), &apos;Uploaded File:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//td/b" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/table[2]//tr/td/b" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="cell" Key="{93C042E9-0E1A-4037-93CC-EC9B4FD98F17}">
+										<Image FileName="1607890550" Left="676" Top="854" Right="1437" Bottom="874" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//td[contains(., &apos;Uploaded File:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//table[2]//tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//table[2]//tr/td" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16872,6 +17053,190 @@
 											</Selector>
 											<Selector>
 												<Value Value="//shared-icon-button/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMailDlDfpRmsOutlook3" Key="{A85DC712-372D-4FA7-9A4E-0926D0A9303C}">
+								<TypeInfo Item0="{BBFAE779-0A84-4130-B76D-CBEE1C2D9117}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://outlook.office.com/mail/inbox/id/AAQkADZhNjEyM2NkLTBiMjEtNGVlMy1iODIzLTM4ZDVhYTliYjEwNQAQAKLZqY5vKSJFvCaqGBCbJTk%3D" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="cell" Key="{7FC1AC13-593F-4494-A1E8-067CA92817A3}">
+										<Image FileName="1757962138" Left="676" Top="854" Right="1437" Bottom="874" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//td[normalize-space(.)=&apos;Uploaded File:&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//td[contains(., &apos;Uploaded File:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ConversationReadingPaneContainer&apos;]//table[2]//tr/td" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//table[2]//tr/td" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccount" Key="{EFAFAF50-9561-44F4-84F6-A47766263602}">
+								<Image FileName="-1177215224" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/oauth2/v2.0/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{235679BC-7920-4A63-970F-4C48F4C90018}">
+										<Image FileName="-1177215224" Left="0" Top="139" Right="1920" Bottom="140" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Pick an account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDlDfpRmsMagayaCom" Key="{49F5B1D1-EBAA-4FB9-B740-035F1353F86C}">
+										<Image FileName="-1177215224" Left="844" Top="559" Right="1124" Bottom="575" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;DL-DFP_RMS@magaya.com&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tilesHolder&apos;]//div/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{1445AEBD-279B-4882-B00E-9B9D5ABDBE3E}">
+										<Image FileName="-677482652" Left="786" Top="567" Right="1134" Bottom="603" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccount2" Key="{7FBE519D-F774-4FA4-9711-44A1DF12D94C}">
+								<Image FileName="-2054455126" Left="0" Top="139" Right="1920" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/common/reprocess*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formF1" Key="{BB26E918-BF66-45B8-992F-0E36FE14AB79}">
+										<Image FileName="-2054455126" Left="0" Top="139" Right="1920" Bottom="140" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form[@name=&apos;f1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Sign in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;provide-min-height&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEnterYourEmailPhoneOr" Key="{E7508F3D-549A-498A-AB5F-92D4796D1309}">
+										<Image FileName="-2054455126" Left="786" Top="497" Right="1134" Bottom="533" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;loginfmt&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonNext" Key="{DEA335EB-C18E-4516-B3AF-A9633E779312}">
+										<Image FileName="633858738" Left="1028" Top="631" Right="1136" Bottom="663" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/input[contains(@class, &apos;win-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[4]//div[2]/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[4]//div[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{E0F70B2F-E363-47CD-B9BF-02004EB06C76}">
+										<Image FileName="777643849" Left="786" Top="567" Right="1134" Bottom="603" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -17879,6 +18244,18 @@
 			<Child Name="dryDropdown" Owner="{78E1CCDB-C2E2-49E8-97CB-C71A095A48C2}" />
 			<Child Name="panelSingle" Owner="{92398E96-8FA6-4BAF-AA5A-BDA279290FC9}" />
 			<Child Name="buttonSave2" Owner="{FD7F4791-00A8-4272-87DC-6B958412AEAF}" />
+			<Child Name="pageSignInToYourAccount" Owner="{94A8F8B8-8DE5-49D9-A4B8-3AEB952EB7E1}">
+				<Child Name="formF1" Owner="{91513E8E-033A-4FB1-BD4F-31BE1CA4974F}">
+					<Child Name="passwordboxPasswd" Owner="{FC4F1066-8922-4A14-ADA5-B679A724378E}" />
+					<Child Name="submitbuttonSignIn" Owner="{B3348EDE-FA93-4499-80C3-92CA1CEE1497}" />
+				</Child>
+			</Child>
+			<Child Name="pageLogin3" Owner="{0C8DD5C2-B640-4219-868D-38DD95C0583F}">
+				<Child Name="submitbuttonNext" Owner="{9E2F0AF9-D0B7-4863-82C0-C50A433C4F2B}" />
+			</Child>
+			<Child Name="pageRegister" Owner="{ADDA30D0-85C5-49C5-AA3A-B109C393F318}">
+				<Child Name="buttonSkipSetup" Owner="{31B5E5FD-7DC0-467D-B033-ED7F295B70E5}" />
+			</Child>
 		</Child>
 		<Child Name="explorer" Owner="{230077CD-B239-4731-B2FE-982C94DBE9A2}">
 			<Child Name="wndShell_TrayWnd" Owner="{34B3F312-D042-4EE5-A71D-1A40C67A49FC}">
@@ -18082,6 +18459,8 @@
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{7DD08D18-7424-4E65-9125-43924427E5E5}">
 				<Child Name="textnodeAylinStandardRodriguezPe" Owner="{6F7E2612-0802-4F8C-93AA-920489FEFEF2}" />
 				<Child Name="textnodeAylinStandardRodriguezPe2" Owner="{F30D55EF-55B3-436F-B62F-8D5A0B40EA76}" />
+				<Child Name="textnodeFullServeUpload" Owner="{B24F680B-4F37-4CCC-A2F4-DBBCC33307BC}" />
+				<Child Name="cell" Owner="{93C042E9-0E1A-4037-93CC-EC9B4FD98F17}" />
 			</Child>
 			<Child Name="pageMailDlDfpRmsOutlook2" Owner="{EFE22D52-2846-4DCB-BC16-D8BA07BBB00A}">
 				<Child Name="panel1Messages" Owner="{61762DF4-C37D-4D43-A29A-064D9815B520}" />
@@ -18107,6 +18486,22 @@
 			<Child Name="textnodeCompanyQualifiers" Owner="{5F06BE8A-ACA8-4DCC-B022-10144B0DB6BB}" />
 			<Child Name="numberinputMatInput20" Owner="{3FC2AE41-F842-4C21-A59D-6EAF50C5545D}" />
 			<Child Name="checkboxShowAllNac" Owner="{752952F9-A966-4E14-881E-199F0D13BEA9}" />
+			<Child Name="pageMailDlDfpRmsOutlook3" Owner="{A85DC712-372D-4FA7-9A4E-0926D0A9303C}" />
+			<Child Name="pageSignInToYourAccount" Owner="{EFAFAF50-9561-44F4-84F6-A47766263602}">
+				<Child Name="formF1" Owner="{235679BC-7920-4A63-970F-4C48F4C90018}">
+					<Child Name="panelDlDfpRmsMagayaCom" Owner="{49F5B1D1-EBAA-4FB9-B740-035F1353F86C}" />
+					<Child Name="passwordboxPasswd" Owner="{1445AEBD-279B-4882-B00E-9B9D5ABDBE3E}" />
+				</Child>
+			</Child>
+			<Child Name="pageSignInToYourAccount2" Owner="{7FBE519D-F774-4FA4-9711-44A1DF12D94C}">
+				<Child Name="formF1" Owner="{BB26E918-BF66-45B8-992F-0E36FE14AB79}">
+					<Child Name="submitbuttonNext" Owner="{DEA335EB-C18E-4516-B3AF-A9633E779312}" />
+					<Child Name="passwordboxPasswd" Owner="{E0F70B2F-E363-47CD-B9BF-02004EB06C76}" />
+				</Child>
+			</Child>
+			<Child Name="emailinputEnterYourEmailPhoneOr" Owner="{E7508F3D-549A-498A-AB5F-92D4796D1309}" />
+			<Child Name="cell" Owner="{7FC1AC13-593F-4494-A1E8-067CA92817A3}" />
+			<Child Name="textnodeUploadedFile" Owner="{2EE12B8E-5696-4058-9834-9E9C0E644556}" />
 		</Child>
 	</LogicalNodes>
 </Root>

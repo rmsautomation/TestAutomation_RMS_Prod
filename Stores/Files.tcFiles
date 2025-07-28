@@ -14,6 +14,12 @@
 			<child name="ContractTC52_xlsm" key="{0B4D616D-794D-4F96-83E9-991D9E9DA49E}">
 				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC52_xlsm" ID="{0B4D616D-794D-4F96-83E9-991D9E9DA49E}" FileName="Files\ContractTC52.xlsm" Update="False" />
 			</child>
+			<child name="ContractTC53_xlsm" key="{61ED7842-F70E-4476-A3FF-594A0FB78150}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="ContractTC53_xlsm" ID="{61ED7842-F70E-4476-A3FF-594A0FB78150}" FileName="Files\ContractTC53.xlsm" Update="False" />
+			</child>
+			<child name="UploadExcelTC53_xlsm" key="{29552D35-CBD7-40E2-BDDA-CBF3888EC4BC}">
+				<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="UploadExcelTC53_xlsm" ID="{29552D35-CBD7-40E2-BDDA-CBF3888EC4BC}" FileName="Files\UploadExcelTC53.xlsm" Update="False" />
+			</child>
 		</folder>
 		<child name="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" key="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}">
 			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Allocation_Agreement___AutomationTest___08_16_2024_xlsx" ID="{637E7ABA-65CF-49F5-9B0C-1183F9430FE5}" FileName="Files\Allocation Agreement - AutomationTest - 08-16-2024.xlsx" Update="True" />

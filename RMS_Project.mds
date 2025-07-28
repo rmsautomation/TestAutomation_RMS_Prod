@@ -265,6 +265,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{7C93859B-00F6-45A4-B32B-2EE0233FE294}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{482A99EB-7BBC-46CC-9003-415D75F98B5D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{E63952BC-BCF5-4233-86A2-1ECEA6559C77}">
@@ -602,6 +607,12 @@
 				</Variable>
 				<Variable Name="finalBRNumGround" Type="String" Local="False">
 					<DefValue />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600320036004300390038003900460039003300450032004600450034003300370042003900360031004400320032003700440034004300300032004100430030003800340036004400390037004400340035003400340043004100390034004100320030003300350037004100420033003300300034004400380044004400450032004300350038003900" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031004500330044003000460034004400380041004200460035003800430039004200450046004600370031003000350036004300420046003100" />
 				</Variable>
 			</Items>
 		</data>

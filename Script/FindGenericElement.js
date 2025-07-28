@@ -17,7 +17,8 @@
 
 function clickElementByTextContractID(textParam) {
   // Build the XPath using the input parameter
-  let xpath = "//span[@aria-describedby=(//div[.='" + textParam + "']/@id)]";
+  
+let xpath = "//div[contains(@class, 'ng-star-inserted')]//span[contains(normalize-space(.), '" + textParam + "')]";
   
   // Find the element
   let element = Aliases.browser.pageQms.FindElement(xpath);

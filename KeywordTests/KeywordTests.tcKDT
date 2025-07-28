@@ -56,6 +56,7 @@
 					<child name="TC_48_QMS_5580_Contract_View_Search_Contract_ID" key="{1BDFC759-08D0-4F77-B1A5-30A4B8427324}" path="TC_48_QMS_5580_Contract_View_Search_Contract_ID.tcKDTest" />
 					<child name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" path="TC_49_QMS_5578_Contract_Full_Serve_Upload.tcKDTest" />
 					<child name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" path="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment.tcKDTest" />
+					<child name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{482A99EB-7BBC-46CC-9003-415D75F98B5D}" path="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Tariff">
@@ -151,6 +152,10 @@
 					<child name="GoToAMD_ReleaseDownload" key="{806C69D2-62EC-44A5-A477-CC9BEDA241DA}" path="GoToAMD_ReleaseDownload.tcKDTest" />
 					<child name="UploadGenericContract" key="{CABF4B8A-C454-4AC8-9214-557D0AAD7E2F}" path="UploadGenericContract.tcKDTest" />
 					<child name="ClickOnAmedmentID" key="{24F4678D-6003-43B0-A19B-AF771EB4587A}" path="ClickOnAmedmentID.tcKDTest" />
+					<child name="SelectNewOption" key="{93E4ABF5-F4AD-4D3B-BEB1-1001C4288F1D}" path="SelectNewOption.tcKDTest" />
+					<child name="AddNewContractIDFullServe" key="{77B96580-C058-4133-9853-125685D9D26B}" path="AddNewContractIDFullServe.tcKDTest" />
+					<child name="AddCarrierNewContract" key="{38E5E915-A0E3-4E7F-80CF-2599E07EBD5D}" path="AddCarrierNewContract.tcKDTest" />
+					<child name="AddAmendmentIDNewContract" key="{14381BEE-1791-4578-ACA7-CCCB2FEA3D47}" path="AddAmendmentIDNewContract.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Search_Single">
@@ -412,6 +417,10 @@
 				<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 				<child name="WriteExcel" key="{F8D8116C-EF87-4F49-8AB1-8F9294814AAB}" path="WriteExcel.tcKDTest" />
+			</folder>
+			<folder name="Email">
+				<child name="VerifyCarrierDocumentFullUpload" key="{35188059-71B3-4BC1-A8D1-C3D54538F359}" path="VerifyCarrierDocumentFullUpload.tcKDTest" />
+				<child name="OpenEmailMagaya" key="{DE5B3F78-BF00-4123-8F10-58CB63C86CA3}" path="OpenEmailMagaya.tcKDTest" />
 			</folder>
 		</folder>
 		<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />
