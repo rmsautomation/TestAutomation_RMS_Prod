@@ -16612,6 +16612,18 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonDownload" Key="{5A6D663D-5CD7-4BE5-9075-C3D334393375}">
+										<Image FileName="556749985" Left="1820" Top="495" Right="1874" Bottom="525" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Download&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;arrow_drop_down&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -18440,6 +18452,7 @@
 				<Child Name="textnode2211" Owner="{9F81FE22-013F-4345-B8E1-442B7E70E890}" />
 				<Child Name="buttonCarrierDocument" Owner="{133A0176-75B4-4508-8382-165F31D8A142}" />
 				<Child Name="panelBuyPrice" Owner="{DE582814-2C44-4FAA-A220-5BC4BA185017}" />
+				<Child Name="buttonDownload" Owner="{5A6D663D-5CD7-4BE5-9075-C3D334393375}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">

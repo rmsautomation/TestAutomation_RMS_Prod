@@ -176,8 +176,6 @@ function openLastDownloadedZipFileAndExtractDoc(expectedExtension) {
 
 
 function openLastDownloadedZipFileAndVerifyNameContains(expectedText) {
-  Delay(10000); // Wait for download
-
   var fso = Sys.OleObject("Scripting.FileSystemObject");
   var shell = Sys.OleObject("Shell.Application");
 

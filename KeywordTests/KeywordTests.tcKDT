@@ -17,6 +17,7 @@
 					<child name="TC_4_QMS_4336_GroundQuote_ITG_API" key="{4F518239-7414-44C6-B8F8-30F37A572654}" path="TC_4_QMS_4336_GroundQuote_ITG_API.tcKDTest" />
 					<child name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{A2614445-F21F-4B4B-B888-64DF9B8D3038}" path="TC_49_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
 					<child name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{A443E023-4D88-41DE-8B7E-8260E8110D1C}" path="TC_50_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
+					<child name="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{B3C736DD-9D40-4359-9E62-1A2377CF5E0C}" path="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
@@ -213,6 +214,7 @@
 					<child name="VerifyAddedMarginAIROriginal" key="{85298EAB-8940-45F6-A9B3-6876D8268C38}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 					<child name="VerifyAddedMarginGroundOriginal" key="{BC5EF11A-F155-47FF-A69F-AD6C6AE5042C}" path="VerifyAddedMarginGroundOriginal.tcKDTest" />
 					<child name="VerifyMACRuleWasNOTApplyGround" key="{E12D63A4-5865-47DE-9F2A-75C6D0ECCCB7}" path="VerifyMACRuleWasNOTApplyGround.tcKDTest" />
+					<child name="SelectDownloadCarrierDoc" key="{8F010E8C-407E-4D82-9AFF-0F9C7859F7AB}" path="SelectDownloadCarrierDoc.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />

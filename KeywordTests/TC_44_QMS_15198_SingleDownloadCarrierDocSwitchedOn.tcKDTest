@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
-	<TestData Description="" Key="{4499265B-7DD1-41F1-BCE8-F8811ED34AE3}" Tags="@contract @production @upload @fullServe" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+	<TestData Description="" Key="{9FC81414-4E61-4949-8DFC-A625B8DA3AD8}" Tags="@production @search @fcl @download @downloadCarrier" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
 		<Data>
 			<Extenders>
 				<NodeBitmaps />
@@ -65,7 +65,7 @@
 			<Operation Type="{6F20B0D8-E0CF-47FF-A68B-3E3672DD0CB0}">
 				<Data VariableType="4" VariableName="fileName">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.TC_53_QMS_15734_CarrierDocAccessFullServeNewContract.Variables.projectPath + KeywordTests.TC_53_QMS_15734_CarrierDocAccessFullServeNewContract.Variables.contractPath" />
+						<Parameter Name="NewValue" DefVarType="0" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.projectPath + KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.contractPath" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -147,26 +147,8 @@
 				<Data Description="Runs a keyword test." TestName="WriteExcel">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
-						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!D3" />
-						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="WriteExcel">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
 						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!B3" />
-						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;MSC_&quot;+ KeywordTests.TC_53_QMS_15734_CarrierDocAccessFullServeNewContract.Variables.contractID+&quot;_&quot;+KeywordTests.TC_52_QMS_15733_CarrierDocAccessFullServeAmendment.Variables.amendmentID+&quot;_FCL/0&quot;" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="WriteExcel">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
-						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Commodity!C2" />
-						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;MSC_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.contractID+ &quot;_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.amendmentID + &quot;_FCL/0&quot;" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -183,7 +165,97 @@
 				<Data Description="Runs a keyword test." TestName="WriteExcel">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!D3" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!B4" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;MSC_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.contractID+ &quot;_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.amendmentID + &quot;_FCL/0&quot;" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!C4" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!D4" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!B5" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="&quot;MSC_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.contractID+ &quot;_&quot;+ KeywordTests.TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.Variables.amendmentID + &quot;_FCL/0&quot;" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!C5" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Rates!D5" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Commodity!C2" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
 						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Commodity!B2" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Commodity!C3" />
+						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="WriteExcel">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileName" />
+						<Parameter Name="cell" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="Commodity!B3" />
 						<Parameter Name="Value" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
 					</Parameters>
 				</Data>
@@ -388,58 +460,20 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="SelectViewTab" />
-			</Operation>
-			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-				<Data Description="Delays the test execution for the specified time period.">
+				<Data Description="Runs a keyword test." TestName="SearchByContract_ID">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
-						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="trainingaylinfcl" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
 					</Parameters>
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="SearchContractIDView">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="contract_id" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-				<Data Description="Delays the test execution for the specified time period.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
-						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
-					</Parameters>
-				</Data>
+				<Data Description="Runs a keyword test." TestName="PressButtonSearch" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="ClickOnContractIDView">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="Auto0724165343" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
-					</Parameters>
-				</Data>
+				<Data Description="Runs a keyword test." TestName="SelectFirstRate" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="ClickOnAmedmentID">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="amedmentID" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="GoToAMD_ReleaseDownload" />
-			</Operation>
-			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
-				<Data Description="Delays the test execution for the specified time period.">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="2000" />
-						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="DownloadCarrierDoc" />
+				<Data Description="Runs a keyword test." TestName="SelectDownloadCarrierDoc" />
 			</Operation>
 			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
 				<Data Description="Runs a script routine." TestName="openLastDownloadedZipFileAndVerifyNameContains" Unit="VerifyDownloadZIP">
@@ -483,6 +517,52 @@
 				</Data>
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="GoToContractManagement" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SelectViewTab" />
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="500" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="SearchContractIDView">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contract_id" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{6A1B4CEE-4FB8-46E2-BFBD-403C84342301}">
+				<Data Description="Delays the test execution for the specified time period.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="ms" DefVarType="3" VarType="3" ValueType="1" ValueValue="3000" />
+						<Parameter Name="Str" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ClickOnContractIDView">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="contractID" DefVarType="8" DefValueType="6" DefValueValue="Auto0724165343" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="contractID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="ClickOnAmedmentID">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="amedmentID" DefVarType="8" DefValueType="6" DefValueValue="" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="amendmentID" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="GoToAMD_ReleaseDownload" />
+			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="DeleteContract" />
 			</Operation>
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
@@ -511,65 +591,47 @@
 					</Parameters>
 				</Data>
 			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="OpenEmailMagaya" />
-			</Operation>
-			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
-				<Data Description="Runs a keyword test." TestName="VerifyCarrierDocumentFullUpload">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="fileName" DefVarType="8" DefValueType="6" DefValueValue="UploadExcel.xlsm" ParamType="{83D6F80C-4323-4034-92E3-FD2A65D2E6FC}" VariableType="4" VariableName="fileNameExcel" />
-					</Parameters>
-				</Data>
-			</Operation>
-			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
-				<Data Description="Closes the &apos;%n&apos; window." Action="Close">
-					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="WaitTimeout" DefVarType="3" DefValueType="1" DefValueValue="2000" VarType="3" ValueType="1" ValueValue="2000" />
-					</Parameters>
-					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.browser.BrowserWindow;" />
-				</Data>
-			</Operation>
 		</Children>
 	</TestData>
-	<Variables Version="4" Key="{F6B24E50-7B3B-4ECA-8D47-BAD94F8AB2DA}">
+	<Variables Version="4" Key="{7F684605-4169-4D93-B1F3-F89837346D1A}">
 		<Items>
 			<Variable Name="fileName" Type="String" Local="False">
 				<DefValue />
 			</Variable>
-			<Variable Name="contractPath" Type="String" Local="False">
-				<DefValue StrValue="Stores\Files\ContractTC53.xlsm" />
-			</Variable>
-			<Variable Name="projectPath" Type="String" Local="False">
+			<Variable Name="contractID" Type="String" Local="False">
 				<DefValue />
 			</Variable>
 			<Variable Name="amendmentID" Type="String" Local="False">
 				<DefValue />
 			</Variable>
-			<Variable Name="contractID" Type="String" Local="False">
-				<DefValue StrValue="AUTOMATION_TC52" />
+			<Variable Name="projectPath" Type="String" Local="False">
+				<DefValue />
 			</Variable>
-			<Variable Name="filePathExcel" Type="String" Local="False">
-				<DefValue StrValue="Stores\Files\UploadExcelTC53.xlsm" />
+			<Variable Name="contractPath" Type="String" Local="False">
+				<DefValue StrValue="Stores\Files\ContractTC44.xlsm" />
+			</Variable>
+			<Variable Name="fileNameExcel" Type="String" Local="False">
+				<DefValue StrValue="UploadExcelTC44" />
+			</Variable>
+			<Variable Name="fileNameTXT" Type="String" Local="False">
+				<DefValue StrValue="UploadTXTTC44" />
+			</Variable>
+			<Variable Name="fileNamePDF" Type="String" Local="False">
+				<DefValue StrValue="UploadPDFTC44" />
 			</Variable>
 			<Variable Name="carrier" Type="String" Local="False">
 				<DefValue StrValue="MSC" />
 			</Variable>
 			<Variable Name="filePathTXT" Type="String" Local="False">
-				<DefValue StrValue="Stores\Files\UploadTXTTC53.txt" />
+				<DefValue StrValue="Stores\Files\UploadTXTTC44.txt" />
 			</Variable>
 			<Variable Name="filePathPDF" Type="String" Local="False">
-				<DefValue StrValue="Stores\Files\UploadPDFTC53.pdf" />
+				<DefValue StrValue="Stores\Files\UploadPDFTC44.pdf" />
 			</Variable>
-			<Variable Name="fileNameExcel" Type="String" Local="False">
-				<DefValue StrValue="UploadExcelTC53" />
-			</Variable>
-			<Variable Name="fileNameTXT" Type="String" Local="False">
-				<DefValue StrValue="UploadTXTTC53" />
-			</Variable>
-			<Variable Name="fileNamePDF" Type="String" Local="False">
-				<DefValue StrValue="UploadPDFTC53" />
+			<Variable Name="filePathExcel" Type="String" Local="False">
+				<DefValue StrValue="Stores\Files\UploadExcelTC44.xlsm" />
 			</Variable>
 		</Items>
 	</Variables>
-	<Parameters Key="{3D291EC7-4EB4-4D90-B072-949E6A54F5F8}" />
+	<Parameters Key="{9A5C0AAB-B98A-43B3-8A9E-C5A38D9A63C8}" />
 </Root>
