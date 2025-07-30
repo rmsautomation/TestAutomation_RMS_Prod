@@ -17,6 +17,7 @@
 					<child name="TC_4_QMS_4336_GroundQuote_ITG_API" key="{4F518239-7414-44C6-B8F8-30F37A572654}" path="TC_4_QMS_4336_GroundQuote_ITG_API.tcKDTest" />
 					<child name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{A2614445-F21F-4B4B-B888-64DF9B8D3038}" path="TC_49_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
 					<child name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{A443E023-4D88-41DE-8B7E-8260E8110D1C}" path="TC_50_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
+					<child name="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{B3C736DD-9D40-4359-9E62-1A2377CF5E0C}" path="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
@@ -56,6 +57,7 @@
 					<child name="TC_48_QMS_5580_Contract_View_Search_Contract_ID" key="{1BDFC759-08D0-4F77-B1A5-30A4B8427324}" path="TC_48_QMS_5580_Contract_View_Search_Contract_ID.tcKDTest" />
 					<child name="TC_49_QMS_5578_Contract_Full_Serve_Upload" key="{8A8E1DD7-FA78-4691-B576-2586F5B75EFF}" path="TC_49_QMS_5578_Contract_Full_Serve_Upload.tcKDTest" />
 					<child name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" path="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment.tcKDTest" />
+					<child name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{482A99EB-7BBC-46CC-9003-415D75F98B5D}" path="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Tariff">
@@ -149,6 +151,12 @@
 					<child name="SearchContractIDView" key="{01EEC29A-A09E-41C5-A740-758A08BE9B4B}" path="SearchContractIDView.tcKDTest" />
 					<child name="ClickOnContractIDView" key="{2EAB2877-D26D-4CDB-8174-F8DABF13BEFA}" path="ClickOnContractIDView.tcKDTest" />
 					<child name="GoToAMD_ReleaseDownload" key="{806C69D2-62EC-44A5-A477-CC9BEDA241DA}" path="GoToAMD_ReleaseDownload.tcKDTest" />
+					<child name="UploadGenericContract" key="{CABF4B8A-C454-4AC8-9214-557D0AAD7E2F}" path="UploadGenericContract.tcKDTest" />
+					<child name="ClickOnAmedmentID" key="{24F4678D-6003-43B0-A19B-AF771EB4587A}" path="ClickOnAmedmentID.tcKDTest" />
+					<child name="SelectNewOption" key="{93E4ABF5-F4AD-4D3B-BEB1-1001C4288F1D}" path="SelectNewOption.tcKDTest" />
+					<child name="AddNewContractIDFullServe" key="{77B96580-C058-4133-9853-125685D9D26B}" path="AddNewContractIDFullServe.tcKDTest" />
+					<child name="AddCarrierNewContract" key="{38E5E915-A0E3-4E7F-80CF-2599E07EBD5D}" path="AddCarrierNewContract.tcKDTest" />
+					<child name="AddAmendmentIDNewContract" key="{14381BEE-1791-4578-ACA7-CCCB2FEA3D47}" path="AddAmendmentIDNewContract.tcKDTest" />
 				</folder>
 			</folder>
 			<folder name="Search_Single">
@@ -206,6 +214,7 @@
 					<child name="VerifyAddedMarginAIROriginal" key="{85298EAB-8940-45F6-A9B3-6876D8268C38}" path="VerifyAddedMarginAIROriginal.tcKDTest" />
 					<child name="VerifyAddedMarginGroundOriginal" key="{BC5EF11A-F155-47FF-A69F-AD6C6AE5042C}" path="VerifyAddedMarginGroundOriginal.tcKDTest" />
 					<child name="VerifyMACRuleWasNOTApplyGround" key="{E12D63A4-5865-47DE-9F2A-75C6D0ECCCB7}" path="VerifyMACRuleWasNOTApplyGround.tcKDTest" />
+					<child name="SelectDownloadCarrierDoc" key="{8F010E8C-407E-4D82-9AFF-0F9C7859F7AB}" path="SelectDownloadCarrierDoc.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -409,6 +418,11 @@
 				<child name="CloseChrome" key="{ABE8E178-8225-4C48-BF62-AF135C62BF15}" path="CloseChrome.tcKDTest" />
 				<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
+				<child name="WriteExcel" key="{F8D8116C-EF87-4F49-8AB1-8F9294814AAB}" path="WriteExcel.tcKDTest" />
+			</folder>
+			<folder name="Email">
+				<child name="VerifyCarrierDocumentFullUpload" key="{35188059-71B3-4BC1-A8D1-C3D54538F359}" path="VerifyCarrierDocumentFullUpload.tcKDTest" />
+				<child name="OpenEmailMagaya" key="{DE5B3F78-BF00-4123-8F10-58CB63C86CA3}" path="OpenEmailMagaya.tcKDTest" />
 			</folder>
 		</folder>
 		<child name="VerifyRejectQuote" key="{C91139F7-FB5E-4A35-8D92-3E69D3264C04}" path="VerifyRejectQuote.tcKDTest" />

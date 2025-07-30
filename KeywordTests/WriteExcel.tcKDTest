@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{494BF90F-FE11-4D86-8C6A-87BD5833E563}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{51174C35-4DFC-4F13-A144-D3A20C0172D9}">
+				<Data Description="Puts the value of a variable to an Excel cell.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="FileName" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="fileName" />
+						<Parameter Name="Cell" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="cell" />
+						<Parameter Name="Value" DefVarType="0" ParamType="{91E40FC5-34AB-4B37-B86A-789030413699}" Parameter="Value" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{DC789C3D-A23C-41D0-8D30-04FF6A183D08}">
+		<Parameter0 Name="fileName" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter1 Name="cell" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+		<Parameter2 Name="Value" VarType="8" IsOptional="False" DefValueType="6" DefValueValue="" Description="" />
+	</Parameters>
+</Root>

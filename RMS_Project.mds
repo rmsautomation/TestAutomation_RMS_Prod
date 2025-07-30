@@ -225,6 +225,11 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
+			<testItem name="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{84BF4CCA-A907-4BFB-9269-DEF80556C8C3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{B3C736DD-9D40-4359-9E62-1A2377CF5E0C}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_45_QMS_15272_NewOCEAN_EFTCompanyName" key="{69F9B3CD-0771-489F-9D91-57F00A02E90C}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{C140BE71-7B50-4234-8BFC-91ADFC5B1FC0}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
@@ -257,7 +262,17 @@
 			</testItem>
 			<testItem name="TC_51_QMS_15944_CustomerOptionsOFF_MAC_NewRule" key="{E6744980-7636-4212-82DB-B09250B4023A}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{9A981F86-6685-4A23-948A-18D1FE0CA805}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="CBT" />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{242D0282-E21A-46B0-9878-CACA72D7AEA8}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+			<testItem name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{7C93859B-00F6-45A4-B32B-2EE0233FE294}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{482A99EB-7BBC-46CC-9003-415D75F98B5D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
@@ -597,6 +612,12 @@
 				</Variable>
 				<Variable Name="finalBRNumGround" Type="String" Local="False">
 					<DefValue />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="380039003600310031003300440032004600340044003800370033004600320036004300390038003900460039003300450032004600450034003300370042003900360031004400320032003700440034004300300032004100430030003800340036004400390037004400340035003400340043004100390034004100320030003300350037004100420033003300300034004400380044004400450032004300350038003900" />
+				</Variable>
+				<Variable Name="Password4" Type="Password" Local="False">
+					<DefValue StrValue="38003900360031004500330044003000460034004400380041004200460035003800430039004200450046004600370031003000350036004300420046003100" />
 				</Variable>
 			</Items>
 		</data>
