@@ -10,6 +10,11 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{44319FF5-25E5-4FA9-923D-3098F2579641}" version="14">
 		<children>
+			<testItem name="VerifyRMS_Version" key="{BDBA6AC9-ED6C-4197-9FA0-5BC9ECAA3657}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DC1B643E-73CA-4D86-8F41-2257358627F7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
 			<testItem name="TC_1_QMS_4315_STANDARD_USER_Generate_FCL_Single_Quote" key="{41719166-E10B-49F6-9B17-451A61A72426}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{7617E95B-BE28-47CD-AD41-8B9130B5290D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
