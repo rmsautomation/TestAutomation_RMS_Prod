@@ -16624,6 +16624,33 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panel9" Key="{BCC92F3D-53C9-498B-94BD-4C24FDA5164A}">
+										<Image FileName="815978951" Left="0" Top="87" Right="1474" Bottom="1040" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Version&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;new-bg&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMagaya2" Key="{80845D52-281B-419F-940E-08ACD6EB53E5}">
+										<Image FileName="514691485" Left="1557" Top="446" Right="1642" Bottom="475" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h2[.=&apos;Magaya&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h2[contains(@class, &apos;new-title-1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/h2" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -18453,6 +18480,8 @@
 				<Child Name="buttonCarrierDocument" Owner="{133A0176-75B4-4508-8382-165F31D8A142}" />
 				<Child Name="panelBuyPrice" Owner="{DE582814-2C44-4FAA-A220-5BC4BA185017}" />
 				<Child Name="buttonDownload" Owner="{5A6D663D-5CD7-4BE5-9075-C3D334393375}" />
+				<Child Name="versionRMS" Owner="{BCC92F3D-53C9-498B-94BD-4C24FDA5164A}" />
+				<Child Name="textnodeMagaya2" Owner="{80845D52-281B-419F-940E-08ACD6EB53E5}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
