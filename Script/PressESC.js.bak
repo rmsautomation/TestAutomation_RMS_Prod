@@ -8,7 +8,15 @@
 
 function PerssEscMACAccess(baseUrl) {
   var browser = Sys.Browser("chrome");
-  var page = browser.Page(baseUrl + "qms/#/rate-search");
+  var page = browser.Page(baseUrl + "qms/#/control-panel/contract-access-management");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}
+
+function PerssEscMargin(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/control-panel/margin-managementt");
   
   // Send the ESC key to the page
   page.Keys("[Esc]");

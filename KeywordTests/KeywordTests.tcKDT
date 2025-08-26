@@ -419,6 +419,7 @@
 				<child name="Login" key="{298D62FB-0877-4244-AE5D-00ECFFD21A77}" path="Login.tcKDTest" />
 				<child name="Logout" key="{CF591326-77CC-46EF-9F6A-05CE25965F46}" path="Logout.tcKDTest" />
 				<child name="WriteExcel" key="{F8D8116C-EF87-4F49-8AB1-8F9294814AAB}" path="WriteExcel.tcKDTest" />
+				<child name="VerifyRMS_Version" key="{DC1B643E-73CA-4D86-8F41-2257358627F7}" path="VerifyRMS_Version.tcKDTest" />
 			</folder>
 			<folder name="Email">
 				<child name="VerifyCarrierDocumentFullUpload" key="{35188059-71B3-4BC1-A8D1-C3D54538F359}" path="VerifyCarrierDocumentFullUpload.tcKDTest" />
