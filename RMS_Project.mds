@@ -135,7 +135,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_25_QMS_5135_Price_Settings___Greater_option" key="{4C6DDF5B-6505-49EF-9DBB-71A639AE7DB4}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_25_QMS_5135_Price_Settings___Greater_option" key="{4C6DDF5B-6505-49EF-9DBB-71A639AE7DB4}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{005CB1D6-2D09-4F41-8F45-2F9E58FD530E}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -155,7 +155,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_29_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_29_QMS_4967_City_Linking_Do_a_search_with_City_Linking" key="{98D16E55-F447-463D-AEAE-F631A2641172}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{72878ABA-40F6-4697-86B6-AEB39D2ACDF1}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -215,7 +215,7 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_41_QMS_9837_Login_SSO_Valid_password_and_send_quote" key="{D91923E0-B738-4818-848E-319F78A6EBC3}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{7786A4B6-FC27-4FFD-98DE-40DE15B940F3}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
@@ -270,12 +270,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{242D0282-E21A-46B0-9878-CACA72D7AEA8}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_52_QMS_15733_CarrierDocAccessFullServeAmendment" key="{242D0282-E21A-46B0-9878-CACA72D7AEA8}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{DF7F3F8D-E30F-4CCF-A591-ED5B96E8CA22}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{7C93859B-00F6-45A4-B32B-2EE0233FE294}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{482A99EB-7BBC-46CC-9003-415D75F98B5D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="TC_53_QMS_15734_CarrierDocAccessFullServeNewContract" key="{7C93859B-00F6-45A4-B32B-2EE0233FE294}" group="False" parallel="False" enabled="False" load="False" testMoniker="KDT\{482A99EB-7BBC-46CC-9003-415D75F98B5D}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
