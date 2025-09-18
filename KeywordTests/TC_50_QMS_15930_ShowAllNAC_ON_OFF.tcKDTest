@@ -161,7 +161,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="3" />
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="2" />
 					</Parameters>
 				</Data>
 			</Operation>
@@ -233,7 +233,7 @@
 			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
 				<Data Description="Runs a keyword test." TestName="VerifyNACRates">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
-						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="2" />
+						<Parameter Name="totalRates" DefVarType="8" DefValueType="6" DefValueValue="1" VarType="8" ValueType="6" ValueValue="3" />
 					</Parameters>
 				</Data>
 			</Operation>

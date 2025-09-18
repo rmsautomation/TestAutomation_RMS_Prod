@@ -4913,6 +4913,9 @@
 										<TypeInfo Item0="{C645B4FD-4044-4F54-A14B-7EC67E2E5766}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//div[contains(text(), &apos;Miami&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=//div[contains(text(), &apos;Miami, FL&apos;)]" />
 											</Selector>
 										</Selectors>
@@ -14131,6 +14134,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="textnodeLogTime" Key="{E289E1D9-5FD6-4CCB-9A6F-FBD9DEFEF605}">
+										<Image FileName="1770089551" Left="314" Top="763" Right="384" Bottom="787" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Log Time&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-156&apos;]/span[contains(@class, &apos;mdc-list-item__primary-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-156&apos;]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMailDlDfpRmsOutlook" Key="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
@@ -16651,6 +16669,314 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonFreeTime" Key="{D5E5B4A9-3F90-472B-A39C-D8F8F477CDA2}">
+										<Image FileName="1907051577" Left="1716" Top="443" Right="1770" Bottom="473" />
+										<TypeInfo Item0="{62DD84EF-91E6-46DF-B26B-3DAA12C3C88F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//div[.=&apos;Free Time&apos;]/@id)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSeeAdditionalFreeTime" Key="{94474D6F-1347-4A9C-A181-C7006CC089D2}">
+										<Image FileName="67019871" Left="1554" Top="931" Right="1701" Bottom="961" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;See Additional Free Time&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;d-flex&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//a" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//free-time-info/div/a" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCmaFreetime" Key="{E9F0FF1D-473A-47C1-83A9-85BB2BA819CA}">
+										<Image FileName="-609064158" Left="1584" Top="653" Right="1642" Bottom="669" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;CMA_FREETIME&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/a[contains(@class, &apos;link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[2]/div/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-free-time/ngcontainer/free-time-summary//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeDays5" Key="{47474CE1-6398-4FBB-A626-6838C14C9E05}">
+										<Image FileName="-609064158" Left="1584" Top="653" Right="1624" Bottom="669" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//div[contains(@class, &apos;charge d-flex&apos;)]//div[contains(@class, &apos;charge-name&apos;)]//a)[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCmaFreetime" Key="{7FE19A84-B645-4227-AD43-DEC167439E1F}">
+										<Image FileName="1196651287" Left="1579" Top="565" Right="1682" Bottom="581" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;: CMA_FREETIME&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput40" Key="{B16D3723-AA1F-4872-BECC-F77C7B4E7E86}">
+										<Image FileName="-510710248" Left="1570" Top="633" Right="1844" Bottom="657" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//free-time-info/div[3]//mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-form-field//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//free-time-info//mat-form-field//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput41" Key="{BD1F51D1-68D2-47D5-B2EC-0B279374D785}">
+										<Image FileName="-541012037" Left="1570" Top="747" Right="1593" Bottom="771" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//input[@matinput and @readonly=&apos;true&apos;])[2]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngcontainer/free-time-info/div[5]/mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//free-time-info/div[5]/mat-form-field//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngcontainer/free-time-info/div[5]/mat-form-field//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput42" Key="{2B9AD374-ADD2-4212-8D83-62A1F447DB89}">
+										<Image FileName="843448814" Left="1820" Top="747" Right="1843" Bottom="771" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//input[@matinput and @readonly=&apos;true&apos;])[3]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngcontainer/free-time-info/div[5]/mat-form-field[2]//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//free-time-info/div[5]/mat-form-field[2]//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngcontainer/free-time-info/div[5]/mat-form-field[2]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel10" Key="{DE11D97B-779F-4080-809A-CBC974DE1440}">
+										<Image FileName="1124318779" Left="1555" Top="958" Right="1855" Bottom="1110" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ngcontainer/free-time-info/div[9]//mat-form-field//div[contains(@class, &apos;mat-mdc-form-field-infix&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput44" Key="{1855EF23-FC70-4A07-877D-F8EB2C50CA40}">
+										<Image FileName="2043569479" Left="1570" Top="655" Right="1844" Bottom="679" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//free-time-info/div[7]//mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[7]//mat-form-field//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//free-time-info/div[7]//mat-form-field//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMatInput45" Key="{51710004-571D-4D7E-ADC9-D5A2F6A43DE7}">
+										<Image FileName="944946141" Left="1570" Top="759" Right="1844" Bottom="783" />
+										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//free-time-info/div[8]//mat-form-field//input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[8]//mat-form-field//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//free-time-info/div[8]//mat-form-field//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGlobalSupport" Key="{A34067DA-6073-4145-836E-BF661E12A102}">
+										<Image FileName="-71147115" Left="1425" Top="721" Right="1521" Bottom="738" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h6[.=&apos;Global Support&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/cp-card[10]//h6" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeApiLogViewer" Key="{607C07E2-D0BB-40CA-8445-2B14B6A95E28}">
+										<Image FileName="1160746369" Left="100" Top="298" Right="194" Bottom="315" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;API Log Viewer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg3" Key="{50F4E3A9-4CDD-4FC1-A2CA-F44418268183}">
+										<Image FileName="-263820765" Left="1455" Top="455" Right="1479" Bottom="479" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[5]/mat-form-field//mat-select//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-select[@id=&apos;mat-select-6&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode8" Key="{F8FCE013-BDA7-4705-AA42-2509CA7D26B8}">
+										<Image FileName="566262319" Left="712" Top="699" Right="730" Bottom="717" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-11&apos;]/mat-pseudo-checkbox[contains(@class, &apos;mat-pseudo-checkbox&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-option[@id=&apos;mat-option-11&apos;]/mat-pseudo-checkbox" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel11" Key="{F4C55926-D408-4097-B2A5-2454CF6A91DD}">
+										<Image FileName="948724080" Left="1159" Top="696" Right="1452" Bottom="716" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-cell[6]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-cell[6]/shared-grid-cell/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel12" Key="{C12BBDFF-D8A8-450F-97A8-689EBB7CE7FD}">
+										<Image FileName="900850934" Left="619" Top="254" Right="1287" Bottom="801" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//mat-dialog-content[contains(@class, &apos;json-wrapper&apos;)]//div[@class=&apos;scrollable&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;scrollable&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-container[@id=&apos;mat-mdc-dialog-12&apos;]//mat-dialog-content/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-dialog-content/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonOrigin" Key="{9311D2B2-4A1A-4B40-8DDB-8770BB75CB57}">
+										<Image FileName="-882495703" Left="1606" Top="565" Right="1646" Bottom="605" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Origin&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;ORIGIN&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-12-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-free-time/ngcontainer/free-time-summary/mat-radio-group/mat-radio-button[@id=&apos;mat-radio-12&apos;]//input[@name=&apos;mat-radio-group-10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-free-time/ngcontainer/free-time-summary/mat-radio-group/mat-radio-button//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4Days" Key="{E4CA2A24-629F-4FDB-9DFC-8F578187A404}">
+										<Image FileName="951623472" Left="1835" Top="491" Right="1874" Bottom="507" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and contains(., &apos;Total Origin Detention:&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonDestination2" Key="{759D8945-D8F9-4E60-8D6F-F980206723CD}">
+										<Image FileName="1409991042" Left="1734" Top="565" Right="1774" Bottom="605" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[text()=&apos;Destination&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;DESTINATION&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-13-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-free-time/ngcontainer/free-time-summary/mat-radio-group/mat-radio-button[@id=&apos;mat-radio-13&apos;]//input[@name=&apos;mat-radio-group-10&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//rate-search-free-time/ngcontainer/free-time-summary/mat-radio-group/mat-radio-button[@id=&apos;mat-radio-13&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeTotalDestinationDetentio" Key="{A6BD42B2-8F23-4C2F-AA44-F2FD17432804}">
+										<Image FileName="1373056414" Left="1584" Top="512" Right="1748" Bottom="528" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;d-flex&apos;) and contains(., &apos;Total Destination Detention:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;Total Destination Detention:&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//div[2]/div/span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ngcontainer/div[2]/div/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3Days" Key="{1F7C5B4A-D7BE-4653-A3F4-CE9133F0F343}">
+										<Image FileName="2028082313" Left="1835" Top="512" Right="1874" Bottom="528" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(text(), &apos;3 days&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -17278,6 +17604,26 @@
 												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" />
 											</Selector>
 										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_0" Key="{398FA2CB-B518-4473-9EA3-C18BFEF01E7A}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{974F4B37-8278-4390-8820-A77CBD2E72DF}">
+										<TypeInfo Item0="{D366C1D7-2222-480C-BD65-1C745F36EFBD}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -18275,6 +18621,7 @@
 				<Child Name="textnodePerDocumentPd" Owner="{50CE8CF8-CF37-48AA-8265-BF6CDFEA1930}" />
 				<Child Name="panelGridView" Owner="{5BCF3BC4-38D1-4237-8F41-05B0192A5170}" />
 				<Child Name="textnodeMscAutomationTc52" Owner="{EA8D2EA5-0DBC-41AB-A1C6-BF56F419EFEB}" />
+				<Child Name="textnodeLogTime" Owner="{E289E1D9-5FD6-4CCB-9A6F-FBD9DEFEF605}" />
 			</Child>
 			<Child Name="pageMailDlDfpRmsOutlook" Owner="{CA220AA4-7251-48DF-8F3B-D1A3C663D5B1}">
 				<Child Name="textnodeQuoteIdTest" Owner="{69D2D473-B803-4C67-9B69-B35C753A4AC5}" />
@@ -18482,6 +18829,29 @@
 				<Child Name="buttonDownload" Owner="{5A6D663D-5CD7-4BE5-9075-C3D334393375}" />
 				<Child Name="versionRMS" Owner="{BCC92F3D-53C9-498B-94BD-4C24FDA5164A}" />
 				<Child Name="textnodeMagaya2" Owner="{80845D52-281B-419F-940E-08ACD6EB53E5}" />
+				<Child Name="buttonFreeTime" Owner="{D5E5B4A9-3F90-472B-A39C-D8F8F477CDA2}" />
+				<Child Name="linkSeeAdditionalFreeTime" Owner="{94474D6F-1347-4A9C-A181-C7006CC089D2}" />
+				<Child Name="linkCmaFreetime" Owner="{E9F0FF1D-473A-47C1-83A9-85BB2BA819CA}">
+					<Child Name="textnoFisrtFreeTime" Owner="{47474CE1-6398-4FBB-A626-6838C14C9E05}" />
+				</Child>
+				<Child Name="textnodeCmaFreetime" Owner="{7FE19A84-B645-4227-AD43-DEC167439E1F}" />
+				<Child Name="descriptionRuleFreeTime" Owner="{B16D3723-AA1F-4872-BECC-F77C7B4E7E86}" />
+				<Child Name="minDayFreeTime" Owner="{BD1F51D1-68D2-47D5-B2EC-0B279374D785}" />
+				<Child Name="maxDayFreeTime" Owner="{2B9AD374-ADD2-4212-8D83-62A1F447DB89}" />
+				<Child Name="panel10" Owner="{DE11D97B-779F-4080-809A-CBC974DE1440}" />
+				<Child Name="priceFreeTime" Owner="{1855EF23-FC70-4A07-877D-F8EB2C50CA40}" />
+				<Child Name="effectiveExpirationFreeTime" Owner="{51710004-571D-4D7E-ADC9-D5A2F6A43DE7}" />
+				<Child Name="textnodeGlobalSupport" Owner="{A34067DA-6073-4145-836E-BF661E12A102}" />
+				<Child Name="textnodeApiLogViewer" Owner="{607C07E2-D0BB-40CA-8445-2B14B6A95E28}" />
+				<Child Name="vg3" Owner="{50F4E3A9-4CDD-4FC1-A2CA-F44418268183}" />
+				<Child Name="textnode8" Owner="{F8FCE013-BDA7-4705-AA42-2509CA7D26B8}" />
+				<Child Name="response" Owner="{F4C55926-D408-4097-B2A5-2454CF6A91DD}" />
+				<Child Name="responseText" Owner="{C12BBDFF-D8A8-450F-97A8-689EBB7CE7FD}" />
+				<Child Name="radiobuttonOrigin" Owner="{9311D2B2-4A1A-4B40-8DDB-8770BB75CB57}" />
+				<Child Name="totalOrigDetention" Owner="{E4CA2A24-629F-4FDB-9DFC-8F578187A404}" />
+				<Child Name="radiobuttonDestination2" Owner="{759D8945-D8F9-4E60-8D6F-F980206723CD}" />
+				<Child Name="textnodeTotalDestinationDetentio" Owner="{A6BD42B2-8F23-4C2F-AA44-F2FD17432804}" />
+				<Child Name="textnode3Days" Owner="{1F7C5B4A-D7BE-4653-A3F4-CE9133F0F343}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
@@ -18544,6 +18914,9 @@
 			<Child Name="emailinputEnterYourEmailPhoneOr" Owner="{E7508F3D-549A-498A-AB5F-92D4796D1309}" />
 			<Child Name="cell" Owner="{7FC1AC13-593F-4494-A1E8-067CA92817A3}" />
 			<Child Name="textnodeUploadedFile" Owner="{2EE12B8E-5696-4058-9834-9E9C0E644556}" />
+			<Child Name="wndChrome_WidgetWin_0" Owner="{398FA2CB-B518-4473-9EA3-C18BFEF01E7A}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{974F4B37-8278-4390-8820-A77CBD2E72DF}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

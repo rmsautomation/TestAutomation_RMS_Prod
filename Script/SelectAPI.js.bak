@@ -2,6 +2,15 @@
   SelectAPI("Carotrans LCL", "Vanguard LCL", "ECU Worldwide", "Shipco WWA");
 }
 
+function SelectCMA(){
+  SelectAPI("CMA Contract");
+}
+
+function SelectCMAFreetime
+(){
+  SelectAPI("CMA Free Time");
+}
+
 function SelectGroundAPIs(){
   SelectAPI("ITG", "Xenon");
 }
@@ -18,6 +27,10 @@ function SelectFCLAPISIncomplete(){
 
 function SelectLCLAnd7LPortal(){
   SelectAPI("7L Portal","Carotrans LCL", "Vanguard LCL", "ECU Worldwide", "Shipco WWA");
+}
+
+function Select7LPortal(){
+  SelectAPI("7L Portal");
 }
 
 

@@ -46,5 +46,6 @@
 		<child name="FindGenericElement" key="{1A1A3AA0-A7B3-4F6A-9273-45BCA1903FAC}" path="FindGenericElement.js" />
 		<child name="VerifyDownloadZIP" key="{C72924DE-6CA9-4EBB-8700-44FFC7FB8419}" path="VerifyDownloadZIP.js" />
 		<child name="DeleteLatestZIP" key="{04079DD2-DF8C-4AE4-88D8-3C89404B0250}" path="DeleteLatestZIP.js" />
+		<child name="VerifyAPILog" key="{D8D75360-AB19-4E58-B8B6-C4560E32A68B}" path="VerifyAPILog.js" />
 	</children>
 </Root>
