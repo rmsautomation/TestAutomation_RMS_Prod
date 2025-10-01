@@ -21,3 +21,11 @@ function PerssEscMargin(baseUrl) {
   // Send the ESC key to the page
   page.Keys("[Esc]");
 }
+
+function PerssEscAPIViewer(baseUrl) {
+  var browser = Sys.Browser("chrome");
+  var page = browser.Page(baseUrl + "qms/#/control-panel/global-support/api-log-viewer");
+  
+  // Send the ESC key to the page
+  page.Keys("[Esc]");
+}

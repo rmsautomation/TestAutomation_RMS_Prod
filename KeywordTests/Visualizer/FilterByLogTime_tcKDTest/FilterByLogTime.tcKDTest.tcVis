@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{F8F0F167-9318-4506-B9E5-48CBA870F3C9}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45911.6158680556" objectName="Aliases.browser.pageQms.textnodeSelectColumn" objectLeft="318" objectTop="572" objectRight="427" objectBottom="591" clickPointX="352" clickPointY="583" imageFileName="tcvi-424659515177520.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45911.6158912037" objectName="Aliases.browser.pageQms2.textnodeLogTime" objectLeft="314" objectTop="763" objectRight="384" objectBottom="787" clickPointX="332" clickPointY="773" imageFileName="tcvi-424657359177521.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45911.6159722222" objectName="Aliases.browser.pageQms.buttonDone_SaveFilterPrepaid" objectLeft="961" objectTop="564" objectRight="999" objectBottom="604" clickPointX="977" clickPointY="586" imageFileName="tcvi-424650562177523.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

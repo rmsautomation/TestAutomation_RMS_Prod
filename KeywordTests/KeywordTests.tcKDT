@@ -18,6 +18,8 @@
 					<child name="TC_49_QMS_14625_SearchCustomerOptionsAddExisting" key="{A2614445-F21F-4B4B-B888-64DF9B8D3038}" path="TC_49_QMS_14625_SearchCustomerOptionsAddExisting.tcKDTest" />
 					<child name="TC_50_QMS_15930_ShowAllNAC_ON_OFF" key="{A443E023-4D88-41DE-8B7E-8260E8110D1C}" path="TC_50_QMS_15930_ShowAllNAC_ON_OFF.tcKDTest" />
 					<child name="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn" key="{B3C736DD-9D40-4359-9E62-1A2377CF5E0C}" path="TC_44_QMS_15198_SingleDownloadCarrierDocSwitchedOn.tcKDTest" />
+					<child name="TC_54_QMS_16259_CMA_API_InfoPanel_FreeTimeSuccessfulResponse" key="{540C7516-B48F-41D8-8D2F-C1CA3880DB92}" path="TC_54_QMS_16259_CMA_API_InfoPanel_FreeTimeSuccessfulResponse.tcKDTest" />
+					<child name="TC_36_QMS_5079_Tabs_can_be_customized" key="{4F4A3662-CA76-48AF-8338-AD7176A51B65}" path="TC_36_QMS_5079_Tabs_can_be_customized.tcKDTest" />
 				</folder>
 				<folder name="XENETA">
 					<child name="TC_40_QMS_6409_Xeneta_Graph" key="{B3F0BC97-D633-409D-9AF0-2D8313F28642}" path="TC_40_QMS_6409_Xeneta_Graph.tcKDTest" />
@@ -30,7 +32,6 @@
 					<child name="TC_5_QMS_4345_Linked_MasterQuote" key="{0D894A58-2534-470E-A373-077F63F4FB6C}" path="TC_5_QMS_4345_Linked_MasterQuote.tcKDTest" />
 					<child name="TC_46_QMS_14953_Linked7LLTL_LCL" key="{E9D2B7B6-979E-432C-891E-AA0BCDAE9266}" path="TC_46_QMS_14953_Linked7LLTL_LCL.tcKDTest" />
 				</folder>
-				<child name="TC_36_QMS_5079_Tabs_can_be_customized" key="{4F4A3662-CA76-48AF-8338-AD7176A51B65}" path="TC_36_QMS_5079_Tabs_can_be_customized.tcKDTest" />
 			</folder>
 			<folder name="Search_Multi">
 				<child name="TC_9_QMS_4610_MultiOption_Lane" key="{3BB8B479-11A4-4418-99E6-BE0351F1D5AB}" path="TC_9_QMS_4610_MultiOption_Lane.tcKDTest" />
@@ -215,6 +216,11 @@
 					<child name="VerifyAddedMarginGroundOriginal" key="{BC5EF11A-F155-47FF-A69F-AD6C6AE5042C}" path="VerifyAddedMarginGroundOriginal.tcKDTest" />
 					<child name="VerifyMACRuleWasNOTApplyGround" key="{E12D63A4-5865-47DE-9F2A-75C6D0ECCCB7}" path="VerifyMACRuleWasNOTApplyGround.tcKDTest" />
 					<child name="SelectDownloadCarrierDoc" key="{8F010E8C-407E-4D82-9AFF-0F9C7859F7AB}" path="SelectDownloadCarrierDoc.tcKDTest" />
+					<child name="GoToFreeTimeTab" key="{8D0F68CA-5F22-486F-B966-791C566AB482}" path="GoToFreeTimeTab.tcKDTest" />
+					<child name="SelectFirstDayFreeTime" key="{48EBCB34-41F1-4A8E-84A9-E430155157D6}" path="SelectFirstDayFreeTime.tcKDTest" />
+					<child name="PressSeeAdditionalFreeTime" key="{5B10B961-6F77-4C17-BEF1-300797AB5C14}" path="PressSeeAdditionalFreeTime.tcKDTest" />
+					<child name="SelectOriginOption" key="{8DB2590E-24E9-4450-BA67-EE152677C71E}" path="SelectOriginOption.tcKDTest" />
+					<child name="SelectDestinationFreeTimeOption" key="{A00BA952-E987-4ABB-AC1A-341CAB763F9B}" path="SelectDestinationFreeTimeOption.tcKDTest" />
 				</folder>
 				<folder name="Search_Section">
 					<child name="Origin_Destination" key="{8848E7AC-0D68-4CCB-BA4F-D01BBA110110}" path="Origin_Destination.tcKDTest" />
@@ -297,6 +303,8 @@
 				<child name="AddfilterONEAPI" key="{2AA4581C-4F86-4BC1-98BD-C76251B6B2F2}" path="AddfilterONEAPI.tcKDTest" />
 				<child name="AddFilterTariffRateID" key="{675BA954-8404-4949-8361-7DD4DF9141EF}" path="AddFilterTariffRateID.tcKDTest" />
 				<child name="TariffReferenceFilter" key="{67B2B480-39D6-4AA4-BE83-5CDFB68C4D83}" path="TariffReferenceFilter.tcKDTest" />
+				<child name="PressAddFilterButton" key="{EA8C095F-57A7-4EA7-93C6-E68722B64C30}" path="PressAddFilterButton.tcKDTest" />
+				<child name="FilterByLogTime" key="{F8F0F167-9318-4506-B9E5-48CBA870F3C9}" path="FilterByLogTime.tcKDTest" />
 			</folder>
 			<folder name="SendQuote">
 				<child name="SendSingleQuote" key="{019C9354-5D8B-40DA-B5AA-77BE321F873E}" path="SendSingleQuote.tcKDTest" />
@@ -385,6 +393,15 @@
 					<child name="DisabledCustomerOptions" key="{ECF2B73A-FBC7-487A-99FD-67C770D616D0}" path="DisabledCustomerOptions.tcKDTest" />
 					<child name="ShowAllNacOption" key="{E5E79CBD-3EDF-476C-A7BC-A95B004BD90E}" path="ShowAllNacOption.tcKDTest" />
 					<child name="VerifyCarrierDocAccessChecked" key="{8F9C5D61-0B9A-4DD5-8EEC-B33A41325CCA}" path="VerifyCarrierDocAccessChecked.tcKDTest" />
+				</folder>
+				<folder name="GlobalSupport">
+					<child name="GoToGlobalSupport" key="{797788AC-FA54-4F30-92C4-716801437F89}" path="GoToGlobalSupport.tcKDTest" />
+					<child name="GoToAPILogViewer" key="{74546728-4615-4724-BB33-8C477144E565}" path="GoToAPILogViewer.tcKDTest" />
+					<child name="ClickDropDownAPI" key="{8097EF84-7D7D-4417-A98E-3ED2A15B7CC7}" path="ClickDropDownAPI.tcKDTest" />
+					<child name="SelectCMAContractAPI" key="{C6E22A4E-DA69-4ABA-9B4E-109244673A98}" path="SelectCMAContractAPI.tcKDTest" />
+					<child name="OderDescByLogTime" key="{5C4749FA-48B8-40EA-8D9E-4D250572810C}" path="OderDescByLogTime.tcKDTest" />
+					<child name="SelectFirstResponse" key="{2EF9A134-42EB-4F15-90FB-3311A76B2A8C}" path="SelectFirstResponse.tcKDTest" />
+					<child name="PressOKButton" key="{5B098438-4C58-4CA9-8EDD-9144101A9BBB}" path="PressOKButton.tcKDTest" />
 				</folder>
 				<child name="DeleteCommodityGroup" key="{6A8480F7-4E5A-44AB-AC9F-33E5A27FA45D}" path="DeleteCommodityGroup.tcKDTest" />
 				<child name="CreateCommodityGroup" key="{0942C15F-2B1F-4ECA-AFA1-80D45A828E27}" path="CreateCommodityGroup.tcKDTest" />
