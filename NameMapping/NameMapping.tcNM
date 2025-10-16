@@ -5883,13 +5883,13 @@
 												<Value Value="xpath=//div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;) and contains(text(), &apos;General Rate Increase&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-row[8]/mat-cell[2]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-row[8]/mat-cell[2]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-row[8]/mat-cell[2]/shared-grid-cell/div" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//mat-row[8]/mat-cell[2]/shared-grid-cell/div" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-row[8]/mat-cell[2]/shared-grid-cell/div" />
+												<Value Value="//mat-row[8]/mat-cell[2]/shared-grid-cell/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
