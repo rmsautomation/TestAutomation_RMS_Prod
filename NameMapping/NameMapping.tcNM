@@ -16977,6 +16977,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelBuyPrice2" Key="{230D7E9D-096C-415F-8602-3241A4FC2815}">
+										<Image FileName="-1257052529" Left="992" Top="451" Right="1034" Bottom="468" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//mat-table/mat-header-row/mat-header-cell[12]//div[contains(@class, &apos;mat-sort-header-content&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-header-cell[12]/div/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-header-cell[12]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageSignInToOutlook" Key="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
@@ -18852,6 +18867,7 @@
 				<Child Name="radiobuttonDestination2" Owner="{759D8945-D8F9-4E60-8D6F-F980206723CD}" />
 				<Child Name="textnodeTotalDestinationDetentio" Owner="{A6BD42B2-8F23-4C2F-AA44-F2FD17432804}" />
 				<Child Name="textnode3Days" Owner="{1F7C5B4A-D7BE-4653-A3F4-CE9133F0F343}" />
+				<Child Name="panelBuyPrice2" Owner="{230D7E9D-096C-415F-8602-3241A4FC2815}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">
