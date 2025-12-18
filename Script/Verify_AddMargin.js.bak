@@ -1,18 +1,72 @@
 ﻿
-function Verify_AddMargin(margin) {
+function Verify_AddMarginOLD(margin) {
   // Remove " USD" from original_margin and convert to number
   var originalMargin = Number(Project.Variables.original_margin.replace(" USD", ""));
 
   // Perform the addition
   var actualResult = Number(Project.Variables.new_margin.replace(" USD", ""));
   var expectedResult = margin + originalMargin;
+  var decimalExpected = parseFloat(expectedResult.toFixed(2));
+  var decimalActual = parseFloat(actualResult.toFixed(2));
 
   // Verify the result
-  if (actualResult == expectedResult) {
-    Log.Message("The result is correct: " + actualResult);
+  if (decimalActual == decimalExpected) {
+    Log.Message("The result is correct: " + decimalActual);
     return true;
   } else {
-    Log.Error("The result is incorrect. Expected: " + expectedResult + ", but got: " + actualResult);
+    Log.Error("The result is incorrect. Expected: " + decimalExpected + ", but got: " + decimalActual);
+    return false;
+  }
+}
+
+function Verify_AddMargin(margin) {
+
+  if (!Project.Variables.original_margin) {
+    Log.Error("original_margin is null or empty");
+    return false;
+  }
+
+  if (!Project.Variables.new_margin) {
+    Log.Error("new_margin is null or empty");
+    return false;
+  }
+
+  // Normalize values (remove USD, trim spaces)
+  var originalMargin = parseFloat(
+    Project.Variables.original_margin
+      .replace("USD", "")
+      .replace("$", "")
+      .trim()
+  );
+
+  var actualResult = parseFloat(
+    Project.Variables.new_margin
+      .replace("USD", "")
+      .replace("$", "")
+      .trim()
+  );
+
+  if (isNaN(originalMargin) || isNaN(actualResult)) {
+    Log.Error("Margin values are not numeric",
+      "original: " + Project.Variables.original_margin +
+      " | new: " + Project.Variables.new_margin
+    );
+    return false;
+  }
+
+  var expectedResult = margin + originalMargin;
+
+  var decimalExpected = parseFloat(expectedResult.toFixed(2));
+  var decimalActual = parseFloat(actualResult.toFixed(2));
+
+  if (decimalActual === decimalExpected) {
+    Log.Message("✔ Margin calculation is correct: " + decimalActual);
+    return true;
+  } else {
+    Log.Error(
+      "✖ Margin calculation failed",
+      "Expected: " + decimalExpected + " | Actual: " + decimalActual
+    );
     return false;
   }
 }
