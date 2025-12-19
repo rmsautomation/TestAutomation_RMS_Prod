@@ -430,6 +430,9 @@
 											<Selector>
 												<Value Value="//input" />
 											</Selector>
+											<Selector>
+												<Value Value="Add selector" />
+											</Selector>
 										</Selectors>
 									</Child>
 									<Child Name="textnodePerson" Key="{4A8B145A-8975-4CC2-A0A2-350E19F75501}">
@@ -2234,22 +2237,25 @@
 										<TypeInfo Item0="{1F51C7DA-E139-4536-A57F-DD9E49809E06}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//label[normalize-space(text())=&apos;Destination&apos;]/ancestor::div[contains(@class,&apos;location-info-input&apos;)]//input" />
+											</Selector>
+											<Selector>
 												<Value Value="xpath=(//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)])[4]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@aria-label=&apos;Number&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@role=&apos;combobox&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[@type=&apos;text&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input[contains(@class, &apos;mat-mdc-autocomplete-trigger&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[4]//search-form-autocomplete-form-md//input" />
+												<Value Value="//div[4]//search-form-autocomplete-form-md//input" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -10542,16 +10548,19 @@
 										<TypeInfo Item0="{BBBAA152-0C67-4627-9640-035D0F27D795}" />
 										<Selectors>
 											<Selector>
-												<Value Value="xpath=//div[4]/div/div/input[@type=&apos;number&apos;]" />
+												<Value Value="xpath=//input[@type=&apos;number&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[5]/div/div/input[contains(@class, &apos;mat-mdc-input-element&apos;)]" />
+												<Value Value="xpath=//div[4]/div/div/input[@type=&apos;number&apos;]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-edit/search-charges-result-charge-form/div[5]//input" />
+												<Value Value="//div[5]/div/div/input[contains(@class, &apos;mat-mdc-input-element&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//search-charges-result//search-charges-result-edit/search-charges-result-charge-form/div[5]//input" />
+												<Value Value="//div[@id=&apos;search-rate-details-wrapper&apos;]//search-charges-result-edit/search-charges-result-charge-form/div[5]//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-charges-result//search-charges-result-edit/search-charges-result-charge-form/div[5]//input" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16040,16 +16049,19 @@
 										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//shared-grid-cell//div[contains(normalize-space(), &apos;Spot&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//div[contains(text(), &apos;Spot&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-cell[3]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" />
+												<Value Value="//mat-cell[3]/shared-grid-cell/div[contains(@class, &apos;mat-mdc-tooltip-trigger&apos;)]" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-cell[3]/shared-grid-cell/div" />
+												<Value Value="//shared-grid[@id=&apos;search_grid-view&apos;]//mat-cell[3]/shared-grid-cell/div" Enabled="False" />
 											</Selector>
 											<Selector>
-												<Value Value="//mat-cell[3]/shared-grid-cell/div" />
+												<Value Value="//mat-cell[3]/shared-grid-cell/div" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -16989,6 +17001,108 @@
 											</Selector>
 											<Selector>
 												<Value Value="//mat-header-cell[12]/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHazardousRates" Key="{B019E618-A8FC-451C-9A58-CAFF08682501}">
+										<Image FileName="-1622863669" Left="220" Top="377" Right="277" Bottom="386" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Hazardous Rates&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-40&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-button[@id=&apos;mat-radio-40&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-40&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel13" Key="{58BA6849-5821-4A69-8FAD-9E5C7C0674C5}">
+										<Image FileName="851903386" Left="38" Top="335" Right="1165" Bottom="701" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/div[contains(@class, &apos;p-0&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//search-component/div/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel14" Key="{A02A6786-49B0-4077-A979-A963B31040C9}">
+										<Image FileName="851903386" Left="0" Top="193" Right="30" Bottom="208" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;arrow-container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//app-side-nav/div/div/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonHazardousRates" Key="{512CBC29-7273-4AC2-944E-98A288FA8674}">
+										<Image FileName="750311249" Left="200" Top="372" Right="220" Bottom="392" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Hazardous Rates&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;1&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-51-input" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-51&apos;]//input[@name=&apos;mat-radio-group-47&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-51&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelHazardousRates2" Key="{2AAB1474-4A99-48E7-A7F2-DF223F58FD9A}">
+										<Image FileName="340467483" Left="220" Top="377" Right="277" Bottom="386" />
+										<TypeInfo Item0="{7ED59B48-F3B3-47AC-8DC1-D2CD1B4A7CCC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Hazardous Rates&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-51&apos;]//label[contains(@class, &apos;mdc-label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-button[@id=&apos;mat-radio-51&apos;]//label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-51&apos;]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="radiobuttonMatRadio54Input" Key="{2E3493BF-B4D2-4590-8565-1783760E7C81}">
+										<Image FileName="-1263366034" Left="200" Top="349" Right="220" Bottom="369" />
+										<TypeInfo Item0="{7AE23389-B55A-4350-8A1F-07BD99D9F7CC}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Non-Hazardous Rates&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;radio&apos;][@value=&apos;2&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="#mat-radio-54-input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-54&apos;]//input[@name=&apos;mat-radio-group-51&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//mat-radio-group//mat-radio-button[@id=&apos;mat-radio-54&apos;]//input" Enabled="False" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -18868,6 +18982,12 @@
 				<Child Name="textnodeTotalDestinationDetentio" Owner="{A6BD42B2-8F23-4C2F-AA44-F2FD17432804}" />
 				<Child Name="textnode3Days" Owner="{1F7C5B4A-D7BE-4653-A3F4-CE9133F0F343}" />
 				<Child Name="panelBuyPrice2" Owner="{230D7E9D-096C-415F-8602-3241A4FC2815}" />
+				<Child Name="labelHazardousRates" Owner="{B019E618-A8FC-451C-9A58-CAFF08682501}" />
+				<Child Name="panel13" Owner="{58BA6849-5821-4A69-8FAD-9E5C7C0674C5}" />
+				<Child Name="panel14" Owner="{A02A6786-49B0-4077-A979-A963B31040C9}" />
+				<Child Name="radiobuttonHazardousRates" Owner="{512CBC29-7273-4AC2-944E-98A288FA8674}" />
+				<Child Name="labelHazardousRates2" Owner="{2AAB1474-4A99-48E7-A7F2-DF223F58FD9A}" />
+				<Child Name="radiobuttonNONHAZ" Owner="{2E3493BF-B4D2-4590-8565-1783760E7C81}" />
 			</Child>
 			<Child Name="pageSignInToOutlook" Owner="{0C868D9B-099D-4EE6-97C0-605086DC8C7D}">
 				<Child Name="formF1" Owner="{0B2A203B-ADDA-4AC1-84BF-503067C532BA}">

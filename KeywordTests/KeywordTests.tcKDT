@@ -262,6 +262,9 @@
 					<child name="Select40HC" key="{AFF097AF-934D-4EDC-B5B7-347AF75EBBCE}" path="Select40HC.tcKDTest" />
 					<child name="DisabledShowAllNacSearchSection" key="{42AABE1A-4521-4E72-96DB-8E4924C8D6FD}" path="DisabledShowAllNacSearchSection.tcKDTest" />
 					<child name="EnabledShowAllNACSearch" key="{00AFFC06-3EB8-48FA-84F8-34858F2A09DA}" path="EnabledShowAllNACSearch.tcKDTest" />
+					<child name="SelectHazOption" key="{0B9A6631-4179-4FD2-A36A-D88A4B017645}" path="SelectHazOption.tcKDTest" />
+					<child name="SelectNONHAZ_Option" key="{0620761B-08CE-4970-BDED-38392F698A50}" path="SelectNONHAZ_Option.tcKDTest" />
+					<child name="Select40" key="{FCEDD39C-0F0A-44DE-9EAC-ED5E9C7D60BC}" path="Select40.tcKDTest" />
 				</folder>
 				<folder name="General">
 					<child name="CustomCarrierAndRefresh" key="{FD8F0BC9-B6DA-4530-AF5F-F6366329BEE4}" path="CustomCarrierAndRefresh.tcKDTest" />
